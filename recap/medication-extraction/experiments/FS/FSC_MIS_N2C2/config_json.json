@@ -1,10 +1,10 @@
 {
   "experiment_name": "Medication Extraction Zero Shot",
-  "experiment_code": "med_ext_szs_psd_json",
+  "experiment_code": "med_ext_szs_n2c2_json",
   "dataset": {
-    "name": "PSD",
-    "code": "PSD",
-    "dir": "../../../datasets/Policlinico_San_Donato_txt/"
+    "name": "N2C2",
+    "code": "N2C2",
+    "dir": "../../../datasets/n2c2-2009/"
   },
   "model": {
     "name": "mistral",
@@ -29,7 +29,7 @@
           "arg_name": "map_input"
         },
         "map_input_args": {
-          "examples_dir": "../../../datasets/few-shot-examples/synth-ita/"
+          "examples_dir": "../../../datasets/few-shot-examples/n2c2-2009/"
         },
         "inputs": [
           0

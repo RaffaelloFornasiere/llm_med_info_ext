@@ -1,10 +1,11 @@
 {
-   "experiment_name":"Medication Extraction One Shot",
-   "experiment_code":"med_ext_szs_n2c2_json",
+   "experiment_name":"Medication Extraction Few Shot",
+   "experiment_code":"med_ext_szs_n2c2_csv",
    "dataset":{
-      "name":"N2C2",
-      "code":"N2C2",
-      "dir":"../../../datasets/n2c2-2009/"
+      "name":"PSD",
+      "code":"PSD",
+    "dir": "../../../datasets/Policlinico_San_Donato_txt/"
+
    },
    "model":{
       "name":"mistral",
@@ -25,11 +26,12 @@
          "args":{
             "name":"add examples",
             "utils.py":{
-               "function_name":"add_examples_json",
+               "function_name":"add_examples_csv",
                "arg_name":"map_input"
             },
             "map_input_args":{
-               "examples_dir":"../../../datasets/few-shot-examples/n2c2-2009/"
+               "examples_dir":"../../../datasets/few-shot-examples/synth-ita/"
+
             },
             "inputs":[
                0
@@ -41,7 +43,7 @@
          "stepClass":"Step",
          "args":{
             "name":"step 1",
-            "prompt.txt":"prompt_JSON.txt",
+            "prompt.txt":"prompt_CSV.txt",
             "params.json":"params.json",
             "model":"MIS",
             "utils.py":{
@@ -55,14 +57,29 @@
       },
       {
          "id":3,
-         "stepClass":"ParseJSONStep",
+         "stepClass":"ParseCSVStep",
          "args":{
-            "name":"parse_json",
+            "name":"parse_csv",
+            "separator":";",
             "inputs":[
                2
             ]
          }
+      },
+      {
+         "id":4,
+         "stepClass":"MapStep",
+         "args":{
+            "name":"map to json",
+            "utils.py":{
+               "function_name":"map_table_to_json",
+               "arg_name":"map_input"
+            },
+            "inputs":[
+               3
+            ]
+         }
       }
    ],
-   "outputFileName":"result_N2C2_JSON.json"
+   "outputFileName":"result_N2C2_CSV.json"
 }

@@ -1,5 +1,5 @@
 {
-   "experiment_name":"Medication Extraction Zero Shot",
+   "experiment_name":"Medication Extraction One Shot",
    "experiment_code":"med_ext_szs_n2c2_csv",
    "dataset":{
       "name":"N2C2",

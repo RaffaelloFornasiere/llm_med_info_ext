@@ -20,7 +20,7 @@ Di seguito sono riportati alcuni esempi di estrazioni:
 {examples}
 <|im_end|>
 <|im_start|>user
-Fai lo stesso per il documento qui sotto:
+Estrai i farmaci dal seguente documento:
 
 ```documento.txt
 {document}

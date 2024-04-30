@@ -1,0 +1,54 @@
+{
+  "text": "Paziente: Maria Rossi\nData: 27 Aprile 2024\nStoria Clinica\nMaria Rossi, 45 anni, si presenta con una storia di ipertensione e diabete di tipo 2 diagnosticati due anni fa. Attualmente \u00e8 in trattamento con metformina 500 mg due volte al giorno per il diabete e valsartan 80 mg una volta al giorno per l'ipertensione.\n\nEsame Fisico\nDurante l'esame fisico, la paziente presenta una pressione arteriosa di 130/80 mmHg e una glicemia a digiuno di 120 mg/dL. Non sono presenti segni di insufficienza cardiaca o alterazioni polmonari.\n\nPianificazione Terapeutica\nDiabete\nContinuare con metformina 500 mg due volte al giorno.\nAggiungere sitagliptin 100 mg una volta al giorno dopo la colazione.\nMonitorare la glicemia a digiuno ogni settimana e regolare la terapia in base ai risultati.\nIpertensione\nContinuare con valsartan 80 mg una volta al giorno.\nAggiungere idroclorotiazide 12.5 mg una volta al giorno al mattino.\nRaccomandare una dieta iposodica e un aumento dell'attivit\u00e0 fisica.\nDolore Cronico\nPrescrivere paracetamolo 500 mg in caso di dolore moderato, fino a 3 volte al giorno.\nOsteoporosi\nIniziare terapia con alendronato 70 mg una volta alla settimana.\nAnsia e Depressione\nConsultare uno psicologo per una valutazione approfondita.\nConsiderare la terapia farmacologica con sertralina 50 mg una volta al giorno, se indicato.\nFollow-Up\nLa paziente \u00e8 stata programmata per un follow-up dopo due settimane per monitorare la risposta alla terapia aggiuntiva e per valutare eventuali effetti collaterali.\"\n",
+  "annotations": [
+    {
+      "nome_farmaco": "metformina",
+      "dosaggio": "500 mg",
+      "modalit\u00e0": "due volte al giorno",
+      "frequenza": "",
+      "line": 4
+    },
+    {
+      "nome_farmaco": "valsartan",
+      "dosaggio": "80 mg",
+      "modalit\u00e0": "una volta al giorno",
+      "frequenza": "",
+      "line": 15
+    },
+    {
+      "nome_farmaco": "sitagliptin",
+      "dosaggio": "100 mg",
+      "modalit\u00e0": "una volta al giorno",
+      "frequenza": "dopo la colazione",
+      "line": 12
+    },
+    {
+      "nome_farmaco": "idroclorotiazide",
+      "dosaggio": "12.5 mg",
+      "modalit\u00e0": "una volta al giorno",
+      "frequenza": "al mattino",
+      "line": 16
+    },
+    {
+      "nome_farmaco": "paracetamolo",
+      "dosaggio": "500 mg",
+      "modalit\u00e0": "fino a 3 volte al giorno",
+      "frequenza": "",
+      "line": 19
+    },
+    {
+      "nome_farmaco": "alendronato",
+      "dosaggio": "70 mg",
+      "modalit\u00e0": "una volta alla settimana",
+      "frequenza": "",
+      "line": 21
+    },
+    {
+      "nome_farmaco": "sertralina",
+      "dosaggio": "50 mg",
+      "modalit\u00e0": "una volta al giorno",
+      "frequenza": "",
+      "line": 24
+    }
+  ]
+}

@@ -3,6 +3,7 @@ import json
 import json5
 import inspect
 from json import JSONEncoder
+import graphviz
 
 
 class Model(JSONEncoder):
@@ -75,9 +76,24 @@ class Step:
             'prompt': self.prompt,
             'params': self.params,
             'map_input': inspect.getsource(self.map_input) if self.map_input else None,
-            'map_output': inspect.getsource(self.map_output) if self.map_output else None,
+            'map_output': inspect.getsource(self.map_output) if (
+                        self.map_output and self.map_output != Step.map_output) else None,
             'inputs': ', '.join([_input.name for _input in self.get_input_steps()])
         }.items() if v is not None})
+
+    def get_graphviz_node(self):
+        res = f"{self.name}"
+        if self.prompt:
+            res += "\n##############\l prompt:"
+            res += f"\n{self.prompt}".replace('\n', '\l')
+        if self.map_input:
+            res += "\n##############\l map_input:"
+            res += f"\l{inspect.getsource(self.map_input)}".replace('\n', '\l')
+        if self.map_output and self.map_output != Step.map_output:
+            res += "\n##############\l map_output:"
+            res += f"\l{inspect.getsource(self.map_output)}".replace('\n', '\l')
+
+        return res
 
 
 class InputStep(Step):
@@ -88,6 +104,9 @@ class InputStep(Step):
     def __call__(self):
         self.output.value = self.input.value
         return self.input.value
+
+    def get_graphviz_node(self):
+        return f"""{self.name}"""
 
 
 class ParseJSONStep(Step):
@@ -107,9 +126,12 @@ class ParseJSONStep(Step):
         self.output.value = output
         return output
 
+    def get_graphviz_node(self):
+        return f"""{self.name}"""
+
 
 class MapStep(Step):
-    def __init__(self, name, map_input, inputs, map_input_args = None):
+    def __init__(self, name, map_input, inputs, map_input_args=None):
         super().__init__(name=name, map_input=map_input, inputs=inputs)
         self.map_input_args = map_input_args
 
@@ -138,6 +160,11 @@ class ParseCSVStep(Step):
         output = [line.split(self.separator) for line in output]
         self.output.value = output
         return output
+
+    def get_graphviz_node(self):
+        return f"""\l{self.name}
+\lseparator: {self.separator}
+"""
 
 
 class ForStep(Step):
@@ -176,12 +203,14 @@ class Pipeline:
         ## remove duplicates steps, keep the first one
         self.steps = list(dict.fromkeys(self.steps))
 
-    def print_graph_dependencies(self):
+    def print_graph_dependencies(self, to_file=False, file_name='graph'):
         dot = graphviz.Digraph(comment='Dependencies', graph_attr={'rankdir': 'LR'})
         for step in self.steps:
-            dot.node(step.name, step.name)
+            dot.node(step.name, step.get_graphviz_node())
             for input_step in step.get_input_steps():
                 dot.edge(input_step.name, step.name)
+        if to_file:
+            dot.render(file_name, format='png', cleanup=True)
         return dot
 
     def __call__(self):

@@ -2,13 +2,22 @@ import json
 import os
 
 
-def add_examples(inputs: list = None, **kwargs):
+def add_examples_csv(inputs: list = None, **kwargs):
     document = inputs['text']
     example = json.load(open(kwargs['examples_dir'] + os.listdir(kwargs['examples_dir'])[0], 'r'))
     example_doc = example['text']
     example_csv = '\n'.join(
         [';'.join([value for value in list(row.values())[:4]]) for row in example['annotations']])
     return {'example_doc': example_doc, 'example_csv': example_csv, 'document': document}
+
+def add_examples_json(inputs: list = None, **kwargs):
+    document = inputs['text']
+    example = json.load(open(kwargs['examples_dir'] + os.listdir(kwargs['examples_dir'])[0], 'r'))
+    example_doc = example['text']
+
+    example_json = [{k:v for k,v in item.items() if k != 'line'} for item in example['annotations']]
+    return {'example_doc': example_doc, 'example_json': example_json, 'document': document}
+
 
 
 def map_input(inputs: list = None):

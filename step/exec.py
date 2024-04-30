@@ -59,6 +59,7 @@ def run(config_file='config.json', verbose: bool = False):
     steps = [step['step'] for step in steps]
 
     pipeline = Pipeline(steps[-1])
+    pipeline.print_graph_dependencies(True)
     ans = []
     for data in tqdm(dataset):
         steps[0].input.value = data

@@ -1,0 +1,28 @@
+import json
+import os
+
+
+def add_examples(inputs: list = None, **kwargs):
+    document = inputs['text']
+    example = json.load(open(kwargs['examples_dir'] + os.listdir(kwargs['examples_dir'])[0], 'r'))
+    example_doc = example['text']
+    example_csv = '\n'.join(
+        [';'.join([value for value in list(row.values())[:4]]) for row in example['annotations']])
+    return {'example_doc': example_doc, 'example_csv': example_csv, 'document': document}
+
+
+def map_input(inputs: list = None):
+    return inputs[0].output.value
+
+
+def map_table_to_json(inputs: list = None) -> list:
+    table = inputs
+    table = [
+        {
+            'medication_name': row[0],
+            'dosage': row[1] if len(row) > 1 else None,
+            'mode': row[2] if len(row) > 2 else None,
+            'frequency': row[3] if len(row) > 3 else None,
+        }
+        for row in table if len(row) > 0 and ''.join(row).strip() != '']
+    return table

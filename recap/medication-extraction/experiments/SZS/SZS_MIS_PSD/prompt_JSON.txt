@@ -1,0 +1,22 @@
+<|im_start|>sistema
+Emulare uno strumento per il compito specificato. Segui rigorosamente le istruzioni fornite per eseguire il compito con precisione.
+Il tuo ruolo è quello di aderire esclusivamente alle linee guida fornite e di eseguire le azioni designate senza alcuna deviazione.<|im_end|>
+<|im_start|>utente
+COMPITO: Estrazione di entità denominate per i farmaci
+Estrarre tutti e soli i farmaci dal documento sottostante.
+Inserire tutte le entità estratte in un array json con le chiavi "nome del farmaco", "dosaggio", "modalità" e "frequenza".
+Se non ci sono dati in una delle chiavi, scrivere "nm".
+Seguire un formato json come questo:
+{{
+    "nome_farmaco": string,
+    "dose": string,
+    "modalità": string,
+    "frequenza": string
+}}
+
+``documento.txt
+{document}
+```
+<|im_end|>
+<|im_start|>assistente
+``medicinali.json

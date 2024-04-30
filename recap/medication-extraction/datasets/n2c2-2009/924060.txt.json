@@ -1,0 +1,131 @@
+{
+  "text": "RECORD #924060\n666197546 | TRH | 10577072 | | 8354947 | 1/18/2006 12:00:00 AM | Right Shoulder Pain | | DIS | Admission Date: 1/18/2006 Report Status:\nDischarge Date: 8/18/2006\n****** FINAL DISCHARGE ORDERS ******\nNESSPOR , JEROME 171-12-68-8\nHend\nService: ORT\nDISCHARGE PATIENT ON: 11/0/06 AT 11:00 AM\nCONTINGENT UPON Not Applicable\nWILL D/C ORDER BE USED AS THE D/C SUMMARY: YES\nAttending: SZUFAT , JERRELL , M.D.\nCODE STATUS:\nFull code\nDISPOSITION: Home\nDISCHARGE MEDICATIONS:\nCOLACE ( DOCUSATE SODIUM ) 100 MG PO BID\nNEXIUM ( ESOMEPRAZOLE ) 40 MG PO BID\nDILAUDID ( HYDROMORPHONE HCL ) 2-6 MG PO Q4H PRN Pain\nATROVENT HFA INHALER ( IPRATROPIUM INHALER )\n2 PUFF INH QID PRN Shortness of Breath\nFood/Drug Interaction Instruction\nContraindicated in Patients with Peanut , Soya or Soyabean\nAllergy\nLOPRESSOR ( METOPROLOL TARTRATE ) 12.5 MG PO BID\nHOLD IF: SBP&lt;110 , HR&lt;60 Food/Drug Interaction Instruction\nTake consistently with meals or on empty stomach.\nMS CONTIN ( MORPHINE CONTROLLED RELEASE ) 45 MG PO QAM\nMS CONTIN ( MORPHINE CONTROLLED RELEASE ) 30 MG PO QPM\nSIMVASTATIN 80 MG PO DAILY\nFood/Drug Interaction Instruction\nAvoid grapefruit unless MD instructs otherwise.\nTERAZOSIN HCL 10 MG PO DAILY\nNumber of Doses Required ( approximate ): 3\nDIET: No Restrictions\nRETURN TO WORK: After Appt with local physician\nFOLLOW UP APPOINTMENT( S ):\nDr. Hally 3/18/06 scheduled ,\nALLERGY: IV Contrast , Tape\nADMIT DIAGNOSIS:\nRight Shoulder Pain ?Infection\nPRINCIPAL DISCHARGE DIAGNOSIS ;Responsible After Study for Causing Admission )\nRight Shoulder Pain\nOTHER DIAGNOSIS;Conditions , Infections , Complications , affecting Treatment/Stay\nasthma\nOPERATIONS AND PROCEDURES:\n8/18/2006 : CT guided aspiration of R shoulder joint fluid\nOTHER TREATMENTS/PROCEDURES ( NOT IN O.R. )\nPain Control\nBRIEF RESUME OF HOSPITAL COURSE:\nMr. Notari was admitted to the Orthopaedic Hand Service on 1/18/2006\nw/ a history of increased R shoulder pain following a cellulitis of\nthe right hand. An ESR was checked on admission and was slightly\nelevated at 18. He was afebrile and non-toxic , therefore was not started\non antibiotics. Dilaudid was added to his pain regimen for his increased\ndiscomfort.\nOn 9/25/2006 a CT guided R shoulder joint fluid aspiration was performed\nby Radiology. Analysis of this fluid was not consistant with joint\ninfection.\nHe received Lovenox for DVT prophylaxis during his admission. On HD#4 he\nwas awake , alert , appropriate and afebrile with stable vitals signs. His\npain was well controlled on oral medications. He was discharged to home\nand instructed to follow up with Dr. Rumler at his previously scheduled\nappointment on 4/13/2006. His final joint fluid cultures were pending at\nthe time of discharge , he will be contacted at home if these turn\npositivie.\nADDITIONAL COMMENTS: 1. Do pendulum range of motion exercises regularly. This is very\nimportant in maintaining full range of motion. You should not add any\nadditional exercises until cleared to do so by Dr. Stupka\n2. You have been given a prescription for a narcotic for pain control. Do\nnot drive a motor vehicle , drink any alcohol or operate machinery while\ntaking this medication. As your pain allows , you should reduce the amount\nof this medication accordingly. Narcotic pain medications can cause\nconstipation , so you should drink plenty of water and take a stool\nsoftener ( Colace ) to help prevent this side effect.\n3. Call Dr. Camelo at the number above , or your Primary Care Physician , or\ngo to a local emergency room if you develop fevers/chills , redness around\nyour incision that is warm to the touch , pus-like drainage from the\nwound , loss of function ( either strength or sensation ) in your hand ,\nreturn to your original symptoms , chest pain , shortness of breath or any\nother concerning symptoms.\n4. You may not drive a car until cleared to do so by Dr. Boys\n5. Resume home medications unless specifically instructed otherwise.\nDISCHARGE CONDITION: Stable\nTO DO/PLAN:\nNo dictated summary\nENTERED BY: GRDINA , EDDY R. , M.D. ( ZL34 ) 11/0/06 @ 09\n****** END OF DISCHARGE ORDERS ******\n[report_end]\n",
+  "annotations": [
+    {
+      "medication_name": "colace ( docusate sodium )",
+      "medication_dosage": "100 mg",
+      "mode": "po",
+      "frequency": "bid",
+      "line": "16"
+    },
+    {
+      "medication_name": "nexium ( esomeprazole )",
+      "medication_dosage": "40 mg",
+      "mode": "po",
+      "frequency": "bid",
+      "line": "17"
+    },
+    {
+      "medication_name": "dilaudid ( hydromorphone hcl )",
+      "medication_dosage": "2-6 mg",
+      "mode": "po",
+      "frequency": "q4h prn",
+      "line": "18"
+    },
+    {
+      "medication_name": "atrovent hfa inhaler ( ipratropium inhaler )",
+      "medication_dosage": "2 puff",
+      "mode": "inh",
+      "frequency": "qid prn",
+      "line": "19"
+    },
+    {
+      "medication_name": "lopressor ( metoprolol tartrate )",
+      "medication_dosage": "12.5 mg",
+      "mode": "po",
+      "frequency": "bid",
+      "line": "24"
+    },
+    {
+      "medication_name": "ms contin ( morphine controlled release )",
+      "medication_dosage": "45 mg",
+      "mode": "po",
+      "frequency": "qam",
+      "line": "27"
+    },
+    {
+      "medication_name": "ms contin ( morphine controlled release )",
+      "medication_dosage": "30 mg",
+      "mode": "po",
+      "frequency": "qpm",
+      "line": "28"
+    },
+    {
+      "medication_name": "simvastatin",
+      "medication_dosage": "80 mg",
+      "mode": "po",
+      "frequency": "daily",
+      "line": "29"
+    },
+    {
+      "medication_name": "terazosin hcl",
+      "medication_dosage": "10 mg",
+      "mode": "po",
+      "frequency": "daily",
+      "line": "32"
+    },
+    {
+      "medication_name": "dilaudid",
+      "medication_dosage": "",
+      "mode": "",
+      "frequency": "",
+      "line": "54"
+    },
+    {
+      "medication_name": "lovenox",
+      "medication_dosage": "",
+      "mode": "",
+      "frequency": "",
+      "line": "59"
+    },
+    {
+      "medication_name": "oral medications.",
+      "medication_dosage": "",
+      "mode": "",
+      "frequency": "",
+      "line": "61"
+    },
+    {
+      "medication_name": "narcotic",
+      "medication_dosage": "",
+      "mode": "",
+      "frequency": "",
+      "line": "69"
+    },
+    {
+      "medication_name": "this medication.",
+      "medication_dosage": "",
+      "mode": "",
+      "frequency": "",
+      "line": "71"
+    },
+    {
+      "medication_name": "narcotic pain medications",
+      "medication_dosage": "",
+      "mode": "",
+      "frequency": "",
+      "line": "72"
+    },
+    {
+      "medication_name": "this medication",
+      "medication_dosage": "",
+      "mode": "",
+      "frequency": "",
+      "line": "72"
+    },
+    {
+      "medication_name": "stool softener ( colace )",
+      "medication_dosage": "",
+      "mode": "",
+      "frequency": "",
+      "line": "73"
+    },
+    {
+      "medication_name": "home medications",
+      "medication_dosage": "",
+      "mode": "",
+      "frequency": "",
+      "line": "82"
+    }
+  ]
+}

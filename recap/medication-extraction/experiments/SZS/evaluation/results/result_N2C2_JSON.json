@@ -1,0 +1,3267 @@
+{
+  "experiment_name": "Simple Zero Shot - Mistral - N2C2 - JSON",
+  "inputs": [
+    "403481.txt.json",
+    "66947.txt.json",
+    "716292.txt.json",
+    "817866.txt.json",
+    "844334.txt.json",
+    "975588.txt.json",
+    "230210.txt.json",
+    "80815.txt.json",
+    "5091.txt.json",
+    "417096.txt.json",
+    "924060.txt.json",
+    "560453.txt.json",
+    "701307.txt.json",
+    "915973.txt.json",
+    "893858.txt.json",
+    "496398.txt.json",
+    "180337.txt.json",
+    "661.txt.json",
+    "610966.txt.json",
+    "348094.txt.json",
+    "436461.txt.json",
+    "232166.txt.json",
+    "868962.txt.json",
+    "498500.txt.json",
+    "700421.txt.json",
+    "818884.txt.json",
+    "312933.txt.json",
+    "333193.txt.json",
+    "941312.txt.json",
+    "497131.txt.json",
+    "497321.txt.json",
+    "983185.txt.json",
+    "802249.txt.json",
+    "993550.txt.json",
+    "948640.txt.json",
+    "11995.txt.json",
+    "508921.txt.json",
+    "367177.txt.json",
+    "158995.txt.json",
+    "565922.txt.json",
+    "614396.txt.json",
+    "442126.txt.json",
+    "944118.txt.json",
+    "910475.txt.json",
+    "874479.txt.json",
+    "801284.txt.json",
+    "549067.txt.json",
+    "182634.txt.json",
+    "573300.txt.json",
+    "156908.txt.json",
+    "901540.txt.json",
+    "410277.txt.json",
+    "197702.txt.json",
+    "937042.txt.json",
+    "293045.txt.json",
+    "731937.txt.json",
+    "699364.txt.json",
+    "818404.txt.json",
+    "858069.txt.json",
+    "658896.txt.json",
+    "159637.txt.json",
+    "435683.txt.json",
+    "367173.txt.json",
+    "359997.txt.json",
+    "940794.txt.json",
+    "993109.txt.json",
+    "995723.txt.json",
+    "957953.txt.json",
+    "811352.txt.json",
+    "172366.txt.json",
+    "689300.txt.json",
+    "98718.txt.json",
+    "920102.txt.json",
+    "269404.txt.json",
+    "881168.txt.json",
+    "28218.txt.json",
+    "652612.txt.json",
+    "883682.txt.json",
+    "797772.txt.json",
+    "744366.txt.json",
+    "824987.txt.json",
+    "449738.txt.json",
+    "758638.txt.json",
+    "734280.txt.json",
+    "921741.txt.json",
+    "650471.txt.json",
+    "942556.txt.json",
+    "280639.txt.json",
+    "483034.txt.json",
+    "217805.txt.json",
+    "904835.txt.json",
+    "150406.txt.json",
+    "898277.txt.json",
+    "633499.txt.json",
+    "869853.txt.json",
+    "471570.txt.json",
+    "961115.txt.json",
+    "752897.txt.json",
+    "661928.txt.json",
+    "852130.txt.json"
+  ],
+  "outputs": [
+    {
+      "file": "403481.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "66947.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "716292.txt.json",
+      "out": [
+        {
+          "chem_name": "dobutamine",
+          "dosage": "15 mcg per kilogram per minute",
+          "mode": "IV",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "captopril",
+          "dosage": "25 mg p.o. t.i.d.",
+          "mode": "oral",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "digoxin",
+          "dosage": "0.125 mg p.o. q.d.",
+          "mode": "oral",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Lasix",
+          "dosage": "160 mg p.o. b.i.d.",
+          "mode": "oral",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "potassium chloride",
+          "dosage": "20 mEq p.o. b.i.d.",
+          "mode": "oral",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Coumadin",
+          "dosage": "1 mg p.o. q.d.",
+          "mode": "oral",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Atrovent",
+          "dosage": "two puffs q.i.d.",
+          "mode": "inhalation",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Azmacort",
+          "dosage": "eight puffs b.i.d.",
+          "mode": "inhalation",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Pepcid",
+          "dosage": "20 mg p.o. b.i.d.",
+          "mode": "oral",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Colace",
+          "dosage": "100 mg p.o. t.i.d.",
+          "mode": "oral",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "vancomycin",
+          "dosage": "1 gm q. 12",
+          "mode": "IV",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "ampicillin",
+          "dosage": "2 gm IV q. 6",
+          "mode": "IV",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Halcion",
+          "dosage": "0.125 p.o. q.h.s. prn",
+          "mode": "oral",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Serax",
+          "dosage": "15 mg p.o. q. 6 hours prn",
+          "mode": "oral",
+          "frequency": "nm"
+        }
+      ]
+    },
+    {
+      "file": "817866.txt.json",
+      "out": [
+        {
+          "chem_name": "nm",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        }
+      ]
+    },
+    {
+      "file": "844334.txt.json",
+      "out": [
+        {
+          "chem_name": "Aspirin",
+          "dosage": "daily",
+          "mode": "p.o.",
+          "frequency": "q day"
+        },
+        {
+          "chem_name": "Lasix",
+          "dosage": "80 mg",
+          "mode": "p.o.",
+          "frequency": "q day"
+        },
+        {
+          "chem_name": "Zaroxolyn",
+          "dosage": "2.5 mg",
+          "mode": "p.o.",
+          "frequency": "q day"
+        },
+        {
+          "chem_name": "Toprol XL",
+          "dosage": "50 mg",
+          "mode": "p.o.",
+          "frequency": "q day"
+        },
+        {
+          "chem_name": "Insulin 70/30",
+          "dosage": "65 units q a.m., 45 units q p.m.",
+          "mode": "p.o.",
+          "frequency": "q day"
+        },
+        {
+          "chem_name": "Actos",
+          "dosage": "45 mg",
+          "mode": "p.o.",
+          "frequency": "q p.m."
+        },
+        {
+          "chem_name": "Avapro",
+          "dosage": "300 mg",
+          "mode": "p.o.",
+          "frequency": "q day"
+        },
+        {
+          "chem_name": "Lipitor",
+          "dosage": "10 mg",
+          "mode": "p.o.",
+          "frequency": "q.h.s."
+        },
+        {
+          "chem_name": "Sublingual Nitroglycerin",
+          "dosage": "p.r.n.",
+          "mode": "p.o.",
+          "frequency": "q day"
+        }
+      ]
+    },
+    {
+      "file": "975588.txt.json",
+      "out": [
+        {
+          "chem_name": "ECASA (ASPIRIN ENTERIC COATED)",
+          "dosage": "81 MG PO 3x/Week M-W-F",
+          "mode": "PO",
+          "frequency": "3x/Week"
+        },
+        {
+          "chem_name": "LISINOPRIL",
+          "dosage": "1.25 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "PLAVIX (CLOPIDOGREL)",
+          "dosage": "75 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "ATENOLOL",
+          "dosage": "50 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "GLYBURIDE",
+          "dosage": "1.25 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "LIPITOR (ATORVASTATIN)",
+          "dosage": "40 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        }
+      ]
+    },
+    {
+      "file": "230210.txt.json",
+      "out": [
+        {
+          "chem_name": "Paxil",
+          "dosage": "60 mg P O q AM",
+          "mode": "P O",
+          "frequency": "q AM"
+        },
+        {
+          "chem_name": "Diabeta",
+          "dosage": "5 mg P O q AM",
+          "mode": "P O",
+          "frequency": "q AM"
+        },
+        {
+          "chem_name": "Trazadone",
+          "dosage": "100 mg q h.s.",
+          "mode": "q h.s.",
+          "frequency": "q h.s."
+        },
+        {
+          "chem_name": "Ultram",
+          "dosage": "100 mg q 4-6 hours prn",
+          "mode": "prn",
+          "frequency": "q 4-6 hours prn"
+        },
+        {
+          "chem_name": "Reglan",
+          "dosage": "10 mg q 6 hours prn nausea",
+          "mode": "prn nausea",
+          "frequency": "q 6 hours prn nausea"
+        },
+        {
+          "chem_name": "Bactroban",
+          "dosage": "ointment b.i.d.",
+          "mode": "topically",
+          "frequency": "b.i.d."
+        },
+        {
+          "chem_name": "Lotrisone",
+          "dosage": "cream b.i.d. topically",
+          "mode": "topically",
+          "frequency": "b.i.d."
+        },
+        {
+          "chem_name": "Afrin",
+          "dosage": "nasal spray q 12 hours PRN",
+          "mode": "PRN",
+          "frequency": "q 12 hours PRN"
+        },
+        {
+          "chem_name": "Proventil",
+          "dosage": "inhalers , two puffs PRN",
+          "mode": "inhaled",
+          "frequency": "PRN"
+        }
+      ]
+    },
+    {
+      "file": "80815.txt.json",
+      "out": [
+        {
+          "chem_name": "aspirin",
+          "dosage": "81 mg",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Plavix",
+          "dosage": "75 mg",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Coumadin",
+          "dosage": "5 mg",
+          "mode": "p.o.",
+          "frequency": "every evening"
+        },
+        {
+          "chem_name": "digoxin",
+          "dosage": "0.125 mg",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Lasix",
+          "dosage": "40 mg",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "lisinopril",
+          "dosage": "10 mg",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Lopressor",
+          "dosage": "25 mg",
+          "mode": "b.i.d.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Zocor",
+          "dosage": "80 mg",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Flomax",
+          "dosage": "0.4 mg",
+          "mode": "p.o.",
+          "frequency": "every evening"
+        },
+        {
+          "chem_name": "Flovent",
+          "dosage": "110 mcg",
+          "mode": "inhale",
+          "frequency": "b.i.d."
+        },
+        {
+          "chem_name": "vancomycin",
+          "dosage": "250 mg",
+          "mode": "p.o.",
+          "frequency": "every 6 hours x8 days at discharge"
+        },
+        {
+          "chem_name": "lactobacillus",
+          "dosage": "2 tabs",
+          "mode": "p.o.",
+          "frequency": "t.i.d."
+        },
+        {
+          "chem_name": "metoprolol",
+          "dosage": "25 mg",
+          "mode": "p.o.",
+          "frequency": "b.i.d."
+        },
+        {
+          "chem_name": "simvastatin",
+          "dosage": "80 mg",
+          "mode": "p.o.",
+          "frequency": "at bed time"
+        }
+      ]
+    },
+    {
+      "file": "5091.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "417096.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "924060.txt.json",
+      "out": [
+        {
+          "chem_name": "COLACE ( DOCUSATE SODIUM )",
+          "dosage": "100 MG PO BID",
+          "mode": "PO",
+          "frequency": "BID"
+        },
+        {
+          "chem_name": "NEXIUM ( ESOMEPRAZOLE )",
+          "dosage": "40 MG PO BID",
+          "mode": "PO",
+          "frequency": "BID"
+        },
+        {
+          "chem_name": "DILAUDID ( HYDROMORPHONE HCL )",
+          "dosage": "2-6 MG PO Q4H PRN Pain",
+          "mode": "PO",
+          "frequency": "Q4H PRN"
+        },
+        {
+          "chem_name": "ATROVENT HFA INHALER ( IPRATROPIUM INHALER )",
+          "dosage": "2 PUFF INH QID PRN Shortness of Breath",
+          "mode": "INH",
+          "frequency": "QID PRN"
+        },
+        {
+          "chem_name": "LOPRESSOR ( METOPROLOL TARTRATE )",
+          "dosage": "12.5 MG PO BID",
+          "mode": "PO",
+          "frequency": "BID"
+        },
+        {
+          "chem_name": "MS CONTIN ( MORPHINE CONTROLLED RELEASE )",
+          "dosage": "45 MG PO QAM, 30 MG PO QPM",
+          "mode": "PO",
+          "frequency": "QAM, QPM"
+        },
+        {
+          "chem_name": "SIMVASTATIN",
+          "dosage": "80 MG PO DAILY",
+          "mode": "PO",
+          "frequency": "DAILY"
+        },
+        {
+          "chem_name": "TERAZOSIN HCL",
+          "dosage": "10 MG PO DAILY",
+          "mode": "PO",
+          "frequency": "DAILY"
+        }
+      ]
+    },
+    {
+      "file": "560453.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "701307.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "915973.txt.json",
+      "out": [
+        {
+          "chem_name": "Avapro",
+          "dosage": "150 mg p.o. daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Lipitor",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Decadron",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "ranitidine",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Humalog",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "allopurinol",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Flonase",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "vitamin D",
+          "dosage": "125 0.25 mcg p.o. daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "B12",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Colace",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        }
+      ]
+    },
+    {
+      "file": "893858.txt.json",
+      "out": [
+        {
+          "chem_name": "Lasix",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Enalapril",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "digoxin",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        }
+      ]
+    },
+    {
+      "file": "496398.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "180337.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "661.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "610966.txt.json",
+      "out": [
+        {
+          "chem_name": "Atenolol",
+          "dosage": "50 mg p.o. daily",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Hydrochlorothiazide",
+          "dosage": "25 mg p.o. daily",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Nexium",
+          "dosage": "40 mg p.o. daily",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Aspirin",
+          "dosage": "81 mg p.o. daily",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Lipitor",
+          "dosage": "40 mg p.o. daily",
+          "mode": "p.o.",
+          "frequency": "daily"
+        }
+      ]
+    },
+    {
+      "file": "348094.txt.json",
+      "out": {
+        "error": "\n{\n    \"chem_name\": \"atenolol\",\n    \"dosage\": \"12.5 mg daily\",\n    \"mode\": \"oral\",\n    \"frequency\": \"q.d.\"\n},\n{\n    \"chem_name\": \"Dobbhoff tube feeds\",\n    \"dosage\": \"80 cc an hour\",\n    \"mode\": \"nasogastric\",\n    \"frequency\": \"q.4h\"\n},\n{\n    \"chem_name\": \"Lasix\",\n    \"dosage\": \"40 mg PNGT b.i.d.\",\n    \"mode\": \"parenteral\",\n    \"frequency\": \"q.8h\"\n},\n{\n    \"chem_name\": \"gentamicin sulfate\",\n    \"dosage\": \"two drops OU q.8h.\",\n    \"mode\": \"topical\",\n    \"frequency\": \"q.8h\"\n},\n{\n    \"chem_name\": \"insulin\",\n    \"dosage\": \"8 units subq q.6h.\",\n    \"mode\": \"parenteral\",\n    \"frequency\": \"q.6h\"\n},\n{\n    \"chem_name\": \"Neurontin\",\n    \"dosage\": \"100 mg t.i.d.\",\n    \"mode\": \"oral\",\n    \"frequency\": \"t.i.d.\"\n},\n{\n    \"chem_name\": \"Nexium\",\n    \"dosage\": \"40 mg daily\",\n    \"mode\": \"oral\",\n    \"frequency\": \"q.d.\"\n},\n{\n    \"chem_name\": \"Prochlorperazine\",\n    \"dosage\": \"20 mg PR q.12h.\",\n    \"mode\": \"parenteral\",\n    \"frequency\": \"q.12h\"\n}\n]\n"
+      }
+    },
+    {
+      "file": "436461.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "232166.txt.json",
+      "out": [
+        {
+          "chem_name": "ROXICET ELIXIR ( OXYCODONE+APAP LIQUID )",
+          "dosage": "5 milliliters PO Q4H PRN Pain",
+          "mode": "elixir",
+          "frequency": "Q4H PRN Pain"
+        },
+        {
+          "chem_name": "PHENERGAN ( PROMETHAZINE HCL )",
+          "dosage": "25 MG PR Q6H PRN Nausea",
+          "mode": "tablet",
+          "frequency": "Q6H PRN Nausea"
+        },
+        {
+          "chem_name": "MULTIVITAMIN THERAPEUTIC ( THERAPEUTIC MULTIVI... )",
+          "dosage": "1 TAB PO DAILY",
+          "mode": "tablet",
+          "frequency": "Daily"
+        }
+      ]
+    },
+    {
+      "file": "868962.txt.json",
+      "out": [
+        {
+          "chem_name": "ACETYLSALICYLIC ACID",
+          "dosage": "81 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "LASIX (FUROSEMIDE)",
+          "dosage": "160 MG QAM; 120 MG QPM PO",
+          "mode": "PO",
+          "frequency": "QAM, QPM"
+        },
+        {
+          "chem_name": "LISINOPRIL",
+          "dosage": "80 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "NORVASC (AMLODIPINE)",
+          "dosage": "10 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "TOPROL XL (METOPROLOL (SUST. REL.))",
+          "dosage": "200 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "AMBIEN (ZOLPIDEM TARTRATE)",
+          "dosage": "5 MG PO QHS",
+          "mode": "PO",
+          "frequency": "QHS"
+        },
+        {
+          "chem_name": "DEPAKOTE ER (DIVALPROEX SODIUM ER)",
+          "dosage": "1,000 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        }
+      ]
+    },
+    {
+      "file": "498500.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "700421.txt.json",
+      "out": [
+        {
+          "chem_name": "Lantus",
+          "dosage": "24 units subcu each night",
+          "mode": "long-acting insulin",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "NovoLog",
+          "dosage": "sliding scale",
+          "mode": "short-acting insulin",
+          "frequency": "as needed"
+        },
+        {
+          "chem_name": "PhosLo",
+          "dosage": "not specified",
+          "mode": "phosphate binder",
+          "frequency": "not specified"
+        },
+        {
+          "chem_name": "Nephrocaps",
+          "dosage": "not specified",
+          "mode": "renal protection",
+          "frequency": "not specified"
+        },
+        {
+          "chem_name": "Vitamin D",
+          "dosage": "not specified",
+          "mode": "vitamin supplementation",
+          "frequency": "not specified"
+        },
+        {
+          "chem_name": "Sevelamer",
+          "dosage": "1600 t.i.d.",
+          "mode": "phosphate binder",
+          "frequency": "three times a day"
+        },
+        {
+          "chem_name": "Toprol",
+          "dosage": "100 mg p.o. daily",
+          "mode": "beta-blocker",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Lisinopril",
+          "dosage": "5 mg p.o. daily",
+          "mode": "ACE inhibitor",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Plavix",
+          "dosage": "75 mg p.o. daily",
+          "mode": "antiplatelet",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Keppra",
+          "dosage": "500 mg p.o. b.i.d.",
+          "mode": "anticonvulsant",
+          "frequency": "twice a day"
+        },
+        {
+          "chem_name": "Flovent",
+          "dosage": "two puffs b.i.d.",
+          "mode": "inhaled corticosteroid",
+          "frequency": "twice a day"
+        },
+        {
+          "chem_name": "Baclofen",
+          "dosage": "5 mg p.o. t.i.d.",
+          "mode": "muscle relaxant",
+          "frequency": "three times a day"
+        },
+        {
+          "chem_name": "Ambien",
+          "dosage": "10 mg p.o. at bedtime p.r.n.",
+          "mode": "hypnotic",
+          "frequency": "as needed"
+        }
+      ]
+    },
+    {
+      "file": "818884.txt.json",
+      "out": [
+        {
+          "chem_name": "ASA (ACETYLSALICYLIC ACID)",
+          "dosage": "325 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "COUMADIN (WARFARIN SODIUM)",
+          "dosage": "6 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "ATENOLOL",
+          "dosage": "25 MG PO QD Starting Today (1/24)",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "COLACE (DOCUSATE SODIUM)",
+          "dosage": "100 MG PO BID",
+          "mode": "PO",
+          "frequency": "BID"
+        },
+        {
+          "chem_name": "LASIX (FUROSEMIDE)",
+          "dosage": "60 MG PO QD Starting Today (1/24)",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "ZESTRIL (LISINOPRIL)",
+          "dosage": "7.5 MG PO QD Starting Today (1/24)",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "METFORMIN",
+          "dosage": "1,000 MG PO BID Starting Today (1/24)",
+          "mode": "PO",
+          "frequency": "BID"
+        },
+        {
+          "chem_name": "PRILOSEC (OMEPRAZOLE)",
+          "dosage": "20 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "VALACYCLOVIR",
+          "dosage": "1,000 MG PO Q8H X 7 Days",
+          "mode": "PO",
+          "frequency": "Q8H"
+        }
+      ]
+    },
+    {
+      "file": "312933.txt.json",
+      "out": [
+        {
+          "chem_name": "pressor medications",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "intraaortic balloon pump",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        }
+      ]
+    },
+    {
+      "file": "333193.txt.json",
+      "out": [
+        {
+          "chem_name": "Trazodone",
+          "dosage": "50 mg nightly",
+          "mode": "oral",
+          "frequency": "nightly"
+        },
+        {
+          "chem_name": "Celexa",
+          "dosage": "20 mg daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Lactulose",
+          "dosage": "30 mg q.a.m.",
+          "mode": "oral",
+          "frequency": "q.a.m."
+        },
+        {
+          "chem_name": "FiberCon",
+          "dosage": "1 tablet",
+          "mode": "oral",
+          "frequency": "q.a.m."
+        },
+        {
+          "chem_name": "Hydrochlorothiazide",
+          "dosage": "25 mg daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "MVI",
+          "dosage": "daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Synthroid",
+          "dosage": "25 mcg daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Colace",
+          "dosage": "100 mg b.i.d.",
+          "mode": "oral",
+          "frequency": "b.i.d."
+        },
+        {
+          "chem_name": "Novolin",
+          "dosage": "30 units q.a.m., 7 units q.p.m., sliding scale",
+          "mode": "subcutaneous",
+          "frequency": "q.a.m., q.p.m."
+        },
+        {
+          "chem_name": "Zyprexa",
+          "dosage": "2.5 mg nightly",
+          "mode": "oral",
+          "frequency": "nightly"
+        }
+      ]
+    },
+    {
+      "file": "941312.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "497131.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "497321.txt.json",
+      "out": [
+        {
+          "chem_name": "Tylenol",
+          "dosage": "325 to 650 mg p.o. q.4 h.",
+          "mode": "p.r.n. pain",
+          "frequency": "q.4 h."
+        },
+        {
+          "chem_name": "DuoNeb",
+          "dosage": "3/0.5 mg q.6 h. p.r.n.",
+          "mode": "p.r.n.",
+          "frequency": "q.6 h."
+        },
+        {
+          "chem_name": "amiodarone",
+          "dosage": "400 mg p.o. b.i.d. for six more days and then 400 mg p.o. daily",
+          "mode": "hold for systolic less than 90, heart rate less than 55",
+          "frequency": "b.i.d."
+        },
+        {
+          "chem_name": "econazole nitrate",
+          "dosage": "topical daily",
+          "mode": "nm",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "heparin",
+          "dosage": "5000 units subcutaneously q.12 h.",
+          "mode": "nm",
+          "frequency": "q.12 h."
+        },
+        {
+          "chem_name": "Regular Insulin",
+          "dosage": "sliding scale subcutaneously q.6 h.",
+          "mode": "nm",
+          "frequency": "q.6 h."
+        },
+        {
+          "chem_name": "Imodium A-D",
+          "dosage": "2 mg p.o. b.i.d.",
+          "mode": "nm",
+          "frequency": "b.i.d."
+        },
+        {
+          "chem_name": "metoclopramide",
+          "dosage": "10 mg p.o. q.i.d.",
+          "mode": "nm",
+          "frequency": "q.i.d."
+        },
+        {
+          "chem_name": "Lopressor",
+          "dosage": "50 mg p.o. q.6 h.",
+          "mode": "hold for systolic less than 90, heart rate less than 55",
+          "frequency": "q.6 h."
+        },
+        {
+          "chem_name": "omeprazole",
+          "dosage": "40 mg p.o. b.i.d.",
+          "mode": "nm",
+          "frequency": "b.i.d."
+        },
+        {
+          "chem_name": "oxycodone",
+          "dosage": "5 mg p.o. q.4 h. p.r.n. pain",
+          "mode": "p.r.n. pain",
+          "frequency": "q.4 h."
+        },
+        {
+          "chem_name": "Carafate",
+          "dosage": "1 gm p.o. q.i.d.",
+          "mode": "nm",
+          "frequency": "q.i.d."
+        },
+        {
+          "chem_name": "Ambien",
+          "dosage": "2.5 mg p.o. nightly",
+          "mode": "nm",
+          "frequency": "nightly"
+        }
+      ]
+    },
+    {
+      "file": "983185.txt.json",
+      "out": [
+        {
+          "chem_name": "Naprosyn",
+          "dosage": "as needed for right upper quadrant pain",
+          "mode": "oral",
+          "frequency": "prn"
+        }
+      ]
+    },
+    {
+      "file": "802249.txt.json",
+      "out": [
+        {
+          "chem_name": "Nifedipine",
+          "dosage": "10 mg p.o. p.r.n.",
+          "mode": "for elevated blood pressure",
+          "frequency": "p.r.n."
+        },
+        {
+          "chem_name": "Lasix",
+          "dosage": "20 mg p.o. q. day",
+          "mode": "for edema",
+          "frequency": "q. day"
+        },
+        {
+          "chem_name": "Glucotrol",
+          "dosage": "15 mg p.o. q. AM",
+          "mode": "for diabetes mellitus",
+          "frequency": "q. AM"
+        },
+        {
+          "chem_name": "Cardizem",
+          "dosage": "300 mg p.o. q. day",
+          "mode": "for chest pain",
+          "frequency": "q. day"
+        },
+        {
+          "chem_name": "Coumadin",
+          "dosage": "3.75 mg p.o. q. day",
+          "mode": "for anticoagulation",
+          "frequency": "q. day"
+        },
+        {
+          "chem_name": "Colace",
+          "dosage": "100 mg p.o. b.i.d.",
+          "mode": "for constipation",
+          "frequency": "b.i.d."
+        },
+        {
+          "chem_name": "Iron",
+          "dosage": "325 mg p.o. q. day",
+          "mode": "for iron deficiency anemia",
+          "frequency": "q. day"
+        },
+        {
+          "chem_name": "Aspirin",
+          "dosage": "325 mg p.o. q. day",
+          "mode": "for ischemia",
+          "frequency": "q. day"
+        },
+        {
+          "chem_name": "Atenolol",
+          "dosage": "50 mg p.o. q. day",
+          "mode": "for hypertension",
+          "frequency": "q. day"
+        },
+        {
+          "chem_name": "Lisinopril",
+          "dosage": "10 mg p.o. q. day",
+          "mode": "for hypertension",
+          "frequency": "q. day"
+        },
+        {
+          "chem_name": "Pravachol",
+          "dosage": "20 mg p.o. q. day",
+          "mode": "for hyperlipidemia",
+          "frequency": "q. day"
+        },
+        {
+          "chem_name": "Nitroglycerin",
+          "dosage": "tablets sublingual p.r.n.",
+          "mode": "for chest pain",
+          "frequency": "p.r.n."
+        }
+      ]
+    },
+    {
+      "file": "993550.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "948640.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "11995.txt.json",
+      "out": [
+        {
+          "chem_name": "insulin Lente",
+          "dosage": "12 units subcu q p.m.",
+          "mode": "subcutaneous",
+          "frequency": "q p.m."
+        },
+        {
+          "chem_name": "Isordil",
+          "dosage": "30 mg t.i.d.",
+          "mode": "tablet",
+          "frequency": "t.i.d."
+        },
+        {
+          "chem_name": "Zestril",
+          "dosage": "5 mg q d",
+          "mode": "tablet",
+          "frequency": "q d"
+        },
+        {
+          "chem_name": "Lopressor",
+          "dosage": "50 mg b.i.d.",
+          "mode": "tablet",
+          "frequency": "b.i.d."
+        },
+        {
+          "chem_name": "Axid",
+          "dosage": "150 mg p.o. b.i.d.",
+          "mode": "tablet",
+          "frequency": "b.i.d."
+        },
+        {
+          "chem_name": "Ofloxacin",
+          "dosage": "200 mg p.o. q 12",
+          "mode": "tablet",
+          "frequency": "q 12"
+        },
+        {
+          "chem_name": "Ecotrin",
+          "dosage": "225 mg q d",
+          "mode": "tablet",
+          "frequency": "q d"
+        },
+        {
+          "chem_name": "Vancomycin",
+          "dosage": "1250 mg IV q d",
+          "mode": "intravenous",
+          "frequency": "q d"
+        },
+        {
+          "chem_name": "Coumadin",
+          "dosage": "nm",
+          "mode": "tablet",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Percocet",
+          "dosage": "1-2 tablets p.o. q 4 prn",
+          "mode": "tablet",
+          "frequency": "q 4 prn"
+        },
+        {
+          "chem_name": "Colace",
+          "dosage": "100 mg p.o. b.i.d.",
+          "mode": "tablet",
+          "frequency": "b.i.d."
+        }
+      ]
+    },
+    {
+      "file": "508921.txt.json",
+      "out": [
+        {
+          "chem_name": "TYLENOL ( ACETAMINOPHEN )",
+          "dosage": "650 MG PO Q4H PRN headache",
+          "mode": "PO",
+          "frequency": "Q4H PRN headache"
+        },
+        {
+          "chem_name": "VENTOLIN ( ALBUTEROL INHALER )",
+          "dosage": "1-2 PUFF INH QID",
+          "mode": "INH",
+          "frequency": "QID"
+        },
+        {
+          "chem_name": "ECASA ( ASPIRIN ENTERIC COATED )",
+          "dosage": "325 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "ATENOLOL",
+          "dosage": "25 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "CEFTRIAXONE",
+          "dosage": "2 , 000 MG IV QD",
+          "mode": "IV",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "COLACE ( DOCUSATE SODIUM )",
+          "dosage": "100 MG PO BID",
+          "mode": "PO",
+          "frequency": "BID"
+        },
+        {
+          "chem_name": "ENALAPRIL ( ENALAPRIL MALEATE )",
+          "dosage": "2.5 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "PERCOCET",
+          "dosage": "1-2 TAB PO Q4H PRN pain",
+          "mode": "PO",
+          "frequency": "Q4H PRN pain"
+        },
+        {
+          "chem_name": "ZOCOR ( SIMVASTATIN )",
+          "dosage": "5 MG PO QHS",
+          "mode": "PO",
+          "frequency": "QHS"
+        },
+        {
+          "chem_name": "ISOSORBIDE MONONITRATE",
+          "dosage": "30 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "NEXIUM ( ESOMEPRAZOLE )",
+          "dosage": "20 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        }
+      ]
+    },
+    {
+      "file": "367177.txt.json",
+      "out": [
+        {
+          "chem_name": "LISINOPRIL",
+          "dosage": "5 MG PO QD",
+          "mode": "Alert overridden: Override added on 1/24/05 by PAGLIO , NOAH A. , M.D.",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "METFORMIN",
+          "dosage": "1 , 000 MG PO BID",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "LEVOFLOXACIN",
+          "dosage": "250 MG PO QD X 1 doses",
+          "mode": "Starting Today ( 9/14 ) Food/Drug Interaction Instruction",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "LANTUS ( INSULIN GLARGINE )",
+          "dosage": "20 UNITS SC QD",
+          "mode": "Starting Today ( 9/14 )",
+          "frequency": "nm"
+        }
+      ]
+    },
+    {
+      "file": "158995.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "565922.txt.json",
+      "out": [
+        {
+          "chem_name": "Hydrochlorothiazide",
+          "dosage": "12.5 milligrams once a day",
+          "mode": "oral",
+          "frequency": "once a day"
+        },
+        {
+          "chem_name": "Norvasc",
+          "dosage": "5 milligrams once a day",
+          "mode": "oral",
+          "frequency": "once a day"
+        },
+        {
+          "chem_name": "Taxol",
+          "dosage": "28 milligrams once a day",
+          "mode": "intravenous",
+          "frequency": "once a day"
+        },
+        {
+          "chem_name": "Premarin",
+          "dosage": "0.625 milligrams once a day",
+          "mode": "oral",
+          "frequency": "once a day"
+        },
+        {
+          "chem_name": "Trazodone",
+          "dosage": "nm",
+          "mode": "oral",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Insulin",
+          "dosage": "12 units of regular and 50 units of NPH in the morning and 14 units of regular and 10 units of NPH in the evening",
+          "mode": "subcutaneous",
+          "frequency": "twice a day"
+        },
+        {
+          "chem_name": "Ansaid",
+          "dosage": "100 milligrams p.o. b.i.d. p.r.n. joint pain",
+          "mode": "oral",
+          "frequency": "twice a day"
+        },
+        {
+          "chem_name": "Baby Aspirin",
+          "dosage": "81 milligrams once a day",
+          "mode": "oral",
+          "frequency": "once a day"
+        }
+      ]
+    },
+    {
+      "file": "614396.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "442126.txt.json",
+      "out": [
+        {
+          "chem_name": "Aspirin",
+          "dosage": "325 mg q.d.",
+          "mode": "p.o.",
+          "frequency": "q.d."
+        },
+        {
+          "chem_name": "Atenolol",
+          "dosage": "125 mg p.o. b.i.d.",
+          "mode": "p.o.",
+          "frequency": "b.i.d."
+        },
+        {
+          "chem_name": "Captopril",
+          "dosage": "100 mg p.o. t.i.d.",
+          "mode": "p.o.",
+          "frequency": "t.i.d."
+        },
+        {
+          "chem_name": "Colace",
+          "dosage": "100 mg p.o. t.i.d.",
+          "mode": "p.o.",
+          "frequency": "t.i.d."
+        },
+        {
+          "chem_name": "Lasix",
+          "dosage": "40 mg p.o. q.d.",
+          "mode": "p.o.",
+          "frequency": "q.d."
+        },
+        {
+          "chem_name": "insulin NPH",
+          "dosage": "22 units q.a.m.",
+          "mode": "subcu",
+          "frequency": "q.a.m."
+        },
+        {
+          "chem_name": "regular insulin",
+          "dosage": "10 units q.a.m.",
+          "mode": "subcu",
+          "frequency": "q.a.m."
+        },
+        {
+          "chem_name": "Coumadin",
+          "dosage": "dosed to INR of 2 to 2.5",
+          "mode": "p.o.",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Amlodipine",
+          "dosage": "5 mg p.o. q.d.",
+          "mode": "p.o.",
+          "frequency": "q.d."
+        }
+      ]
+    },
+    {
+      "file": "944118.txt.json",
+      "out": [
+        {
+          "chem_name": "ACETYLSALICYLIC ACID",
+          "dosage": "81 MG PO DAILY",
+          "mode": "Starting Today ( 10/27 )",
+          "frequency": "DAILY"
+        },
+        {
+          "chem_name": "LIPITOR (ATORVASTATIN)",
+          "dosage": "10 MG PO DAILY",
+          "mode": "Starting Today ( 10/27 )",
+          "frequency": "DAILY"
+        },
+        {
+          "chem_name": "GLYBURIDE",
+          "dosage": "2.5 MG PO DAILY X 60 doses",
+          "mode": "Starting Today ( 10/27 )",
+          "frequency": "DAILY"
+        },
+        {
+          "chem_name": "METFORMIN",
+          "dosage": "500 MG PO BID",
+          "mode": "Starting Today ( 10/27 )",
+          "frequency": "BID"
+        }
+      ]
+    },
+    {
+      "file": "910475.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "874479.txt.json",
+      "out": [
+        {
+          "chem_name": "Theo-Dur",
+          "dosage": "200 milligrams by mouth 3 times a day",
+          "mode": "oral",
+          "frequency": "3 times a day"
+        },
+        {
+          "chem_name": "prednisone",
+          "dosage": "60 milligrams by mouth each day",
+          "mode": "oral",
+          "frequency": "1 time a day"
+        },
+        {
+          "chem_name": "Albuterol nebulizer",
+          "dosage": "nm",
+          "mode": "nebulizer",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "ampicillin",
+          "dosage": "500 milligrams by mouth 3 times a day",
+          "mode": "oral",
+          "frequency": "3 times a day"
+        },
+        {
+          "chem_name": "Bronkosol",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Keflex",
+          "dosage": "500 milligrams by mouth 4 times a day",
+          "mode": "oral",
+          "frequency": "4 times a day"
+        },
+        {
+          "chem_name": "prednisone",
+          "dosage": "50 milligrams by mouth each day",
+          "mode": "oral",
+          "frequency": "1 time a day"
+        }
+      ]
+    },
+    {
+      "file": "801284.txt.json",
+      "out": [
+        {
+          "chem_name": "ALBUTEROL INHALER",
+          "dosage": "2 PUFF INH QID PRN SOB",
+          "mode": "INHALATION",
+          "frequency": "QID PRN SOB"
+        },
+        {
+          "chem_name": "ECASA (ASPIRIN ENTERIC COATED)",
+          "dosage": "325 MG PO QD",
+          "mode": "ORAL",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "ATENOLOL",
+          "dosage": "50 MG PO QD",
+          "mode": "ORAL",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "LISINOPRIL",
+          "dosage": "5 MG PO QD",
+          "mode": "ORAL",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "NITROGLYCERIN",
+          "dosage": "1/150 ( 0.4 MG ) 1 TAB SL Q5 MIN X 3",
+          "mode": "SUBLANGUAL",
+          "frequency": "Q5MINX3"
+        },
+        {
+          "chem_name": "TERBUTALINE (TERBUTALINE SULFATE)",
+          "dosage": "5 MG PO QID",
+          "mode": "ORAL",
+          "frequency": "QID"
+        },
+        {
+          "chem_name": "AZMACORT (TRIAMCINOLONE ACETONIDE)",
+          "dosage": "2 PUFF INH QID",
+          "mode": "INHALATION",
+          "frequency": "QID"
+        },
+        {
+          "chem_name": "KEFLEX (CEPHALEXIN)",
+          "dosage": "500 MG PO QID",
+          "mode": "ORAL",
+          "frequency": "QID"
+        },
+        {
+          "chem_name": "IMDUR (ISOSORBIDE MONONIT.( SR ))",
+          "dosage": "30 MG PO QD",
+          "mode": "ORAL",
+          "frequency": "QD"
+        }
+      ]
+    },
+    {
+      "file": "549067.txt.json",
+      "out": [
+        {
+          "chem_name": "Avandia",
+          "dosage": "4 mg b.i.d.",
+          "mode": "b.i.d.",
+          "frequency": ""
+        },
+        {
+          "chem_name": "lisinopril",
+          "dosage": "20 mg b.i.d.",
+          "mode": "b.i.d.",
+          "frequency": ""
+        },
+        {
+          "chem_name": "Hytrin",
+          "dosage": "one q.h.s.",
+          "mode": "q.h.s.",
+          "frequency": ""
+        },
+        {
+          "chem_name": "Lasix",
+          "dosage": "80 mg x1",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "chem_name": "spironolactone",
+          "dosage": "25 mg x3",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "chem_name": "atenolol",
+          "dosage": "50 mg b.i.d.",
+          "mode": "b.i.d.",
+          "frequency": ""
+        },
+        {
+          "chem_name": "Lipitor",
+          "dosage": "10 mg x1",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "chem_name": "Flovent",
+          "dosage": "nm",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "chem_name": "Bextra",
+          "dosage": "10 mg x1",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "chem_name": "Nexium",
+          "dosage": "20 mg x1",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "chem_name": "Humulin",
+          "dosage": "22 units q.a.m.",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "chem_name": "Coumadin",
+          "dosage": "5 mg",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "chem_name": "baby aspirin",
+          "dosage": "81 mg",
+          "mode": "",
+          "frequency": ""
+        }
+      ]
+    },
+    {
+      "file": "182634.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "573300.txt.json",
+      "out": {
+        "error": "\n[\n  {\n    \"chem_name\": \"Toprol-XL\",\n    \"dosage\": \"200 mg b.i.d.\",\n    \"mode\": \"oral\",\n    \"frequency\": \"q.a.c.\"\n  },\n  {\n    \"chem_name\": \"Coumadin\",\n    \"dosage\": \"variable dosage to be determined based on INR\",\n    \"mode\": \"oral\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Acetaminophen\",\n    \"dosage\": \"325-650 mg q. 4h.\",\n    \"mode\": \"oral\",\n    \"frequency\": \"p.r.n.\"\n  },\n  {\n    \"chem_name\": \"DuoNeb\",\n    \"dosage\": \"q. 6h.\",\n    \"mode\": \"nebulizer\",\n    \"frequency\": \"p.r.n.\"\n  },\n  {\n    \"chem_name\": \"enteric-coated aspirin\",\n    \"dosage\": \"81 mg daily\",\n    \"mode\": \"oral\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Dulcolax\",\n    \"dosage\": \"10 mg PR daily p.r.n.\",\n    \"mode\": \"oral\",\n    \"frequency\": \"p.r.n.\"\n  },\n  {\n    \"chem_name\": \"Celexa\",\n    \"dosage\": \"10 mg daily\",\n    \"mode\": \"oral\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Colace\",\n    \"dosage\": \"100 mg t.i.d.\",\n    \"mode\": \"oral\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Nexium\",\n    \"dosage\": \"20 mg daily\",\n    \"mode\": \"oral\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Lasix\",\n    \"dosage\": \"20 mg daily for 5 days\",\n    \"mode\": \"oral\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Neurontin\",\n    \"dosage\": \"100 mg t.i.d.\",\n    \"mode\": \"oral\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Robitussin\",\n    \"dosage\": \"10 mL q. 6h.\",\n    \"mode\": \"oral\",\n    \"frequency\": \"p.r.n.\"\n  },\n  {\n    \"chem_name\": \"NovoLog insulin\",\n    \"dosage\": \"sliding scale q.a.c. and at bedtime, 14 units subq with lunch and supper, 22 units subq with breakfast, 42 units subq at 10 p.m.\",\n    \"mode\": \"subcutaneous\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Lantus insulin\",\n    \"dosage\": \"42 units subq at 10 p.m.\",\n    \"mode\": \"subcutaneous\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Atrovent nebulizers\",\n    \"dosage\": \"q.i.d.\",\n    \"mode\": \"nebulizer\",\n    \"frequency\": \"p.r.n.\"\n  },\n  {\n    \"chem_name\": \"miconazole nitrate powder\",\n    \"dosage\": \"topical apply to effected areas\",\n    \"mode\": \"topical\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Niferex\",\n    \"dosage\": \"150 mg b.i.d.\",\n    \"mode\": \"oral\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"simvastatin\",\n    \"dosage\": \"40 mg at bedtime\",\n    \"mode\": \"oral\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name"
+      }
+    },
+    {
+      "file": "156908.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "901540.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "410277.txt.json",
+      "out": {
+        "error": "\n[\n  {\n    \"chem_name\": \"Calcium carbonate\",\n    \"dosage\": \"1250 mg t.i.d.\",\n    \"mode\": \"oral\",\n    \"frequency\": \"t.i.d.\"\n  },\n  {\n    \"chem_name\": \"Cartia XT\",\n    \"dosage\": \"300 mg daily\",\n    \"mode\": \"oral\",\n    \"frequency\": \"daily\"\n  },\n  {\n    \"chem_name\": \"CellCept\",\n    \"dosage\": \"1500 mg b.i.d.\",\n    \"mode\": \"oral\",\n    \"frequency\": \"b.i.d.\"\n  },\n  {\n    \"chem_name\": \"colchicine\",\n    \"dosage\": \"0.6 mg daily p.r.n.\",\n    \"mode\": \"oral\",\n    \"frequency\": \"daily\"\n  },\n  {\n    \"chem_name\": \"Neoral\",\n    \"dosage\": \"150 mg b.i.d.\",\n    \"mode\": \"oral\",\n    \"frequency\": \"b.i.d.\"\n  },\n  {\n    \"chem_name\": \"folate\",\n    \"dosage\": \"1 mg daily\",\n    \"mode\": \"oral\",\n    \"frequency\": \"daily\"\n  },\n  {\n    \"chem_name\": \"K-dur\",\n    \"dosage\": \"20 mg daily\",\n    \"mode\": \"oral\",\n    \"frequency\": \"daily\"\n  },\n  {\n    \"chem_name\": \"magnesium oxide\",\n    \"dosage\": \"400 mg b.i.d.\",\n    \"mode\": \"oral\",\n    \"frequency\": \"b.i.d.\"\n  },\n  {\n    \"chem_name\": \"methotrexate\",\n    \"dosage\": \"2.5 mg daily\",\n    \"mode\": \"oral\",\n    \"frequency\": \"daily\"\n  },\n  {\n    \"chem_name\": \"Pravastatin\",\n    \"dosage\": \"20 mg daily\",\n    \"mode\": \"oral\",\n    \"frequency\": \"daily\"\n  },\n  {\n    \"chem_name\": \"prednisone\",\n    \"dosage\": \"7 mg daily\",\n    \"mode\": \"oral\",\n    \"frequency\": \"daily\"\n  },\n  {\n    \"chem_name\": \"Rocaltrol\",\n    \"dosage\": \"0.25 mg daily\",\n    \"mode\": \"oral\",\n    \"frequency\": \"daily\"\n  },\n  {\n    \"chem_name\": \"Synthroid\",\n    \"dosage\": \"150 mcg daily\",\n    \"mode\": \"oral\",\n    \"frequency\": \"daily\"\n  },\n  {\n    \"chem_name\": \"Torsemide\",\n    \"dosage\": \"40 mg daily\",\n    \"mode\": \"oral\",\n    \"frequency\": \"daily\"\n  },\n  {\n    \"chem_name\": \"Vitamin C\",\n    \"dosage\": \"500 mg b.i.d.\",\n    \"mode\": \"oral\",\n    \"frequency\": \"b.i.d.\"\n  },\n  {\n    \"chem_name\": \"Vitamin E\",\n    \"dosage\": \"400 units daily\",\n    \"mode\": \"oral\",\n    \"frequency\": \"daily\"\n  },\n  {\n    \"chem_name\": \"Lantus insulin (Glargine)\",\n    \"dosage\": \"40 units subcutaneous q.a.m.\",\n    \"mode\": \"subcutaneous\",\n    \"frequency\": \"q.a.m.\"\n  },\n  {\n    \"chem_name\": \"Novolog insulin\",\n    \"dosage\": \"12 units before breakfast, 12 units before lunch, 14 units before dinner\",\n    \"mode\": \"subcutaneous\",\n    \"frequency\": \"before meals\"\n  },\n  {\n    \"chem_name\": \"Novolog sliding scale\",\n    \"dosage\": \"If blood sugar is 150-200 take 4 units, if blood sugar is 201-25"
+      }
+    },
+    {
+      "file": "197702.txt.json",
+      "out": {
+        "error": "``\n[\n  {\n    \"chem_name\": \"ACETYLSALICYLIC ACID\",\n    \"dosage\": \"81 MG PO DAILY\",\n    \"mode\": \"Starting Today ( 6/17 )\",\n    \"frequency\": \"\"\n  },\n  {\n    \"chem_name\": \"ATENOLOL\",\n    \"dosage\": \"100 MG PO BID Starting Today ( 6/17 )\",\n    \"mode\": \"\",\n    \"frequency\": \"\"\n  },\n  {\n    \"chem_name\": \"LISTATIN\",\n    \"dosage\": \"40 MG PO DAILY\",\n    \"mode\": \"Starting Today ( 6/17 )\",\n    \"frequency\": \"\"\n  },\n  {\n    \"chem_name\": \"ZETIA\",\n    \"dosage\": \"10 MG PO DAILY\",\n    \"mode\": \"\",\n    \"frequency\": \"\"\n  },\n  {\n    \"chem_name\": \"HYDROCHLOROTHIAZIDE\",\n    \"dosage\": \"50 MG PO DAILY\",\n    \"mode\": \"\",\n    \"frequency\": \"\"\n  },\n  {\n    \"chem_name\": \"IMDUR ER\",\n    \"dosage\": \"120 MG PO DAILY\",\n    \"mode\": \"Food/Drug Interaction Instruction\",\n    \"frequency\": \"\"\n  },\n  {\n    \"chem_name\": \"LISINOPRIL\",\n    \"dosage\": \"40 MG PO DAILY Starting Today ( 6/17 )\",\n    \"mode\": \"\",\n    \"frequency\": \"\"\n  }\n]\n"
+      }
+    },
+    {
+      "file": "937042.txt.json",
+      "out": [
+        {
+          "chem_name": "Lopressor",
+          "dosage": "25 orally every 6 hours",
+          "mode": "oral",
+          "frequency": "every 6 hours"
+        },
+        {
+          "chem_name": "Diltiazem",
+          "dosage": "125 mg orally daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Aspirin",
+          "dosage": "325 mg orally daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Furosemide",
+          "dosage": "20 mg orally daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Methylprednisolone",
+          "dosage": "30 mg IV every 8 hours",
+          "mode": "IV",
+          "frequency": "every 8 hours"
+        },
+        {
+          "chem_name": "Atorvastatin",
+          "dosage": "80 mg orally daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Allopurinol",
+          "dosage": "100 mg orally daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Ativan",
+          "dosage": "0.5 mg orally at bedtime",
+          "mode": "oral",
+          "frequency": "at bedtime"
+        },
+        {
+          "chem_name": "Nexium",
+          "dosage": "20 mg orally daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Proscar",
+          "dosage": "5 mg orally every night",
+          "mode": "oral",
+          "frequency": "every night"
+        }
+      ]
+    },
+    {
+      "file": "293045.txt.json",
+      "out": [
+        {
+          "chem_name": "ECASA (ASPIRIN ENTERIC COATED)",
+          "dosage": "325 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "CAPTOPRIL",
+          "dosage": "12.5 MG PO TID HOLD IF: sbp<95",
+          "mode": "PO",
+          "frequency": "TID HOLD"
+        },
+        {
+          "chem_name": "LEVOXYL (LEVOTHYROXINE SODIUM)",
+          "dosage": "100 MCG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "NITROGLYCERIN 1/150 (0.4 MG)",
+          "dosage": "1 TAB SL Q5 MIN X 3 PRN Chest Pain HOLD IF: SBP<[]",
+          "mode": "SL",
+          "frequency": "Q5 MIN X 3 PRN"
+        },
+        {
+          "chem_name": "ZOCOR (SIMVASTATIN)",
+          "dosage": "20 MG PO QHS",
+          "mode": "PO",
+          "frequency": "QHS"
+        },
+        {
+          "chem_name": "PLAVIX (CLOPIDOGREL)",
+          "dosage": "75 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "ATENOLOL",
+          "dosage": "25 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "NITROPATCH (NITROGLYCERIN PATCH)",
+          "dosage": "0.2 MG/HR TP QHS",
+          "mode": "TP",
+          "frequency": "QHS"
+        },
+        {
+          "chem_name": "GLYBURIDE",
+          "dosage": "5 MG PO BID",
+          "mode": "PO",
+          "frequency": "BID"
+        },
+        {
+          "chem_name": "ISORDIL (ISOSORBIDE DINITRATE)",
+          "dosage": "10 MG PO BID",
+          "mode": "PO",
+          "frequency": "BID"
+        }
+      ]
+    },
+    {
+      "file": "731937.txt.json",
+      "out": [
+        {
+          "chem_name": "Aspirin",
+          "dosage": "Lasix 20 mg p.o. t.i.d.",
+          "mode": "p.o.",
+          "frequency": "t.i.d."
+        },
+        {
+          "chem_name": "Lopressor",
+          "dosage": "37.5 mg p.o. q.6h.",
+          "mode": "p.o.",
+          "frequency": "q.6h."
+        },
+        {
+          "chem_name": "Natural Tears",
+          "dosage": "one drop O.U.",
+          "mode": "O.U.",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Colace",
+          "dosage": "100 mg p.o. t.i.d.",
+          "mode": "p.o.",
+          "frequency": "t.i.d."
+        },
+        {
+          "chem_name": "Insulin Regular Humulin",
+          "dosage": "4 units subcu",
+          "mode": "subcu",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Lactinex Granules",
+          "dosage": "2 tabs p.o.",
+          "mode": "p.o.",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Magnesium Sulfate",
+          "dosage": "sliding scale intravenously",
+          "mode": "intravenously",
+          "frequency": "sliding scale"
+        },
+        {
+          "chem_name": "Penicillin G",
+          "dosage": "4 million units IV",
+          "mode": "IV",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Vancomycin",
+          "dosage": "1000 mg IV",
+          "mode": "IV",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Nexium",
+          "dosage": "20 mg p.o. daily",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Lantus",
+          "dosage": "22 units subcu q.p.m.",
+          "mode": "subcu",
+          "frequency": "q.p.m."
+        },
+        {
+          "chem_name": "NovoLog",
+          "dosage": "sliding scale SC",
+          "mode": "SC",
+          "frequency": "sliding scale"
+        }
+      ]
+    },
+    {
+      "file": "699364.txt.json",
+      "out": {
+        "error": "\n[\n  {\n    \"chem_name\": \"Aspirin\",\n    \"dosage\": \"325 mg p.o. q.d.\",\n    \"mode\": \"p.o.\",\n    \"frequency\": \"q.d.\"\n  },\n  {\n    \"chem_name\": \"Amiodarone\",\n    \"dosage\": \"200 mg p.o. q.d.\",\n    \"mode\": \"p.o.\",\n    \"frequency\": \"q.d.\"\n  },\n  {\n    \"chem_name\": \"Digoxin\",\n    \"dosage\": \"0.125 mg p.o. q.o.d.\",\n    \"mode\": \"p.o.\",\n    \"frequency\": \"q.o.d.\"\n  },\n  {\n    \"chem_name\": \"Colace\",\n    \"dosage\": \"100 mg p.o. b.i.d.\",\n    \"mode\": \"p.o.\",\n    \"frequency\": \"b.i.d.\"\n  },\n  {\n    \"chem_name\": \"Folate\",\n    \"dosage\": \"1 mg p.o. q.d.\",\n    \"mode\": \"p.o.\",\n    \"frequency\": \"q.d.\"\n  },\n  {\n    \"chem_name\": \"Robitussin A-C\",\n    \"dosage\": \"5 mL p.o. q.4h. p.r.n. cough.\",\n    \"mode\": \"p.o.\",\n    \"frequency\": \"q.4h.\"\n  },\n  {\n    \"chem_name\": \"Hydralazine\",\n    \"dosage\": \"50 mg p.o. t.i.d.\",\n    \"mode\": \"p.o.\",\n    \"frequency\": \"t.i.d.\"\n  },\n  {\n    \"chem_name\": \"Isordil\",\n    \"dosage\": \"20 mg p.o. t.i.d.\",\n    \"mode\": \"p.o.\",\n    \"frequency\": \"t.i.d.\"\n  },\n  {\n    \"chem_name\": \"Lopressor\",\n    \"dosage\": \"12.5 mg p.o. q.6h.\",\n    \"mode\": \"p.o.\",\n    \"frequency\": \"q.6h.\"\n  },\n  {\n    \"chem_name\": \"Simethicone\",\n    \"dosage\": \"80 mg p.o. q.i.d. p.r.n. upset stomach.\",\n    \"mode\": \"p.o.\",\n    \"frequency\": \"q.i.d.\"\n  },\n  {\n    \"chem_name\": \"Multivitamin\",\n    \"dosage\": \"1 tab p.o. q.d.\",\n    \"mode\": \"p.o.\",\n    \"frequency\": \"q.d.\"\n  },\n  {\n    \"chem_name\": \"Compazine\",\n    \"dosage\": \"5-10 mg p.o. q.6h. p.r.n. nausea.\",\n    \"mode\": \"p.o.\",\n    \"frequency\": \"q.6h.\"\n  },\n  {\n    \"chem_name\": \"Tessalon\",\n    \"dosage\": \"100 mg p.o. t.i.d. p.r.n. cough.\",\n    \"mode\": \"p.o.\",\n    \"frequency\": \"t.i.d.\"\n  },\n  {\n    \"chem_name\": \"Torsemide\",\n    \"dosage\": \"100 mg p.o. q.d.\",\n    \"mode\": \"p.o.\",\n    \"frequency\": \"q.d.\"\n  },\n  {\n    \"chem_name\": \"Lipitor\",\n    \"dosage\": \"80 mg p.o. q.d.\",\n    \"mode\": \"p.o.\",\n    \"frequency\": \"q.d.\"\n  },\n  {\n    \"chem_name\": \"Plavix\",\n    \"dosage\": \"75 mg p.o. q.d.\",\n    \"mode\": \"p.o.\",\n    \"frequency\": \"q.d.\"\n  },\n  {\n    \"chem_name\": \"Lantus\",\n    \"dosage\": \"5 units subcu q"
+      }
+    },
+    {
+      "file": "818404.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "858069.txt.json",
+      "out": {
+        "error": "``\n[\n  {\n    \"chem_name\": \"ACETYLSALICYLIC ACID\",\n    \"dosage\": \"325 MG PO DAILY\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  },\n  {\n    \"chem_name\": \"ATENOLOL\",\n    \"dosage\": \"37.5 MG PO DAILY\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  },\n  {\n    \"chem_name\": \"CAPTOPRIL\",\n    \"dosage\": \"12.5 MG PO BID\",\n    \"mode\": \"PO\",\n    \"frequency\": \"BID\"\n  },\n  {\n    \"chem_name\": \"CELEXA\",\n    \"dosage\": \"40 MG PO DAILY\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  },\n  {\n    \"chem_name\": \"LOVASTATIN\",\n    \"dosage\": \"40 MG PO DAILY\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  },\n  {\n    \"chem_name\": \"OMEPRAZOLE\",\n    \"dosage\": \"20 MG PO DAILY\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  },\n  {\n    \"chem_name\": \"TEMAZEPAM\",\n    \"dosage\": \"15-30 MG PO BEDTIME PRN Insomnia\",\n    \"mode\": \"PO\",\n    \"frequency\": \"BEDTIME\"\n  },\n  {\n    \"chem_name\": \"COUMADIN\",\n    \"dosage\": \"1 MG PO QPM\",\n    \"mode\": \"PO\",\n    \"frequency\": \"QPM\"\n  }\n]\n"
+      }
+    },
+    {
+      "file": "658896.txt.json",
+      "out": [
+        {
+          "chem_name": "Lisinopril",
+          "dosage": "20 mg p.o. q. day.",
+          "mode": "p.o.",
+          "frequency": "q. day."
+        },
+        {
+          "chem_name": "Diltiazem",
+          "dosage": "240 mg p.o. q. day.",
+          "mode": "p.o.",
+          "frequency": "q. day."
+        },
+        {
+          "chem_name": "Lisinopril",
+          "dosage": "40 mg p.o. q. daily.",
+          "mode": "p.o.",
+          "frequency": "q. daily."
+        },
+        {
+          "chem_name": "Hydrochlorothiazide",
+          "dosage": "25 mg p.o. q. daily.",
+          "mode": "p.o.",
+          "frequency": "q. daily."
+        },
+        {
+          "chem_name": "Atenolol",
+          "dosage": "100 mg p.o. q. daily.",
+          "mode": "p.o.",
+          "frequency": "q. daily."
+        }
+      ]
+    },
+    {
+      "file": "159637.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "435683.txt.json",
+      "out": [
+        {
+          "chem_name": "vancomycin",
+          "dosage": "empirically covered on admission",
+          "mode": "intravenous",
+          "frequency": "discontinued on 4/21/06"
+        },
+        {
+          "chem_name": "Levaquin",
+          "dosage": "empirically covered on admission",
+          "mode": "intravenous",
+          "frequency": "discontinued on 4/21/06"
+        },
+        {
+          "chem_name": "gentamicin",
+          "dosage": "empirically covered on admission",
+          "mode": "intravenous",
+          "frequency": "discontinued on 4/21/06"
+        },
+        {
+          "chem_name": "heparin",
+          "dosage": "unfractionated heparin for her presumed PE",
+          "mode": "subcutaneous",
+          "frequency": "discontinued on 12/06"
+        },
+        {
+          "chem_name": "Lovenox",
+          "dosage": "changed to Lovenox in the morning of that day on 120 mg subq",
+          "mode": "subcutaneous",
+          "frequency": "discontinued on 4/21/06"
+        },
+        {
+          "chem_name": "Coumadin",
+          "dosage": "initially given 10 , then a dose of 5 and then 2 dose of 7.5",
+          "mode": "oral",
+          "frequency": "therapeutic on the day of discharge at 2.5"
+        },
+        {
+          "chem_name": "Ativan",
+          "dosage": "given a little bit while in-house to help with her agitation and anxiety",
+          "mode": "oral",
+          "frequency": "discontinued on 8/4/06"
+        },
+        {
+          "chem_name": "Haldol",
+          "dosage": "given a little bit while in-house to help with her agitation and anxiety",
+          "mode": "oral",
+          "frequency": "discontinued on 8/4/06"
+        },
+        {
+          "chem_name": "methadone",
+          "dosage": "switched from 20 mg p.o. daily to 10 mg p.o. b.i.d.",
+          "mode": "oral",
+          "frequency": "continued"
+        }
+      ]
+    },
+    {
+      "file": "367173.txt.json",
+      "out": [
+        {
+          "chem_name": "bicarb",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "epi drip",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Lasix",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Integrilin",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "dopamine",
+          "dosage": "16",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "amio",
+          "dosage": "1",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "propofol",
+          "dosage": "1",
+          "mode": "nm",
+          "frequency": "nm"
+        }
+      ]
+    },
+    {
+      "file": "359997.txt.json",
+      "out": {
+        "error": "\n[\n  {\n    \"chem_name\": \"Prednisone\",\n    \"dosage\": \"5 mg p.o. b.i.d.\",\n    \"mode\": \"Admission\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Lasix\",\n    \"dosage\": \"40 mg p.o. q. day.\",\n    \"mode\": \"Admission\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Zocor\",\n    \"dosage\": \"40 mg p.o. q. day.\",\n    \"mode\": \"Admission\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Atenolol\",\n    \"dosage\": \"25 mg p.o. q. day.\",\n    \"mode\": \"Admission\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Nitropatch\",\n    \"dosage\": \"nm\",\n    \"mode\": \"Admission\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Enteric coated aspirin\",\n    \"dosage\": \"p.o. q. day.\",\n    \"mode\": \"Admission\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Timolol eye drops\",\n    \"dosage\": \"to his left eye.\",\n    \"mode\": \"Admission\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Captopril\",\n    \"dosage\": \"18.75 mg p.o. three times a day.\",\n    \"mode\": \"Admission\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Tagamet\",\n    \"dosage\": \"50 mg p.o. twice a day.\",\n    \"mode\": \"Admission\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Calcium supplementation\",\n    \"dosage\": \"nm\",\n    \"mode\": \"Admission\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Prednisone\",\n    \"dosage\": \"5 mg p.o. twice a day.\",\n    \"mode\": \"Discharge\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Enteric coated aspirin\",\n    \"dosage\": \"325 mg p.o. q. day.\",\n    \"mode\": \"Discharge\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Zantac\",\n    \"dosage\": \"150 mg p.o. twice a day.\",\n    \"mode\": \"Discharge\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Niferex\",\n    \"dosage\": \"150 mg p.o. twice a day.\",\n    \"mode\": \"Discharge\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Atrovent nebulizer\",\n    \"dosage\": \"0.5 mg four times a day.\",\n    \"mode\": \"Discharge\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Timolol eye drops\",\n    \"dosage\": \"0.5% one drop in both eyes twice a day.\",\n    \"mode\": \"Discharge\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Atenolol\",\n    \"dosage\": \"25 mg p.o. twice a day.\",\n    \"mode\": \"Discharge\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Captopril\",\n    \"dosage\": \"12.5 mg p.o. three times a day.\",\n    \"mode\": \"Discharge\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"Lasix\",\n    \"dosage\": \"40 mg p.o. q. day.\",\n    \"mode\": \""
+      }
+    },
+    {
+      "file": "940794.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "993109.txt.json",
+      "out": [
+        {
+          "chem_name": "DIAZEPAM",
+          "dosage": "10 MG PO QAM Starting Today March",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "LOPRESSOR (METOPROLOL TARTRATE)",
+          "dosage": "25 MG PO BID",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "PAXIL (PAROXETINE)",
+          "dosage": "20 MG PO QD",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "ZOCOR (SIMVASTATIN)",
+          "dosage": "40 MG PO QHS",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "LISINOPRIL",
+          "dosage": "10 MG PO QD",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "ACETYLSALICYLIC ACID",
+          "dosage": "81 MG PO QOD",
+          "mode": "nm",
+          "frequency": "nm"
+        }
+      ]
+    },
+    {
+      "file": "995723.txt.json",
+      "out": [
+        {
+          "chem_name": "Aspirin",
+          "dosage": "81 mg p.o. q. day",
+          "mode": "p.o.",
+          "frequency": "q. day"
+        },
+        {
+          "chem_name": "Prilosec",
+          "dosage": "20 mg p.o. q. day",
+          "mode": "p.o.",
+          "frequency": "q. day"
+        },
+        {
+          "chem_name": "Simvastatin",
+          "dosage": "40 mg p.o. q. day",
+          "mode": "p.o.",
+          "frequency": "q. day"
+        },
+        {
+          "chem_name": "Cyclosporine",
+          "dosage": "125 mg p.o. in the morning and 100 mg p.o. in the afternoon",
+          "mode": "p.o.",
+          "frequency": "q. a.m. and q. p.m."
+        },
+        {
+          "chem_name": "Insulin",
+          "dosage": "sliding scale",
+          "mode": "p.o.",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Lasix",
+          "dosage": "60 mg p.o. q. day",
+          "mode": "p.o.",
+          "frequency": "q. day"
+        },
+        {
+          "chem_name": "Atenolol",
+          "dosage": "75 mg p.o. q. day",
+          "mode": "p.o.",
+          "frequency": "q. day"
+        },
+        {
+          "chem_name": "Prednisone",
+          "dosage": "5 mg p.o. on even days, 10 mg p.o. on odd days",
+          "mode": "p.o.",
+          "frequency": "on even days and odd days"
+        },
+        {
+          "chem_name": "Cellcept",
+          "dosage": "1 , 000 mg p.o. b.i.d.",
+          "mode": "p.o.",
+          "frequency": "b.i.d."
+        },
+        {
+          "chem_name": "Prempro",
+          "dosage": "0.625/0.25 mg p.o. q. day",
+          "mode": "p.o.",
+          "frequency": "q. day"
+        }
+      ]
+    },
+    {
+      "file": "957953.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "811352.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "172366.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "689300.txt.json",
+      "out": [
+        {
+          "chem_name": "SYNTHROID ( LEVOTHYROXINE SODIUM )",
+          "dosage": "100 MCG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "NEXIUM ( ESOMEPRAZOLE )",
+          "dosage": "40 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "LIPITOR ( ATORVASTATIN )",
+          "dosage": "10 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "TOPROL XL ( METOPROLOL ( SUST. REL. ) )",
+          "dosage": "50 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        }
+      ]
+    },
+    {
+      "file": "98718.txt.json",
+      "out": [
+        {
+          "chem_name": "levofloxacin",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "vancomycin",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Ancef",
+          "dosage": "1 gm IV q.8h.",
+          "mode": "IV",
+          "frequency": "q.8h."
+        },
+        {
+          "chem_name": "Augmentin",
+          "dosage": "875/125 mg b.i.d.",
+          "mode": "nm",
+          "frequency": "b.i.d."
+        },
+        {
+          "chem_name": "Diflucan",
+          "dosage": "200 mg daily for one dose",
+          "mode": "nm",
+          "frequency": "daily"
+        }
+      ]
+    },
+    {
+      "file": "920102.txt.json",
+      "out": [
+        {
+          "chem_name": "Lisinopril",
+          "dosage": "20 mg p.o. daily",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Atorvastatin",
+          "dosage": "40 mg p.o. daily",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Xanax",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Aspirin",
+          "dosage": "325 mg p.o. q. day",
+          "mode": "p.o.",
+          "frequency": "q. day"
+        },
+        {
+          "chem_name": "Niferex",
+          "dosage": "150 mg p.o. b.i.d.",
+          "mode": "p.o.",
+          "frequency": "b.i.d."
+        },
+        {
+          "chem_name": "Oxycodone",
+          "dosage": "5 mg p.o. q.6h. p.r.n. pain",
+          "mode": "p.o.",
+          "frequency": "q.6h. p.r.n. pain"
+        },
+        {
+          "chem_name": "Toprol XL",
+          "dosage": "100 mg p.o. q. day",
+          "mode": "p.o.",
+          "frequency": "q. day"
+        },
+        {
+          "chem_name": "Flovent",
+          "dosage": "44 mcg inhaler b.i.d.",
+          "mode": "inhaler",
+          "frequency": "b.i.d."
+        },
+        {
+          "chem_name": "Lipitor",
+          "dosage": "40 mg p.o. daily",
+          "mode": "p.o.",
+          "frequency": "daily"
+        }
+      ]
+    },
+    {
+      "file": "269404.txt.json",
+      "out": [
+        {
+          "chem_name": "Lopressor",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Norvasc",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Levofloxacin",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Vancomycin",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        }
+      ]
+    },
+    {
+      "file": "881168.txt.json",
+      "out": {
+        "error": "\n[\n  {\n    \"chem_name\": \"TYLENOL ( ACETAMINOPHEN )\",\n    \"dosage\": \"650 MG PO Q4H PRN Headache\",\n    \"mode\": \"PO\",\n    \"frequency\": \"Q4H PRN\"\n  },\n  {\n    \"chem_name\": \"ALBUTEROL NEBULIZER\",\n    \"dosage\": \"2.5 MG NEB Q2H\",\n    \"mode\": \"NEB\",\n    \"frequency\": \"Q2H\"\n  },\n  {\n    \"chem_name\": \"ECASA ( ASPIRIN ENTERIC COATED )\",\n    \"dosage\": \"325 MG PO QD\",\n    \"mode\": \"PO\",\n    \"frequency\": \"QD\"\n  },\n  {\n    \"chem_name\": \"COLACE ( DOCUSATE SODIUM )\",\n    \"dosage\": \"100 MG PO BID\",\n    \"mode\": \"PO\",\n    \"frequency\": \"BID\"\n  },\n  {\n    \"chem_name\": \"LASIX ( FUROSEMIDE )\",\n    \"dosage\": \"80 MG PO BID Starting Today ( 0/29 )\",\n    \"mode\": \"PO\",\n    \"frequency\": \"BID\"\n  },\n  {\n    \"chem_name\": \"INSULIN NPH HUMAN\",\n    \"dosage\": \"110 UNITS SC QAM\",\n    \"mode\": \"SC\",\n    \"frequency\": \"QAM\"\n  },\n  {\n    \"chem_name\": \"INSULIN NPH HUMAN\",\n    \"dosage\": \"30 UNITS SC QPM\",\n    \"mode\": \"SC\",\n    \"frequency\": \"QPM\"\n  },\n  {\n    \"chem_name\": \"NTG ( NITROGLYCERIN )\",\n    \"dosage\": \"1/150 ( 0.4 MG )\",\n    \"mode\": \"SL Q5MIN X 3 PRN Chest Pain\",\n    \"frequency\": \"Q5MIN X 3 PRN\"\n  },\n  {\n    \"chem_name\": \"VERAPAMIL SUSTAINED RELEAS\",\n    \"dosage\": \"240 MG PO BID\",\n    \"mode\": \"PO\",\n    \"frequency\": \"BID\"\n  },\n  {\n    \"chem_name\": \"FLOVENT ( FLUTICASONE PROPIONATE )\",\n    \"dosage\": \"220 MCG INH BID\",\n    \"mode\": \"INH\",\n    \"frequency\": \"BID\"\n  },\n  {\n    \"chem_name\": \"DIOVAN ( VALSARTAN )\",\n    \"dosage\": \"160 MG PO QD\",\n    \"mode\": \"PO\",\n    \"frequency\": \"QD\"\n  },\n  {\n    \"chem_name\": \"PRILOSEC ( OMEPRAZOLE )\",\n    \"dosage\": \"20 MG PO QD\",\n    \"mode\": \"PO\",\n    \"frequency\": \"QD\"\n  },\n  {\n    \"chem_name\": \"VIOXX ( ROFECOXIB )\",\n    \"dosage\": \"12.5 MG PO QD\",\n    \"mode\": \"PO\",\n    \"frequency\": \"QD\"\n  },\n  {\n    \"chem_name\": \"DUONEB ( ALBUTEROL AND IPRATROPIUM NEBULIZER )\",\n    \"dosage\": \"3/0.5 MG INH Q6H\",\n    \"mode\": \"INH\",\n    \"frequency\": \"Q6H\"\n  },\n  {\n    \"chem_name\": \"DIPIPANE ( DIPIPANE SODIUM SUCCINATE )\",\n    \"dosage\": \"10 MG IV Q6H\",\n    \"mode\": \"IV\",\n    \"frequency\": \"Q6H\"\n  },\n  {\n    \"chem_name\": \"DIPIPANE ( DIPIPANE SODIUM SUCCINATE )\",\n    \"dosage\": \"10 MG IV Q6H\",\n    \"mode\": \"IV"
+      }
+    },
+    {
+      "file": "28218.txt.json",
+      "out": [
+        {
+          "chem_name": "vancomycin",
+          "dosage": "12 days",
+          "mode": "p.o. b.i.d.",
+          "frequency": "12 days"
+        },
+        {
+          "chem_name": "ciprofloxacin",
+          "dosage": "700 mg p.o. b.i.d.",
+          "mode": "p.o. b.i.d.",
+          "frequency": "12 days"
+        },
+        {
+          "chem_name": "tramadol",
+          "dosage": "for left hand pain",
+          "mode": "p.r.n.",
+          "frequency": "p.r.n."
+        }
+      ]
+    },
+    {
+      "file": "652612.txt.json",
+      "out": [
+        {
+          "chem_name": "opium tincture",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "aspirin",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Lomotil",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Lasix",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Ditropan",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Lopid",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Zocor",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Atapryl",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "iron",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        }
+      ]
+    },
+    {
+      "file": "883682.txt.json",
+      "out": [
+        {
+          "chem_name": "Humalog Insulin",
+          "dosage": "7 units twice a day",
+          "mode": "subcutaneously",
+          "frequency": "b.i.d."
+        },
+        {
+          "chem_name": "Lantus",
+          "dosage": "12 units in the evening",
+          "mode": "subcutaneously",
+          "frequency": "q.p.m."
+        },
+        {
+          "chem_name": "Aspirin",
+          "dosage": "81 mg p.o. daily",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Lovenox",
+          "dosage": "90 mg subcutaneously daily",
+          "mode": "subcutaneously",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Vitamin B12",
+          "dosage": "100 mcg p.o. daily",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Folate",
+          "dosage": "4 mg p.o. daily",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Prenatal vitamins",
+          "dosage": "one tablet p.o. daily",
+          "mode": "p.o.",
+          "frequency": "daily"
+        }
+      ]
+    },
+    {
+      "file": "797772.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "744366.txt.json",
+      "out": [
+        {
+          "chem_name": "Cardizem",
+          "dosage": "120mg p.o.b.i.d.",
+          "mode": "p.o.t.i.d.",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Mevacor",
+          "dosage": "20mg p.o.b.i.d.",
+          "mode": "p.o.t.i.d.",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Pepcid",
+          "dosage": "40mg p.o.q.d.",
+          "mode": "p.o.q.d.",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Ventolin",
+          "dosage": "nm",
+          "mode": "prn",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Seldane",
+          "dosage": "nm",
+          "mode": "prn",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Penicillin",
+          "dosage": "nm",
+          "mode": "p.o.",
+          "frequency": "X 10 days"
+        },
+        {
+          "chem_name": "Clindamycin",
+          "dosage": "300mg p.o.q.i.d.",
+          "mode": "p.o.q.i.d.",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Ciprofloxacin",
+          "dosage": "500mg p.o.b.i.d.",
+          "mode": "p.o.b.i.d.",
+          "frequency": "X 10 days"
+        },
+        {
+          "chem_name": "Aspirin",
+          "dosage": "325mg q.d.",
+          "mode": "q.d.",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Diltiazem",
+          "dosage": "120mg p.o.t.i.d.",
+          "mode": "p.o.t.i.d.",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Colace",
+          "dosage": "100mg t.i.d.",
+          "mode": "t.i.d.",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Iron sulfate",
+          "dosage": "300mg t.i.d.",
+          "mode": "t.i.d.",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Lasix",
+          "dosage": "80mg p.o.b.i.d.",
+          "mode": "p.o.b.i.d.",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "KCl",
+          "dosage": "40mil/eq p.o.b.i.d.",
+          "mode": "p.o.b.i.d.",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Percocet",
+          "dosage": "1 to 2 tabs. q. 4 prn",
+          "mode": "q. 4 prn",
+          "frequency": "nm"
+        }
+      ]
+    },
+    {
+      "file": "824987.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "449738.txt.json",
+      "out": [
+        {
+          "chem_name": "hydrochlorothiazide",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "calcium gluconate",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "insulin",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Kayexalate",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        }
+      ]
+    },
+    {
+      "file": "758638.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "734280.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "921741.txt.json",
+      "out": [
+        {
+          "chem_name": "Aldactone",
+          "dosage": "25 mg b.i.d.",
+          "mode": "oral",
+          "frequency": "twice a day"
+        },
+        {
+          "chem_name": "K-Dur",
+          "dosage": "40 mEq once a day",
+          "mode": "oral",
+          "frequency": "once a day"
+        },
+        {
+          "chem_name": "Lisinopril",
+          "dosage": "2.5 mg once a day",
+          "mode": "oral",
+          "frequency": "once a day"
+        },
+        {
+          "chem_name": "Isordil",
+          "dosage": "20 mg t.i.d.",
+          "mode": "oral",
+          "frequency": "three times a day"
+        },
+        {
+          "chem_name": "Digoxin",
+          "dosage": "0.125 mg once a day",
+          "mode": "oral",
+          "frequency": "once a day"
+        },
+        {
+          "chem_name": "Torsemide",
+          "dosage": "200 mg b.i.d.",
+          "mode": "oral",
+          "frequency": "twice a day"
+        }
+      ]
+    },
+    {
+      "file": "650471.txt.json",
+      "out": [
+        {
+          "chem_name": "Aspirin",
+          "dosage": "81 mg daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Iron",
+          "dosage": "300 mg three times a day",
+          "mode": "oral",
+          "frequency": "three times a day"
+        },
+        {
+          "chem_name": "Hydrochlorothiazide",
+          "dosage": "25 mg daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Lisinopril",
+          "dosage": "5 mg daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Multivitamin",
+          "dosage": "one daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Relafen",
+          "dosage": "500 mg orally a day",
+          "mode": "oral",
+          "frequency": "a day"
+        },
+        {
+          "chem_name": "Imdu",
+          "dosage": "60 mg orally a day",
+          "mode": "oral",
+          "frequency": "a day"
+        },
+        {
+          "chem_name": "Plavix",
+          "dosage": "75 mg daily for 29 days",
+          "mode": "oral",
+          "frequency": "daily for 29 days"
+        },
+        {
+          "chem_name": "Lipitor",
+          "dosage": "40 mg daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Atenolol",
+          "dosage": "25 mg orally a day",
+          "mode": "oral",
+          "frequency": "a day"
+        },
+        {
+          "chem_name": "Magnesium Oxide",
+          "dosage": "420 mg daily",
+          "mode": "oral",
+          "frequency": "daily"
+        }
+      ]
+    },
+    {
+      "file": "942556.txt.json",
+      "out": {
+        "error": "``\n[\n  {\n    \"chem_name\": \"ENTERIC COATED ASA\",\n    \"dosage\": \"325 MG PO DAILY\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  },\n  {\n    \"chem_name\": \"TESSALON PERLES ( BENZONATATE )\",\n    \"dosage\": \"100 MG PO TID\",\n    \"mode\": \"PO\",\n    \"frequency\": \"TID\"\n  },\n  {\n    \"chem_name\": \"PLAVIX ( CLOPIDOGREL )\",\n    \"dosage\": \"75 MG PO DAILY\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  },\n  {\n    \"chem_name\": \"CODEINE PHOSPHATE\",\n    \"dosage\": \"15 MG PO Q3H PRN Pain\",\n    \"mode\": \"PO\",\n    \"frequency\": \"Q3H PRN Pain\"\n  },\n  {\n    \"chem_name\": \"DEXTROMETHORPHAN HBR\",\n    \"dosage\": \"10 MG PO Q6H PRN Other:cough\",\n    \"mode\": \"PO\",\n    \"frequency\": \"Q6H PRN Other:cough\"\n  },\n  {\n    \"chem_name\": \"ZETIA ( EZETIMIBE )\",\n    \"dosage\": \"10 MG PO DAILY\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  },\n  {\n    \"chem_name\": \"LANTUS ( INSULIN GLARGINE )\",\n    \"dosage\": \"20 UNITS SC BEDTIME\",\n    \"mode\": \"SC\",\n    \"frequency\": \"BEDTIME\"\n  },\n  {\n    \"chem_name\": \"POTASSIUM CHLORIDE IMMED. REL. ( KCL IMMEDIATE... )\",\n    \"dosage\": \"nm\",\n    \"mode\": \"SC\",\n    \"frequency\": \"nm\"\n  },\n  {\n    \"chem_name\": \"MAGNESIUM GLUCONATE\",\n    \"dosage\": \"Sliding Scale PO ( orally ) DAILY\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  },\n  {\n    \"chem_name\": \"NITROGLYCERIN 1/150 ( 0.4 MG )\",\n    \"dosage\": \"1 TAB SL q5min x 3 PRN chest pain HOLD IF: SBP &lt; 100\",\n    \"mode\": \"SL\",\n    \"frequency\": \"q5min x 3 PRN chest pain\"\n  },\n  {\n    \"chem_name\": \"OXYCODONE\",\n    \"dosage\": \"5-10 MG PO Q6H PRN Pain\",\n    \"mode\": \"PO\",\n    \"frequency\": \"Q6H PRN Pain\"\n  },\n  {\n    \"chem_name\": \"PINDOLOL\",\n    \"dosage\": \"5 MG PO BID HOLD IF: sbp&lt;90 , HR&lt;50\",\n    \"mode\": \"PO\",\n    \"frequency\": \"BID\"\n  },\n  {\n    \"chem_name\": \"ZOCOR ( SIMVASTATIN )\",\n    \"dosage\": \"80 MG PO BEDTIME\",\n    \"mode\": \"PO\",\n    \"frequency\": \"BEDTIME\"\n  },\n  {\n    \"chem_name\": \"DIOVAN ( VALSARTAN )\",\n    \"dosage\": \"160 MG PO DAILY\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  }\n]\n"
+      }
+    },
+    {
+      "file": "280639.txt.json",
+      "out": [
+        {
+          "chem_name": "Coumadin",
+          "dosage": "8 milligrams per night",
+          "mode": "orally",
+          "frequency": "at hour of sleep"
+        },
+        {
+          "chem_name": "Percocet",
+          "dosage": "as needed",
+          "mode": "orally",
+          "frequency": "nm"
+        }
+      ]
+    },
+    {
+      "file": "483034.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "217805.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "904835.txt.json",
+      "out": [
+        {
+          "chem_name": "Aspirin",
+          "dosage": "325 mg",
+          "mode": "oral",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Asacol",
+          "dosage": "nm",
+          "mode": "nm",
+          "frequency": "nm"
+        }
+      ]
+    },
+    {
+      "file": "150406.txt.json",
+      "out": [
+        {
+          "chem_name": "Glucophage",
+          "dosage": "500 mg b.i.d.",
+          "mode": "oral",
+          "frequency": "twice daily"
+        },
+        {
+          "chem_name": "Lipitor",
+          "dosage": "20 mg p.o. q.h.s.",
+          "mode": "oral",
+          "frequency": "as needed"
+        },
+        {
+          "chem_name": "atenolol",
+          "dosage": "25 mg p.o. q.d.",
+          "mode": "oral",
+          "frequency": "once daily"
+        },
+        {
+          "chem_name": "aspirin",
+          "dosage": "81 mg p.o. q day",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "Klonopin",
+          "dosage": "0.5 mg t.i.d.",
+          "mode": "oral",
+          "frequency": "three times daily"
+        },
+        {
+          "chem_name": "Zestril",
+          "dosage": "2.5 mg q.d.",
+          "mode": "oral",
+          "frequency": "once daily"
+        }
+      ]
+    },
+    {
+      "file": "898277.txt.json",
+      "out": [
+        {
+          "chem_name": "Nortriptyline",
+          "dosage": "125 milligrams p.o. q.h.s.",
+          "mode": "p.o.",
+          "frequency": "q.h.s."
+        },
+        {
+          "chem_name": "Methyldopa",
+          "dosage": "250 milligrams q.d.",
+          "mode": "p.o.",
+          "frequency": "q.d."
+        },
+        {
+          "chem_name": "Hydrochlorothiazide",
+          "dosage": "25 milligrams p.o. q.d.",
+          "mode": "p.o.",
+          "frequency": "q.d."
+        },
+        {
+          "chem_name": "Zantac",
+          "dosage": "300 milligrams q.d.",
+          "mode": "p.o.",
+          "frequency": "q.d."
+        },
+        {
+          "chem_name": "Estrogen",
+          "dosage": "1.25 milligrams q.d.",
+          "mode": "p.o.",
+          "frequency": "q.d."
+        },
+        {
+          "chem_name": "Advil",
+          "dosage": "800 milligrams p.o. b.i.d. p.r.n.",
+          "mode": "p.o.",
+          "frequency": "b.i.d. p.r.n."
+        },
+        {
+          "chem_name": "Verapamil SR",
+          "dosage": "240 milligrams p.o. q.d.",
+          "mode": "p.o.",
+          "frequency": "q.d."
+        }
+      ]
+    },
+    {
+      "file": "633499.txt.json",
+      "out": [
+        {
+          "chem_name": "ECASA",
+          "dosage": "325 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "ENALAPRIL MALEATE",
+          "dosage": "7.5 MG PO BID HOLD IF: b/p&lt;100 systolic",
+          "mode": "PO",
+          "frequency": "BID"
+        },
+        {
+          "chem_name": "NPH HUMULIN INSULIN",
+          "dosage": "2 UNITS SC QAM",
+          "mode": "SC",
+          "frequency": "QAM"
+        },
+        {
+          "chem_name": "NPH HUMULIN INSULIN",
+          "dosage": "3 UNITS SC QPM",
+          "mode": "SC",
+          "frequency": "QPM"
+        },
+        {
+          "chem_name": "NITROGLYCERIN",
+          "dosage": "1/150 ( 0.4 MG ) 1 TAB SL q5min x 3 PRN chest pain",
+          "mode": "SL",
+          "frequency": "q5min x 3"
+        },
+        {
+          "chem_name": "IMDUR",
+          "dosage": "30 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "NEPHROCAPS",
+          "dosage": "1 TAB PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "NEXIUM",
+          "dosage": "20 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        },
+        {
+          "chem_name": "TOPROL XL",
+          "dosage": "200 MG PO QD",
+          "mode": "PO",
+          "frequency": "QD"
+        }
+      ]
+    },
+    {
+      "file": "869853.txt.json",
+      "out": [
+        {
+          "chem_name": "simvastatin",
+          "dosage": "10 mg q.h.s.",
+          "mode": "p.o.",
+          "frequency": "q.d."
+        },
+        {
+          "chem_name": "sublingual nitroglycerin",
+          "dosage": "2",
+          "mode": "sublingual",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "enalapril",
+          "dosage": "5 mg b.i.d.",
+          "mode": "p.o.",
+          "frequency": "q.d."
+        },
+        {
+          "chem_name": "aspirin",
+          "dosage": "325 mg q.d.",
+          "mode": "p.o.",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Atenolol",
+          "dosage": "50 mg b.i.d.",
+          "mode": "p.o.",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "Ticlid",
+          "dosage": "250 mg p.o. b.i.d.",
+          "mode": "p.o.",
+          "frequency": "11 days"
+        }
+      ]
+    },
+    {
+      "file": "471570.txt.json",
+      "out": {
+        "error": ""
+      }
+    },
+    {
+      "file": "961115.txt.json",
+      "out": [
+        {
+          "chem_name": "IBUPROFEN",
+          "dosage": "600-800 MG PO TID PRN Pain",
+          "mode": "Take with food",
+          "frequency": "nm"
+        }
+      ]
+    },
+    {
+      "file": "752897.txt.json",
+      "out": [
+        {
+          "chem_name": "EC ASA (ASPIRIN ENTERIC COATED)",
+          "dosage": "325 MG PO QD",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "ATENOLOL",
+          "dosage": "50 MG PO QPM",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "ATENOLOL",
+          "dosage": "75 MG PO QAM",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "CIPRO (CIPROFLOXACIN)",
+          "dosage": "250 MG PO BID",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "INSULIN NPH HUMAN",
+          "dosage": "30 UNITS SC QAM",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "INSULIN NPH HUMAN",
+          "dosage": "20 UNITS SC before dinner",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "INSULIN REGULAR (HUMAN)",
+          "dosage": "18 UNITS SC QAM",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "INSULIN REGULAR (HUMAN)",
+          "dosage": "14 UNITS SC before dinner",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "LEVOXYL (LEVOTHYROXINE SODIUM)",
+          "dosage": "75 MCG PO QD",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "LISINOPRIL",
+          "dosage": "20 MG PO QD",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "NITROGLYCERIN",
+          "dosage": "1/150 (0.4 MG) 1 TAB SL Q5 MIN X 3",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "PRAVACHOL (PRAVASTATIN)",
+          "dosage": "20 MG PO QHS",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "AMLODIPINE",
+          "dosage": "5 MG PO QD",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "IMDUR (ISOSORBIDE MONONIT.( SR))",
+          "dosage": "60 MG PO QD",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "WELLBUTRIN SR (BUPROPION HCL SR)",
+          "dosage": "150 MG PO BID",
+          "mode": "nm",
+          "frequency": "nm"
+        },
+        {
+          "chem_name": "CLOPIDOGREL",
+          "dosage": "75 MG PO QD",
+          "mode": "nm",
+          "frequency": "nm"
+        }
+      ]
+    },
+    {
+      "file": "661928.txt.json",
+      "out": {
+        "error": "``\n[\n  {\n    \"chem_name\": \"ACETYLSALICYLIC ACID\",\n    \"dosage\": \"81 MG PO DAILY\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  },\n  {\n    \"chem_name\": \"ATORVASTATIN\",\n    \"dosage\": \"80 MG PO DAILY\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  },\n  {\n    \"chem_name\": \"COREG (CARVEDILOL)\",\n    \"dosage\": \"3.125 MG PO BID\",\n    \"mode\": \"PO\",\n    \"frequency\": \"BID\"\n  },\n  {\n    \"chem_name\": \"PLAVIX (CLOPIDOGREL)\",\n    \"dosage\": \"75 MG PO DAILY\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  },\n  {\n    \"chem_name\": \"LASIX (FUROSEMIDE)\",\n    \"dosage\": \"80 MG PO DAILY Starting IN AM March\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  },\n  {\n    \"chem_name\": \"INSULIN 70/30 HUMAN\",\n    \"dosage\": \"50 UNITS QAM; 35 UNITS QPM SC\",\n    \"mode\": \"SC\",\n    \"frequency\": \"QAM, QPM\"\n  },\n  {\n    \"chem_name\": \"IMDUR ER (ISOSORBIDE MONONITRATE ( SR ))\",\n    \"dosage\": \"30 MG PO DAILY\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  },\n  {\n    \"chem_name\": \"LISINOPRIL\",\n    \"dosage\": \"10 MG PO DAILY HOLD IF: SBP &lt; 90 and call HO\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  },\n  {\n    \"chem_name\": \"SPIRONOLACTONE\",\n    \"dosage\": \"50 MG PO DAILY HOLD IF: SBP&lt;90\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  },\n  {\n    \"chem_name\": \"METAMUCIL SUGAR FREE (PSYLLIUM ( METAMUCIL ))\",\n    \"dosage\": \"1 PACKET PO DAILY\",\n    \"mode\": \"PO\",\n    \"frequency\": \"DAILY\"\n  },\n  {\n    \"chem_name\": \"INSULIN ASPART Sliding Scale ( subcutaneously ) SC AC\",\n    \"dosage\": \"If BS is less than 125 , then give 0 units subcutaneously If BS is 125-150 , then give 2 units subcutaneously If BS is 151-200 , then give 3 units subcutaneously If BS is 201-250 , then give 4 units subcutaneously If BS is 251-300 , then give 6 units subcutaneously If BS is 301-350 , then give 8 units subcutaneously and call HO Call HO if BS is greater than 400\",\n    \"mode\": \"SC\",\n    \"frequency\": \"Sliding Scale\"\n  }\n]\n"
+      }
+    },
+    {
+      "file": "852130.txt.json",
+      "out": [
+        {
+          "chem_name": "aspirin",
+          "dosage": "325 p.o. daily",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "lisinopril",
+          "dosage": "4 mg p.o. daily",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "nicotine patch",
+          "dosage": "14 mg per day topical",
+          "mode": "topical",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "spironolactone",
+          "dosage": "25 mg p.o. daily",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "paxil",
+          "dosage": "25 mg p.o. daily",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "atorvastatin",
+          "dosage": "80 mg daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "niaspan",
+          "dosage": "0.5 gm p.o. twice daily",
+          "mode": "p.o.",
+          "frequency": "twice daily"
+        },
+        {
+          "chem_name": "carvedilol",
+          "dosage": "12.5 mg p.o. twice daily",
+          "mode": "p.o.",
+          "frequency": "twice daily"
+        },
+        {
+          "chem_name": "plavix",
+          "dosage": "75 mg daily",
+          "mode": "oral",
+          "frequency": "daily"
+        },
+        {
+          "chem_name": "gemfibrozil",
+          "dosage": "900 mg p.o. twice daily",
+          "mode": "p.o.",
+          "frequency": "twice daily"
+        },
+        {
+          "chem_name": "coumadin",
+          "dosage": "5 mg p.o. at night",
+          "mode": "p.o.",
+          "frequency": "at night"
+        }
+      ]
+    }
+  ],
+  "pipeline": [
+    {
+      "name": "input text",
+      "inputs": ""
+    },
+    {
+      "name": "step1",
+      "model": "LLamaCppModel",
+      "prompt": "<|im_start|>system\nEmulate a tool for the specified task. Strictly follow the provided instructions to execute the task accurately.\nYour role is to adhere solely to the given guidelines and perform the designated actions without deviation.<|im_end|>\n<|im_start|>user\nTASK: Named Entity Medical Extraction\nExtract all and only the medications from the document below.\nPut all the extracted entities into a json array with the keys chem_name, dosage, mode and frequency.\nIf no data in any of the keys write \"nm\".\nFollow a json format like this:\n{{\n    \"chem_name\": string,\n    \"dosage\": string,\n    \"mode\": string,\n    \"frequency\": string\n}}\n\n```document.txt\n{document}\n```\n<|im_end|>\n<|im_start|>assistant\n```medications.json",
+      "params": {
+        "temperature": 0.0,
+        "mirostat_tau": 5.0,
+        "n_predict": 1024,
+        "mirostat": 2,
+        "stop": [
+          "###################",
+          "USER",
+          "ASSISTANT",
+          "```"
+        ]
+      },
+      "map_input": "def map_input(inputs: list = None):\n    return {'document': inputs[0].output.value}\n",
+      "map_output": "def map_output(output):\n    output = output.replace('<dummy32000>', '')\n    if not output.endswith('<|im_end|>'):\n        output += '<|im_end|>'\n    return output\n",
+      "inputs": "input text"
+    },
+    {
+      "name": "to json",
+      "inputs": "step1"
+    }
+  ]
+}

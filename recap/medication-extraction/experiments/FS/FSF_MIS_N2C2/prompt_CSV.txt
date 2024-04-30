@@ -1,0 +1,33 @@
+<|im_start|>system
+Emulate a tool for the specified task. Strictly follow the provided instructions to execute the task accurately.
+Your role is to adhere solely to the given guidelines and perform the designated actions without deviation.<|im_end|>
+<|im_start|>user
+TASK: Named Entity Medical Extraction
+Extract all and only the medications from the document below.
+Put all the extracted entities into a csv table with the columns chem_name, dosage, mode and frequency.
+If no data in any of the columns write "nm".
+Follow a csv format, like this:
+"chem_name;dosage;mode;frequency".
+<|im_end|>
+<|im_start|>user
+Here is a full example:
+
+```example_document.txt
+{example_doc}
+```
+
+```example_medications.csv
+chem_name;dosage;mode;frequency
+{example_csv}
+```
+<|im_end|>
+<|im_start|>user
+Do the same for the document below:
+
+```document.txt
+{document}
+```
+<|im_end|>
+<|im_start|>assistant
+```medications.csv
+chem_name;dosage;mode;frequency

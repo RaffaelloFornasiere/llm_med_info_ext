@@ -1,0 +1,12 @@
+{
+  "temperature": 0.0,
+  "mirostat_tau": 5.0,
+  "n_predict": 4096,
+  "mirostat": 2,
+  "stop": [
+    "###################",
+    "USER",
+    "ASSISTANT",
+    "```"
+  ]
+}

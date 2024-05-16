@@ -4,13 +4,13 @@
    "dataset":{
       "name":"N2C2",
       "code":"N2C2",
-    "dir": "../../../datasets/n2c2-2009/"
-
+      "dir": "../../../datasets/n2c2-2009/"
    },
    "model":{
       "name":"mistral",
       "code":"MIS",
-      "url":"147.189.192.78:8080"
+      "url":"147.189.192.78:8080",
+      "openai_api": false,
    },
    "steps":[
       {

@@ -65,6 +65,7 @@ class Step:
 
     def __call__(self):
         model_input = self.get_model_input()
+        self.input.value = model_input
         output = self.model(model_input, **self.params)
         self.output.value = self.map_output(output) if self.map_output else output
         return self.output.value
@@ -77,7 +78,7 @@ class Step:
             'params': self.params,
             'map_input': inspect.getsource(self.map_input) if self.map_input else None,
             'map_output': inspect.getsource(self.map_output) if (
-                        self.map_output and self.map_output != Step.map_output) else None,
+                    self.map_output and self.map_output != Step.map_output) else None,
             'inputs': ', '.join([_input.name for _input in self.get_input_steps()])
         }.items() if v is not None})
 
@@ -137,9 +138,9 @@ class MapStep(Step):
 
     def __call__(self):
         if self.map_input_args:
-            output = self.map_input(self.inputs[0].output.value, **self.map_input_args)
+            output = self.map_input(self.inputs, **self.map_input_args)
         else:
-            output = self.map_input(self.inputs[0].output.value)
+            output = self.map_input(self.inputs)
         self.output.value = output
         return self.output.value
 
@@ -203,7 +204,7 @@ class Pipeline:
         ## remove duplicates steps, keep the first one
         self.steps = list(dict.fromkeys(self.steps))
 
-    def print_graph_dependencies(self, to_file=False, file_name='graph'):
+    def print_graph_dependencies(self, to_file=False, file_name='graph', verbose=False):
         dot = graphviz.Digraph(comment='Dependencies', graph_attr={'rankdir': 'LR'})
         for step in self.steps:
             dot.node(step.name, step.get_graphviz_node())
@@ -211,6 +212,14 @@ class Pipeline:
                 dot.edge(input_step.name, step.name)
         if to_file:
             dot.render(file_name, format='png', cleanup=True)
+        return dot
+
+    def print_graph_dependencies2(self):
+        dot = graphviz.Digraph(comment='Dependencies', graph_attr={'rankdir': 'LR'})
+        for step in self.steps:
+            dot.node(step.name, step.name)
+            for input_step in step.get_input_steps():
+                dot.edge(input_step.name, step.name)
         return dot
 
     def __call__(self):

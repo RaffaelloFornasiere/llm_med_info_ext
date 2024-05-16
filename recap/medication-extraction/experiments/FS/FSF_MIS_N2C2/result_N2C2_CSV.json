@@ -1,1 +1,1346 @@
-{"experiment_name": "Medication Extraction Zero Shot", "inputs": ["66947.txt.json", "80815.txt.json", "5091.txt.json", "661.txt.json", "28218.txt.json"], "outputs": [{"file": "66947.txt.json", "out": [{"medication_name": "mycophenolate mofetil", "dosage": "1000 mg", "mode": "", "frequency": "bid"}, {"medication_name": "oxybutynin chloride xl", "dosage": "10 mg", "mode": "", "frequency": "qd"}, {"medication_name": "insulin glargine", "dosage": "20 units", "mode": "", "frequency": "qam"}, {"medication_name": "furosemide", "dosage": "50 mg", "mode": "", "frequency": "qd"}, {"medication_name": "clopidogrel", "dosage": "75 mg", "mode": "", "frequency": "qd"}, {"medication_name": "pravastatin sodium", "dosage": "40 mg", "mode": "", "frequency": "qhs"}, {"medication_name": "prednisone", "dosage": "5 mg", "mode": "", "frequency": "qd"}, {"medication_name": "cyclosporine (sandimmune)", "dosage": "75 mg", "mode": "", "frequency": "bid"}, {"medication_name": "metoprolol succinate extended release", "dosage": "50 mg", "mode": "", "frequency": "qd"}, {"medication_name": "fenofibrate (tricor southerner)", "dosage": "48 mg", "mode": "", "frequency": "qd"}, {"medication_name": "aspirin", "dosage": "325 mg", "mode": "", "frequency": "daily"}, {"medication_name": "plavix", "dosage": "75 mg", "mode": "", "frequency": "daily"}, {"medication_name": "lasix", "dosage": "40 mg", "mode": "", "frequency": "daily"}, {"medication_name": "insulin glargine", "dosage": "20 units", "mode": "", "frequency": "daily"}, {"medication_name": "metoprolol succinate extended release", "dosage": "50 mg", "mode": "", "frequency": "daily"}, {"medication_name": "food/drug interaction instruction", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "cellcept (mycophenolate mofetil)", "dosage": "1, 000 mg", "mode": "", "frequency": "bid"}, {"medication_name": "tng 0.4 mg (nitroglycerin 1/150 (0.4 mg))", "dosage": "1 tab sl q5min x 3 doses prn chest pain", "mode": null, "frequency": null}, {"medication_name": "ditropan xl (oxybutynin chloride xl)", "dosage": "10 mg", "mode": "", "frequency": "qd"}, {"medication_name": "pravachol", "dosage": "40 mg", "mode": "", "frequency": "bedtime"}, {"medication_name": "prednisolone sodium phosphate 5mg/5ml", "dosage": "5 mg", "mode": "", "frequency": "po daily"}, {"medication_name": "diet: house / low chol/low sat. fat", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "activity: light activity , no heavy lifting or driving x 2 days", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "lift restrictions: do not lift greater then 10-15 pounds", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "follow up appointment( s ): heart failure clinic 2-4 weeks", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "allergy: simvastatin", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "admit diagnosis: s/p cardiac transplant", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "principal discharge diagnosis ", "dosage": "responsible after study for causing admission ) s/p angioplasty and stenting", "mode": null, "frequency": null}, {"medication_name": "other diagnosis", "dosage": "conditions , infections , complications , affecting treatment/stay", "mode": null, "frequency": null}, {"medication_name": "operations and procedures: other treatments/procedures ( not in. r. )", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "s/p lad angioplasty and stenting", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "brief resume of hospital course: 71 year old female that is now 15 years following cardiac transplantation , with a multiplicity of medical issues , including allograft coronary artery disease , bilateral carotid disease ( underwent carotid stenting in march 2006 ) , history of tia , diabetes and significant obesity.her baseline renal cr was 1.7 . the lcx was stented in june", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "2006. current meds includes cellcept 1000 mg p.o. bid , prednisone 5 mg daily , cyclosporine 75 mg p.o. bid , toprol-xl 50 mg daily , tricor , once daily , pravachol 40 mg daily , plavix 75 mg daily , lasix , 40 mg daily , insulin , aspirin , ditropan 10 mg daily and vitamins. elective cardiac catheterization was performed today for her annual post cardiac transplant evaluation revealed double vessel disease proximal lad 95% lesion , leftncx ( proximal ) , 75% lesion cx ( mid ) , 95% lesion . marg1 ( ostial ) , 95% lesion. successful ptc/stenting - lad using xb3.5guide , bmw , which was predilated with a 2mm balloon , 2 des was used ( 3 by 18 ) and( 3 by 18 ) cypher stents which was subsequently postdilated to 3.2 , no residual stenosis . right groin access was closed with starclose. pci of the lad today and possible planned pci of lcx in 1-3 weeks. check renal function over the next 2 days", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "plan: pci of the lad today and possible planned pci of lcx in 1-3 weeks. check renal function over the next 2 days", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "physical exam: 96.4 80-90s 110/60 97%ra voiding to br nad . jvp not elevated . cor rrr , s1s2 , no murmur appreciated . lungs - cta bilat , no rrw . ext - warm , no edema . right groin-soft , no ecchymosis , no hematoma or bruit . pulse. tele: no tele events . a/p : *cad: 1 day post cypher des to lad with significant residual disease , please see cath report for full details . will need asa 325 daily x life , plavix 75 daily for minimum of 12 months and should continue out indef . importantance stressed and patient understands ! sl tng prn chest pain . am enzymes pending . *pump: no evidence of volume overload , chf . *rhythm: no palps , no tachy/brady tele events . *htn: bp well controlled hr up some on toprol xl 50 , lasix 40 . *lipids: will cont pravachol 40 , tricor 48 . **pulm: no issues . **renal: baseline 1.5 - 1.7 , am pending . encouraged increased po intake over next several days , if urine output falls she will call , she should have renal fx rechecked on monday with local md . **endo: check hgb a1c as outpt . cont insulin", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "aspirin for life", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "plavix for a minimum of 1 year - do not stop aspirin or plavix for any reason unless speak with your cardiologist first!!!", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "resume other medications at usual doses", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "you will need your kidney function test on monday after receiving contrast- this should be followed by heart transplant clinic", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "drink plenty of fluids over the next several days , if your urine output falls please call .", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "you will need to return for another intervention in the next several weeks- this should be set up through transplant clinic", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "call with questions or concerns", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "discharge condition: stable", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "to do/plan:", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "no dictated summary", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "entered by: danes , cruz , m.d. ( xo06 ) 6/21/07 @ 09:39 am", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "****** end of discharge orders ******", "dosage": null, "mode": null, "frequency": null}]}, {"file": "80815.txt.json", "out": [{"medication_name": "aspirin", "dosage": "81 mg", "mode": "", "frequency": ""}, {"medication_name": "plavix", "dosage": "75 mg", "mode": "", "frequency": ""}, {"medication_name": "coumadin", "dosage": "6 mg", "mode": "", "frequency": ""}, {"medication_name": "digoxin", "dosage": "0.125 mg", "mode": "", "frequency": ""}, {"medication_name": "lasix", "dosage": "40 mg", "mode": "", "frequency": ""}, {"medication_name": "lisinopril", "dosage": "10 mg", "mode": "", "frequency": ""}, {"medication_name": "lopressor", "dosage": "25 mg", "mode": "", "frequency": ""}, {"medication_name": "zocor", "dosage": "80 mg", "mode": "", "frequency": ""}, {"medication_name": "flomax", "dosage": "0.4 mg", "mode": "", "frequency": ""}, {"medication_name": "flovent", "dosage": "110 mcg", "mode": "", "frequency": ""}, {"medication_name": "nexium", "dosage": "20 mg", "mode": "", "frequency": ""}, {"medication_name": "metoprolol", "dosage": "25 mg", "mode": "", "frequency": ""}, {"medication_name": "simvastatin", "dosage": "80 mg", "mode": "", "frequency": ""}, {"medication_name": "vancomycin", "dosage": "250 mg", "mode": "", "frequency": ""}]}, {"file": "5091.txt.json", "out": [{"medication_name": "aspirin", "dosage": "", "mode": "325 mg", "frequency": ""}, {"medication_name": "vitamin c", "dosage": "500 mg", "mode": "", "frequency": "b.i.d."}, {"medication_name": "calcitriol", "dosage": "0.5 mcg", "mode": "", "frequency": "daily"}, {"medication_name": "colace", "dosage": "100 mg", "mode": "", "frequency": "daily"}, {"medication_name": "heparin", "dosage": "", "mode": "subcutaneous", "frequency": "t.i.d."}, {"medication_name": "isosorbide dinitrate", "dosage": "10 mg", "mode": "", "frequency": "p.o. t.i.d."}, {"medication_name": "lactulose", "dosage": "30 ml", "mode": "", "frequency": "p.o. t.i.d."}, {"medication_name": "lisinopril", "dosage": "50 mg", "mode": "", "frequency": "p.o. daily"}, {"medication_name": "Lopressor", "dosage": "50 mg", "mode": "", "frequency": "p.o. q 6h"}, {"medication_name": "simethicone", "dosage": "80 mg", "mode": "", "frequency": "q.i.d."}, {"medication_name": "vancomycin", "dosage": "1 g", "mode": "", "frequency": "IV every other day"}, {"medication_name": "zinc sulfate", "dosage": "220 mg", "mode": "", "frequency": "p.o. daily for two weeks"}, {"medication_name": "Zocor", "dosage": "80 mg", "mode": "", "frequency": "p.o. daily"}, {"medication_name": "Norvasc", "dosage": "10 mg", "mode": "", "frequency": "p.o. daily"}, {"medication_name": "Nephro-Vite", "dosage": "1 tab", "mode": "", "frequency": "p.o. daily"}, {"medication_name": "Prandin", "dosage": "0.5 mg", "mode": "", "frequency": "with each meal"}, {"medication_name": "Aranesp", "dosage": "40 mcg", "mode": "", "frequency": "subcutaneous every week"}, {"medication_name": "sliding scale insulin", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "insulin aspart", "dosage": "4 units", "mode": "", "frequency": "subcutaneous with breakfast and dinner"}, {"medication_name": "Dulcolax", "dosage": "10 mg", "mode": "", "frequency": "PR daily"}, {"medication_name": "Tylenol", "dosage": "prn", "mode": null, "frequency": null}, {"medication_name": "oxycodone", "dosage": "5-10 mg", "mode": "", "frequency": "p.o. q 4h hours"}, {"medication_name": "Zyprexa", "dosage": "5 mg", "mode": "", "frequency": "p.o. q 8h as needed for anxiety or agitation"}, {"medication_name": "Maalox", "dosage": "prn", "mode": null, "frequency": null}]}, {"file": "661.txt.json", "out": [{"medication_name": "acetylsalicylic acid", "dosage": "325 mg", "mode": "", "frequency": "qd"}, {"medication_name": "colace", "dosage": "100 mg", "mode": "", "frequency": "bid"}, {"medication_name": "enalapril maleate", "dosage": "10 mg", "mode": "", "frequency": "po bid"}, {"medication_name": "instructions: hold on mornings of dialysis", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "ntg 1/150", "dosage": "1 tab sl q5min x 3 prn Chest Pain", "mode": null, "frequency": null}, {"medication_name": "zocor", "dosage": "40 mg", "mode": "", "frequency": "qhs"}, {"medication_name": "food/drug interaction instruction", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "avoid grapefruit unless md instructs otherwise", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "imdur", "dosage": "30 mg", "mode": "", "frequency": "po qd"}, {"medication_name": "food/drug interaction instruction", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "give on an empty stomach ( give 1hr before or 2hr after food )", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "nephrocaps", "dosage": "2 tab po qd", "mode": null, "frequency": null}, {"medication_name": "alert overridden: override added on 4/29/04 by schmalzried, ezeqiel l. , m.d", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "potentially serious interaction: simvastatin & amp ", "dosage": " niacin , vit. b-3", "mode": null, "frequency": null}, {"medication_name": "reason for override: home regimen", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "nesium", "dosage": "20 mg", "mode": "", "frequency": "po qd"}, {"medication_name": "toprol xl", "dosage": "200 mg", "mode": "", "frequency": "po qhs"}, {"medication_name": "food/drug interaction instruction", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "take consistently with meals or on empty stomach", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "diet: house / 2 gm na / ada 2100 cals/day / low saturated fat", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "low cholesterol / Renal diet (FDI)", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "activity: walking as tolerated", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "follow up appointment( s ):", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "dr alan mcratt ( cardiology at Lumamer Medical Center ) 4:00pm 5/19/04 scheduled ,", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "primary care physician 2 weeks ,", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "allergy: lisinopril , zocor ( hmg coa reductase inhibitors )", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "admit diagnosis: hypotension, nstemi", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "principal discharge diagnosis ", "dosage": "responsible after study for causing admission)", "mode": null, "frequency": null}, {"medication_name": "hypotension, nstemi", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "other diagnosis", "dosage": "conditions, infections, complications, affecting treatment/stay", "mode": null, "frequency": null}, {"medication_name": "1. nddm 2. ai/as , bicuspid aortic valve , lvh 3. htn 4. s/p thyroglossal duct cyst excision", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "5. h/o noncompliance with meds 6. 3 vessel cad ( coronary artery disease )", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "7. esrd on hd ( end stage renal disease ) 8. chf , unclear etiology ( congestive heart failure )", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "9. hyperlipidemia ( hyperlipidemia )", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "10. h/o syphilis ( h/o syphilis )", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "operations and procedures: none", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "other treatments/procedures ( not in o.r. )", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "persantine and viability cardiac pet scan 5/19/04", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "brief resume of hospital course:", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "erate global lv systolic dysfunction.", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "3. the results are essentially unchanged from his prior study", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "of february , 2003.", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "cc: hypotension after dialysis", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "hpi: 56 yo male with h/o esrd , cad , chf ( ef 20-25% ) admitted for", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "hypotension after hd. he was in his usoh until 2 days pta when he", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "developed stomach upset , diarrhea , dry heaves , and a dry cough.", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "ros: chronic pdn , uses 1 pillow , gained 8kg in 2 weeks but compliant", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "with meds , no melena , no brbpr", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "physical exam t 97 p85 bp 114/67-&gt", "dosage": "160/97 rr 16-24 89% ra", "mode": null, "frequency": null}, {"medication_name": "chronically ill appearing , nad", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "neck: supple", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "chest: bibasilar rales", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "cvs: palpable s3 , lat displaced pmi , ii/vi sem at rusb , jvp &lt", "dosage": " 7cm", "mode": null, "frequency": null}, {"medication_name": "abd: soft nt nd , + bs , no hsm", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "ext: trace pedal edema , hyperpigmentation in sock distribution", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "labs: wbc 5 , tnI 0.37 , ck 153 , ckmbb8.2 ( chronically elevated cardiac enzymes )", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "ekg: nsr , 1st deg avb , lae , lvh , old twi in 1 , l , v5 , v6 , more pronounced", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "st dep in v5 than 6/4", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "cxr: r pl effusion , cmg", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "assessment: hypotension after dialysis in setting of gi upset/diarrhea/vomiting ,", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "likely was dehydrated. the bp rose after fluids and his current", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "hypoxia is likely from mild pulm edema. although chronically elevated", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "cardiac enzymes , there is concern about new ishemia , and", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "concern for pe given hypoxia in ed.", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "hospital course", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "1. cvs: ischemia: nstemi: continued medical management with asa , beta", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "blocker , imdur , zocor , ntg prn . the ckmb peaked at 12 and tni to 4. his", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "cardiologist ( dr benisek ) recommended pet scan to assess for viable", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "myocardium and ischemia. his last stress test 1 year ago showed only", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "scarring with no ischemia. in the past , pt's wife refused for him to go", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "for cabg . they are reconsidering this option currently.", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "the results of the pet scan are as follows:", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "- a small region of myocardial scar/hibernation along with mild", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "residual stress induced peri-infarct ischemia in the distal lad", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "distribution.", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "- moderate global lv systolic dysfunction.", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "- the results are essentially unchanged from his prior study of february ,", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "2003.", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "the family was called to stress the importance of follow up with", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "cardiology ( they have missed appointments in the past )", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "pump: ( ef 20-25% ) , increased enalapril to 10mg bid , bnp was sent and", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "echo revealed ef 30% , mod ai.", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "rythm: no events occurred on telemetry", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "2. pulm: monitored sats with fluid restriction. ra sats improved to", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "97%", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "3. renal: hd mwf , home renal meds . he was dialyzed to a weight below", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "his previous baseline per cardiology recommendations. in the past", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "he has had elevated rh filling pressures after hd. the ryi was", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "called by the attending renal physician ( dr. slemp ) about his goal", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "weight.", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "4. id: blood cx were no growth", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "5. gi: he was continued on his home nexium", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "6. proph: sq heparin was used for dvt prophylaxis", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "additional comments: it is very important that you attend your follow up appointment with", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "the cardiologist , dr ivrin", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "please take the medications listed above and do not take enalapril on", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "mornings of dialysis", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "please adhere to your dietary restrictions. if you gain more than 3 kg", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "between dialysis sessions please restrict your fluid intake. the diet", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "guidelines will be coordinated by the staff at chapmed gamette medical center", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "discharge condition: stable", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "to do/plan:", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "see above", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "no dictated summary", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "entered by: passino , terry d. , m.d. ( en8 ) 11/17/04 @ 11", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "****** end of discharge orders ******", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "[report_end]", "dosage": null, "mode": null, "frequency": null}]}, {"file": "28218.txt.json", "out": [{"medication_name": "aspirin", "dosage": "81 mg", "mode": "", "frequency": ""}, {"medication_name": "baclofen", "dosage": "5 mg t.i.d.", "mode": null, "frequency": null}, {"medication_name": "B12", "dosage": "1000 mg daily", "mode": null, "frequency": null}, {"medication_name": "iron sulfate", "dosage": "325 mg daily", "mode": null, "frequency": null}, {"medication_name": "Cymbalta", "dosage": "20 mg p.o. b.i.d.", "mode": null, "frequency": null}, {"medication_name": "Neurontin", "dosage": "100 mg b.i.d.", "mode": null, "frequency": null}, {"medication_name": "Lamictal", "dosage": "200 mg b.i.d.", "mode": null, "frequency": null}, {"medication_name": "Prilosec", "dosage": "20 daily", "mode": null, "frequency": null}, {"medication_name": "levothyroxine", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "Glucophage", "dosage": "500 once a day", "mode": null, "frequency": null}, {"medication_name": "Reglan", "dosage": "10 once a day", "mode": null, "frequency": null}, {"medication_name": "niacin", "dosage": "500 once a day", "mode": null, "frequency": null}, {"medication_name": "Senna", "dosage": "2 tabs b.i.d.", "mode": null, "frequency": null}, {"medication_name": "Zocor", "dosage": "20 mg once a day", "mode": null, "frequency": null}, {"medication_name": "Nutropin", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "Colace", "dosage": "100 mg p.o. b.i.d.", "mode": null, "frequency": null}, {"medication_name": "Lopressor", "dosage": "100 mg p.o. b.i.d.", "mode": null, "frequency": null}, {"medication_name": "lidoderm 5% patch to the low back", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "Tylenol", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "ducolox", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "Mylanta", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "lactulose", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "Seroquel", "dosage": "100 mg", "mode": null, "frequency": null}, {"medication_name": "prednisone", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "Dilaudid", "dosage": null, "mode": null, "frequency": null}, {"medication_name": "Tramadol", "dosage": null, "mode": null, "frequency": null}]}]}
+{
+    "experiment_name": "Medication Extraction Zero Shot",
+    "inputs": [
+        "66947.txt.json",
+        "80815.txt.json",
+        "5091.txt.json",
+        "661.txt.json",
+        "28218.txt.json"
+    ],
+    "outputs": [
+        {
+            "file": "66947.txt.json",
+            "out": [
+                {
+                    "medication_name": "mycophenolate mofetil",
+                    "dosage": "1000 mg",
+                    "mode": "",
+                    "frequency": "bid"
+                },
+                {
+                    "medication_name": "oxybutynin chloride xl",
+                    "dosage": "10 mg",
+                    "mode": "",
+                    "frequency": "qd"
+                },
+                {
+                    "medication_name": "insulin glargine",
+                    "dosage": "20 units",
+                    "mode": "",
+                    "frequency": "qam"
+                },
+                {
+                    "medication_name": "furosemide",
+                    "dosage": "50 mg",
+                    "mode": "",
+                    "frequency": "qd"
+                },
+                {
+                    "medication_name": "clopidogrel",
+                    "dosage": "75 mg",
+                    "mode": "",
+                    "frequency": "qd"
+                },
+                {
+                    "medication_name": "pravastatin sodium",
+                    "dosage": "40 mg",
+                    "mode": "",
+                    "frequency": "qhs"
+                },
+                {
+                    "medication_name": "prednisone",
+                    "dosage": "5 mg",
+                    "mode": "",
+                    "frequency": "qd"
+                },
+                {
+                    "medication_name": "cyclosporine (sandimmune)",
+                    "dosage": "75 mg",
+                    "mode": "",
+                    "frequency": "bid"
+                },
+                {
+                    "medication_name": "metoprolol succinate extended release",
+                    "dosage": "50 mg",
+                    "mode": "",
+                    "frequency": "qd"
+                },
+                {
+                    "medication_name": "fenofibrate (tricor southerner)",
+                    "dosage": "48 mg",
+                    "mode": "",
+                    "frequency": "qd"
+                },
+                {
+                    "medication_name": "aspirin",
+                    "dosage": "325 mg",
+                    "mode": "",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "plavix",
+                    "dosage": "75 mg",
+                    "mode": "",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "lasix",
+                    "dosage": "40 mg",
+                    "mode": "",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "insulin glargine",
+                    "dosage": "20 units",
+                    "mode": "",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "metoprolol succinate extended release",
+                    "dosage": "50 mg",
+                    "mode": "",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "food/drug interaction instruction",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "cellcept (mycophenolate mofetil)",
+                    "dosage": "1, 000 mg",
+                    "mode": "",
+                    "frequency": "bid"
+                },
+                {
+                    "medication_name": "tng 0.4 mg (nitroglycerin 1/150 (0.4 mg))",
+                    "dosage": "1 tab sl q5min x 3 doses prn chest pain",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "ditropan xl (oxybutynin chloride xl)",
+                    "dosage": "10 mg",
+                    "mode": "",
+                    "frequency": "qd"
+                },
+                {
+                    "medication_name": "pravachol",
+                    "dosage": "40 mg",
+                    "mode": "",
+                    "frequency": "bedtime"
+                },
+                {
+                    "medication_name": "prednisolone sodium phosphate 5mg/5ml",
+                    "dosage": "5 mg",
+                    "mode": "",
+                    "frequency": "po daily"
+                },
+                {
+                    "medication_name": "diet: house / low chol/low sat. fat",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "activity: light activity , no heavy lifting or driving x 2 days",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "lift restrictions: do not lift greater then 10-15 pounds",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "follow up appointment( s ): heart failure clinic 2-4 weeks",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "allergy: simvastatin",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "admit diagnosis: s/p cardiac transplant",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "principal discharge diagnosis ",
+                    "dosage": "responsible after study for causing admission ) s/p angioplasty and stenting",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "other diagnosis",
+                    "dosage": "conditions , infections , complications , affecting treatment/stay",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "operations and procedures: other treatments/procedures ( not in. r. )",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "s/p lad angioplasty and stenting",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "brief resume of hospital course: 71 year old female that is now 15 years following cardiac transplantation , with a multiplicity of medical issues , including allograft coronary artery disease , bilateral carotid disease ( underwent carotid stenting in march 2006 ) , history of tia , diabetes and significant obesity.her baseline renal cr was 1.7 . the lcx was stented in june",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "2006. current meds includes cellcept 1000 mg p.o. bid , prednisone 5 mg daily , cyclosporine 75 mg p.o. bid , toprol-xl 50 mg daily , tricor , once daily , pravachol 40 mg daily , plavix 75 mg daily , lasix , 40 mg daily , insulin , aspirin , ditropan 10 mg daily and vitamins. elective cardiac catheterization was performed today for her annual post cardiac transplant evaluation revealed double vessel disease proximal lad 95% lesion , leftncx ( proximal ) , 75% lesion cx ( mid ) , 95% lesion . marg1 ( ostial ) , 95% lesion. successful ptc/stenting - lad using xb3.5guide , bmw , which was predilated with a 2mm balloon , 2 des was used ( 3 by 18 ) and( 3 by 18 ) cypher stents which was subsequently postdilated to 3.2 , no residual stenosis . right groin access was closed with starclose. pci of the lad today and possible planned pci of lcx in 1-3 weeks. check renal function over the next 2 days",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "plan: pci of the lad today and possible planned pci of lcx in 1-3 weeks. check renal function over the next 2 days",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "physical exam: 96.4 80-90s 110/60 97%ra voiding to br nad . jvp not elevated . cor rrr , s1s2 , no murmur appreciated . lungs - cta bilat , no rrw . ext - warm , no edema . right groin-soft , no ecchymosis , no hematoma or bruit . pulse. tele: no tele events . a/p : *cad: 1 day post cypher des to lad with significant residual disease , please see cath report for full details . will need asa 325 daily x life , plavix 75 daily for minimum of 12 months and should continue out indef . importantance stressed and patient understands ! sl tng prn chest pain . am enzymes pending . *pump: no evidence of volume overload , chf . *rhythm: no palps , no tachy/brady tele events . *htn: bp well controlled hr up some on toprol xl 50 , lasix 40 . *lipids: will cont pravachol 40 , tricor 48 . **pulm: no issues . **renal: baseline 1.5 - 1.7 , am pending . encouraged increased po intake over next several days , if urine output falls she will call , she should have renal fx rechecked on monday with local md . **endo: check hgb a1c as outpt . cont insulin",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "aspirin for life",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "plavix for a minimum of 1 year - do not stop aspirin or plavix for any reason unless speak with your cardiologist first!!!",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "resume other medications at usual doses",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "you will need your kidney function test on monday after receiving contrast- this should be followed by heart transplant clinic",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "drink plenty of fluids over the next several days , if your urine output falls please call .",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "you will need to return for another intervention in the next several weeks- this should be set up through transplant clinic",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "call with questions or concerns",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "discharge condition: stable",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "to do/plan:",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "no dictated summary",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "entered by: danes , cruz , m.d. ( xo06 ) 6/21/07 @ 09:39 am",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "****** end of discharge orders ******",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                }
+            ]
+        },
+        {
+            "file": "80815.txt.json",
+            "out": [
+                {
+                    "medication_name": "aspirin",
+                    "dosage": "81 mg",
+                    "mode": "",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "plavix",
+                    "dosage": "75 mg",
+                    "mode": "",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "coumadin",
+                    "dosage": "6 mg",
+                    "mode": "",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "digoxin",
+                    "dosage": "0.125 mg",
+                    "mode": "",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "lasix",
+                    "dosage": "40 mg",
+                    "mode": "",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "lisinopril",
+                    "dosage": "10 mg",
+                    "mode": "",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "lopressor",
+                    "dosage": "25 mg",
+                    "mode": "",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "zocor",
+                    "dosage": "80 mg",
+                    "mode": "",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "flomax",
+                    "dosage": "0.4 mg",
+                    "mode": "",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "flovent",
+                    "dosage": "110 mcg",
+                    "mode": "",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "nexium",
+                    "dosage": "20 mg",
+                    "mode": "",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "metoprolol",
+                    "dosage": "25 mg",
+                    "mode": "",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "simvastatin",
+                    "dosage": "80 mg",
+                    "mode": "",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "vancomycin",
+                    "dosage": "250 mg",
+                    "mode": "",
+                    "frequency": ""
+                }
+            ]
+        },
+        {
+            "file": "5091.txt.json",
+            "out": [
+                {
+                    "medication_name": "aspirin",
+                    "dosage": "",
+                    "mode": "325 mg",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "vitamin c",
+                    "dosage": "500 mg",
+                    "mode": "",
+                    "frequency": "b.i.d."
+                },
+                {
+                    "medication_name": "calcitriol",
+                    "dosage": "0.5 mcg",
+                    "mode": "",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "colace",
+                    "dosage": "100 mg",
+                    "mode": "",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "heparin",
+                    "dosage": "",
+                    "mode": "subcutaneous",
+                    "frequency": "t.i.d."
+                },
+                {
+                    "medication_name": "isosorbide dinitrate",
+                    "dosage": "10 mg",
+                    "mode": "",
+                    "frequency": "p.o. t.i.d."
+                },
+                {
+                    "medication_name": "lactulose",
+                    "dosage": "30 ml",
+                    "mode": "",
+                    "frequency": "p.o. t.i.d."
+                },
+                {
+                    "medication_name": "lisinopril",
+                    "dosage": "50 mg",
+                    "mode": "",
+                    "frequency": "p.o. daily"
+                },
+                {
+                    "medication_name": "Lopressor",
+                    "dosage": "50 mg",
+                    "mode": "",
+                    "frequency": "p.o. q 6h"
+                },
+                {
+                    "medication_name": "simethicone",
+                    "dosage": "80 mg",
+                    "mode": "",
+                    "frequency": "q.i.d."
+                },
+                {
+                    "medication_name": "vancomycin",
+                    "dosage": "1 g",
+                    "mode": "",
+                    "frequency": "IV every other day"
+                },
+                {
+                    "medication_name": "zinc sulfate",
+                    "dosage": "220 mg",
+                    "mode": "",
+                    "frequency": "p.o. daily for two weeks"
+                },
+                {
+                    "medication_name": "Zocor",
+                    "dosage": "80 mg",
+                    "mode": "",
+                    "frequency": "p.o. daily"
+                },
+                {
+                    "medication_name": "Norvasc",
+                    "dosage": "10 mg",
+                    "mode": "",
+                    "frequency": "p.o. daily"
+                },
+                {
+                    "medication_name": "Nephro-Vite",
+                    "dosage": "1 tab",
+                    "mode": "",
+                    "frequency": "p.o. daily"
+                },
+                {
+                    "medication_name": "Prandin",
+                    "dosage": "0.5 mg",
+                    "mode": "",
+                    "frequency": "with each meal"
+                },
+                {
+                    "medication_name": "Aranesp",
+                    "dosage": "40 mcg",
+                    "mode": "",
+                    "frequency": "subcutaneous every week"
+                },
+                {
+                    "medication_name": "sliding scale insulin",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "insulin aspart",
+                    "dosage": "4 units",
+                    "mode": "",
+                    "frequency": "subcutaneous with breakfast and dinner"
+                },
+                {
+                    "medication_name": "Dulcolax",
+                    "dosage": "10 mg",
+                    "mode": "",
+                    "frequency": "PR daily"
+                },
+                {
+                    "medication_name": "Tylenol",
+                    "dosage": "prn",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "oxycodone",
+                    "dosage": "5-10 mg",
+                    "mode": "",
+                    "frequency": "p.o. q 4h hours"
+                },
+                {
+                    "medication_name": "Zyprexa",
+                    "dosage": "5 mg",
+                    "mode": "",
+                    "frequency": "p.o. q 8h as needed for anxiety or agitation"
+                },
+                {
+                    "medication_name": "Maalox",
+                    "dosage": "prn",
+                    "mode": null,
+                    "frequency": null
+                }
+            ]
+        },
+        {
+            "file": "661.txt.json",
+            "out": [
+                {
+                    "medication_name": "acetylsalicylic acid",
+                    "dosage": "325 mg",
+                    "mode": "",
+                    "frequency": "qd"
+                },
+                {
+                    "medication_name": "colace",
+                    "dosage": "100 mg",
+                    "mode": "",
+                    "frequency": "bid"
+                },
+                {
+                    "medication_name": "enalapril maleate",
+                    "dosage": "10 mg",
+                    "mode": "",
+                    "frequency": "po bid"
+                },
+                {
+                    "medication_name": "instructions: hold on mornings of dialysis",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "ntg 1/150",
+                    "dosage": "1 tab sl q5min x 3 prn Chest Pain",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "zocor",
+                    "dosage": "40 mg",
+                    "mode": "",
+                    "frequency": "qhs"
+                },
+                {
+                    "medication_name": "food/drug interaction instruction",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "avoid grapefruit unless md instructs otherwise",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "imdur",
+                    "dosage": "30 mg",
+                    "mode": "",
+                    "frequency": "po qd"
+                },
+                {
+                    "medication_name": "food/drug interaction instruction",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "give on an empty stomach ( give 1hr before or 2hr after food )",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "nephrocaps",
+                    "dosage": "2 tab po qd",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "alert overridden: override added on 4/29/04 by schmalzried, ezeqiel l. , m.d",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "potentially serious interaction: simvastatin & amp ",
+                    "dosage": " niacin , vit. b-3",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "reason for override: home regimen",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "nesium",
+                    "dosage": "20 mg",
+                    "mode": "",
+                    "frequency": "po qd"
+                },
+                {
+                    "medication_name": "toprol xl",
+                    "dosage": "200 mg",
+                    "mode": "",
+                    "frequency": "po qhs"
+                },
+                {
+                    "medication_name": "food/drug interaction instruction",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "take consistently with meals or on empty stomach",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "diet: house / 2 gm na / ada 2100 cals/day / low saturated fat",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "low cholesterol / Renal diet (FDI)",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "activity: walking as tolerated",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "follow up appointment( s ):",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "dr alan mcratt ( cardiology at Lumamer Medical Center ) 4:00pm 5/19/04 scheduled ,",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "primary care physician 2 weeks ,",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "allergy: lisinopril , zocor ( hmg coa reductase inhibitors )",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "admit diagnosis: hypotension, nstemi",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "principal discharge diagnosis ",
+                    "dosage": "responsible after study for causing admission)",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "hypotension, nstemi",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "other diagnosis",
+                    "dosage": "conditions, infections, complications, affecting treatment/stay",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "1. nddm 2. ai/as , bicuspid aortic valve , lvh 3. htn 4. s/p thyroglossal duct cyst excision",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "5. h/o noncompliance with meds 6. 3 vessel cad ( coronary artery disease )",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "7. esrd on hd ( end stage renal disease ) 8. chf , unclear etiology ( congestive heart failure )",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "9. hyperlipidemia ( hyperlipidemia )",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "10. h/o syphilis ( h/o syphilis )",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "operations and procedures: none",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "other treatments/procedures ( not in o.r. )",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "persantine and viability cardiac pet scan 5/19/04",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "brief resume of hospital course:",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "erate global lv systolic dysfunction.",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "3. the results are essentially unchanged from his prior study",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "of february , 2003.",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "cc: hypotension after dialysis",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "hpi: 56 yo male with h/o esrd , cad , chf ( ef 20-25% ) admitted for",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "hypotension after hd. he was in his usoh until 2 days pta when he",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "developed stomach upset , diarrhea , dry heaves , and a dry cough.",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "ros: chronic pdn , uses 1 pillow , gained 8kg in 2 weeks but compliant",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "with meds , no melena , no brbpr",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "physical exam t 97 p85 bp 114/67-&gt",
+                    "dosage": "160/97 rr 16-24 89% ra",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "chronically ill appearing , nad",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "neck: supple",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "chest: bibasilar rales",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "cvs: palpable s3 , lat displaced pmi , ii/vi sem at rusb , jvp &lt",
+                    "dosage": " 7cm",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "abd: soft nt nd , + bs , no hsm",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "ext: trace pedal edema , hyperpigmentation in sock distribution",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "labs: wbc 5 , tnI 0.37 , ck 153 , ckmbb8.2 ( chronically elevated cardiac enzymes )",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "ekg: nsr , 1st deg avb , lae , lvh , old twi in 1 , l , v5 , v6 , more pronounced",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "st dep in v5 than 6/4",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "cxr: r pl effusion , cmg",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "assessment: hypotension after dialysis in setting of gi upset/diarrhea/vomiting ,",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "likely was dehydrated. the bp rose after fluids and his current",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "hypoxia is likely from mild pulm edema. although chronically elevated",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "cardiac enzymes , there is concern about new ishemia , and",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "concern for pe given hypoxia in ed.",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "hospital course",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "1. cvs: ischemia: nstemi: continued medical management with asa , beta",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "blocker , imdur , zocor , ntg prn . the ckmb peaked at 12 and tni to 4. his",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "cardiologist ( dr benisek ) recommended pet scan to assess for viable",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "myocardium and ischemia. his last stress test 1 year ago showed only",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "scarring with no ischemia. in the past , pt's wife refused for him to go",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "for cabg . they are reconsidering this option currently.",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "the results of the pet scan are as follows:",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "- a small region of myocardial scar/hibernation along with mild",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "residual stress induced peri-infarct ischemia in the distal lad",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "distribution.",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "- moderate global lv systolic dysfunction.",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "- the results are essentially unchanged from his prior study of february ,",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "2003.",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "the family was called to stress the importance of follow up with",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "cardiology ( they have missed appointments in the past )",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "pump: ( ef 20-25% ) , increased enalapril to 10mg bid , bnp was sent and",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "echo revealed ef 30% , mod ai.",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "rythm: no events occurred on telemetry",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "2. pulm: monitored sats with fluid restriction. ra sats improved to",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "97%",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "3. renal: hd mwf , home renal meds . he was dialyzed to a weight below",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "his previous baseline per cardiology recommendations. in the past",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "he has had elevated rh filling pressures after hd. the ryi was",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "called by the attending renal physician ( dr. slemp ) about his goal",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "weight.",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "4. id: blood cx were no growth",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "5. gi: he was continued on his home nexium",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "6. proph: sq heparin was used for dvt prophylaxis",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "additional comments: it is very important that you attend your follow up appointment with",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "the cardiologist , dr ivrin",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "please take the medications listed above and do not take enalapril on",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "mornings of dialysis",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "please adhere to your dietary restrictions. if you gain more than 3 kg",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "between dialysis sessions please restrict your fluid intake. the diet",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "guidelines will be coordinated by the staff at chapmed gamette medical center",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "discharge condition: stable",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "to do/plan:",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "see above",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "no dictated summary",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "entered by: passino , terry d. , m.d. ( en8 ) 11/17/04 @ 11",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "****** end of discharge orders ******",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "[report_end]",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                }
+            ]
+        },
+        {
+            "file": "28218.txt.json",
+            "out": [
+                {
+                    "medication_name": "aspirin",
+                    "dosage": "81 mg",
+                    "mode": "",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "baclofen",
+                    "dosage": "5 mg t.i.d.",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "B12",
+                    "dosage": "1000 mg daily",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "iron sulfate",
+                    "dosage": "325 mg daily",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "Cymbalta",
+                    "dosage": "20 mg p.o. b.i.d.",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "Neurontin",
+                    "dosage": "100 mg b.i.d.",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "Lamictal",
+                    "dosage": "200 mg b.i.d.",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "Prilosec",
+                    "dosage": "20 daily",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "levothyroxine",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "Glucophage",
+                    "dosage": "500 once a day",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "Reglan",
+                    "dosage": "10 once a day",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "niacin",
+                    "dosage": "500 once a day",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "Senna",
+                    "dosage": "2 tabs b.i.d.",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "Zocor",
+                    "dosage": "20 mg once a day",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "Nutropin",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "Colace",
+                    "dosage": "100 mg p.o. b.i.d.",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "Lopressor",
+                    "dosage": "100 mg p.o. b.i.d.",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "lidoderm 5% patch to the low back",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "Tylenol",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "ducolox",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "Mylanta",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "lactulose",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "Seroquel",
+                    "dosage": "100 mg",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "prednisone",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "Dilaudid",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "Tramadol",
+                    "dosage": null,
+                    "mode": null,
+                    "frequency": null
+                }
+            ]
+        }
+    ],
+    "dataset_dir": "../../../datasets/n2c2"
+}

@@ -1,0 +1,494 @@
+{
+    "experiment_name": "Medication Extraction Zero Shot",
+    "inputs": [
+        "PSD003.json",
+        "PSD002.json",
+        "PSD005.json",
+        "PSD009.json",
+        "PSD008.json",
+        "PSD004.json",
+        "PSD007.json",
+        "PSD010.json",
+        "PSD006.json",
+        "PSD001.json"
+    ],
+    "outputs": [
+        {
+            "file": "PSD003.json",
+            "out": [
+                {
+                    "medication_name": "pantoprazolo",
+                    "dosage": "20 mg",
+                    "mode": "1 cp alle ore 8",
+                    "frequency": null
+                },
+                {
+                    "medication_name": "acenocumaro",
+                    "dosage": "4 mg sec INR",
+                    "mode": "INR del 06.04.21 = 1.73 dose \u00bc cp, INR odierno= 1.66 dose \u00bd cp da somministrare",
+                    "frequency": null
+                },
+                {
+                    "medication_name": "bisoprololo",
+                    "dosage": "1.25 mg",
+                    "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
+                    "frequency": null
+                },
+                {
+                    "medication_name": "ramipril",
+                    "dosage": "5 mg",
+                    "mode": "1 cp alle ore 8",
+                    "frequency": null
+                },
+                {
+                    "medication_name": "furosemide",
+                    "dosage": "25 mg",
+                    "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
+                    "frequency": null
+                },
+                {
+                    "medication_name": "canreonato di potassio",
+                    "dosage": "25 mg",
+                    "mode": "1 cp alle ore 16",
+                    "frequency": null
+                },
+                {
+                    "medication_name": "enoxaparina",
+                    "dosage": "4000 U sc",
+                    "mode": "alle ore 18 fino al raggiungimento di INR stabile e terapeutico",
+                    "frequency": null
+                },
+                {
+                    "medication_name": "escitalopram",
+                    "dosage": "10 mg",
+                    "mode": "1 cp alle ore 22",
+                    "frequency": null
+                }
+            ]
+        },
+        {
+            "file": "PSD002.json",
+            "out": [
+                {
+                    "medication_name": "metformina",
+                    "dosage": "500 mg",
+                    "mode": "due volte al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "valsartan",
+                    "dosage": "80 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "sitagliptin",
+                    "dosage": "100 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": "dopo la colazione"
+                },
+                {
+                    "medication_name": "idroclorotiazide",
+                    "dosage": "12.5 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": "al mattino"
+                },
+                {
+                    "medication_name": "paracetamolo",
+                    "dosage": "500 mg",
+                    "mode": "fino a 3 volte al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "alendronato",
+                    "dosage": "70 mg",
+                    "mode": "una volta alla settimana",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "sertralina",
+                    "dosage": "50 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": ""
+                }
+            ]
+        },
+        {
+            "file": "PSD005.json",
+            "out": [
+                {
+                    "medication_name": "metformina",
+                    "dosage": "500 mg",
+                    "mode": "due volte al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "valsartan",
+                    "dosage": "80 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "sitagliptin",
+                    "dosage": "100 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": "dopo la colazione"
+                },
+                {
+                    "medication_name": "idroclorotiazide",
+                    "dosage": "12.5 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": "al mattino"
+                },
+                {
+                    "medication_name": "paracetamolo",
+                    "dosage": "500 mg",
+                    "mode": "fino a 3 volte al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "diuril",
+                    "dosage": "40 mg",
+                    "mode": "due volte al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "sertralina",
+                    "dosage": "50 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": ""
+                }
+            ]
+        },
+        {
+            "file": "PSD009.json",
+            "out": [
+                {
+                    "medication_name": "metformina",
+                    "dosage": "500 mg",
+                    "mode": "due volte al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "valsartan",
+                    "dosage": "80 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "sitagliptin",
+                    "dosage": "100 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": "dopo la colazione"
+                },
+                {
+                    "medication_name": "idroclorotiazide",
+                    "dosage": "12.5 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": "al mattino"
+                },
+                {
+                    "medication_name": "paracetamolo",
+                    "dosage": "500 mg",
+                    "mode": "fino a 3 volte al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "alendronato",
+                    "dosage": "70 mg",
+                    "mode": "una volta alla settimana",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "sertralina",
+                    "dosage": "50 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": ""
+                }
+            ]
+        },
+        {
+            "file": "PSD008.json",
+            "out": [
+                {
+                    "medication_name": "metformina",
+                    "dosage": "500 mg",
+                    "mode": "due volte al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "metformina",
+                    "dosage": "500 mg",
+                    "mode": "due volte al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "valsartan",
+                    "dosage": "80 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "sitagliptin",
+                    "dosage": "100 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": "dopo la colazione"
+                },
+                {
+                    "medication_name": "idrochlorotiazide",
+                    "dosage": "12.5 mg",
+                    "mode": "una volta al mattino",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "paracetamolo",
+                    "dosage": "500 mg",
+                    "mode": "fino a 3 volte al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "alendronato",
+                    "dosage": "70 mg",
+                    "mode": "una volta alla settimana",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "sertralina",
+                    "dosage": "50 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": ""
+                }
+            ]
+        },
+        {
+            "file": "PSD004.json",
+            "out": [
+                {
+                    "medication_name": "pantoprazolo",
+                    "dosage": "20 mg",
+                    "mode": "1 cp alle ore 8",
+                    "frequency": null
+                },
+                {
+                    "medication_name": "acido acetsalicilo",
+                    "dosage": "100 mg",
+                    "mode": "1 cp dopo pranzo",
+                    "frequency": null
+                },
+                {
+                    "medication_name": "ticagrelor",
+                    "dosage": "90 mg",
+                    "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
+                    "frequency": null
+                },
+                {
+                    "medication_name": "bisoprololo",
+                    "dosage": "1.25 mg",
+                    "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
+                    "frequency": null
+                },
+                {
+                    "medication_name": "furosemide",
+                    "dosage": "25 mg",
+                    "mode": "2 cp alle ore 8 e 1 cp alle ore 20",
+                    "frequency": null
+                },
+                {
+                    "medication_name": "canrenoato di potassio",
+                    "dosage": "100 mg",
+                    "mode": "\u00bd cp alle ore 16",
+                    "frequency": null
+                },
+                {
+                    "medication_name": "atorvastatina",
+                    "dosage": "40 mg",
+                    "mode": "1 cp alle ore 22",
+                    "frequency": null
+                },
+                {
+                    "medication_name": "tiotropio resmatil",
+                    "dosage": "2 inalazioni al mattino",
+                    "mode": null,
+                    "frequency": null
+                },
+                {
+                    "medication_name": "prednisone",
+                    "dosage": "25 mg",
+                    "mode": "1 cp alle ore 8 per 5 giorni, quindi scalare",
+                    "frequency": null
+                }
+            ]
+        },
+        {
+            "file": "PSD007.json",
+            "out": [
+                {
+                    "medication_name": "metformina",
+                    "dosage": "500 mg",
+                    "mode": "due volte al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "valsartan",
+                    "dosage": "80 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "sitagliptin",
+                    "dosage": "100 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": "dopo la colazione"
+                },
+                {
+                    "medication_name": "idroclorotiazide",
+                    "dosage": "12.5 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": "al mattino"
+                },
+                {
+                    "medication_name": "paracetamolo",
+                    "dosage": "500 mg",
+                    "mode": "fino a 3 volte al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "alendronato",
+                    "dosage": "70 mg",
+                    "mode": "una volta alla settimana",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "sertralina",
+                    "dosage": "50 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": ""
+                }
+            ]
+        },
+        {
+            "file": "PSD010.json",
+            "out": [
+                {
+                    "medication_name": "metformina",
+                    "dosage": "500 mg",
+                    "mode": "due volte al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "valsartan",
+                    "dosage": "80 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "sitagliptin",
+                    "dosage": "100 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": "dopo la colazione"
+                },
+                {
+                    "medication_name": "idrochlorotiazide",
+                    "dosage": "12.5 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": "al mattino"
+                },
+                {
+                    "medication_name": "paracetamolo",
+                    "dosage": "500 mg",
+                    "mode": "fino a 3 volte al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "alendronato",
+                    "dosage": "70 mg",
+                    "mode": "una volta alla settimana",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "sertralina",
+                    "dosage": "50 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": ""
+                }
+            ]
+        },
+        {
+            "file": "PSD006.json",
+            "out": [
+                {
+                    "medication_name": "pantoprazolo",
+                    "dosage": "20 mg",
+                    "mode": "1 cp alle ore 8",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "valsartan",
+                    "dosage": "80 mg",
+                    "mode": "1 cp alle ore 8",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "furosemide",
+                    "dosage": "25 mg",
+                    "mode": "\u00bd cp alle ore 8",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "prednisone",
+                    "dosage": "25 mg",
+                    "mode": "1 cp alle ore 8",
+                    "frequency": null
+                }
+            ]
+        },
+        {
+            "file": "PSD001.json",
+            "out": [
+                {
+                    "medication_name": "metformina",
+                    "dosage": "500 mg",
+                    "mode": "due volte al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "valsartan",
+                    "dosage": "80 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "sitagliptin",
+                    "dosage": "100 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": "dopo la colazione"
+                },
+                {
+                    "medication_name": "idroclorotiazide",
+                    "dosage": "12.5 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": "al mattino"
+                },
+                {
+                    "medication_name": "paracetamolo",
+                    "dosage": "500 mg",
+                    "mode": "fino a 3 volte al giorno",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "alendronato",
+                    "dosage": "70 mg",
+                    "mode": "una volta alla settimana",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "sertralina",
+                    "dosage": "50 mg",
+                    "mode": "una volta al giorno",
+                    "frequency": ""
+                }
+            ]
+        }
+    ],
+    "dataset_dir": "../../../datasets/Policlinico_San_Donato_txt"
+}

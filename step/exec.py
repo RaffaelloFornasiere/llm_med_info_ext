@@ -68,6 +68,7 @@ def run(config_file='config.json', verbose: bool = False):
 
     result = {
         'experiment_name': experiment_name,
+        'dataset_dir': dataset_config['dir'],
         'inputs': [file['file'] for file in dataset],
         'outputs': ans,
     }

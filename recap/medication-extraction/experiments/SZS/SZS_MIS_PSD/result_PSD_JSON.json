@@ -1,15 +1,10 @@
 {
   "experiment_name": "Medication Extraction Zero Shot",
+  "dataset_dir": "../../../datasets/Policlinico_San_Donato_txt/",
   "inputs": [
     "PSD003.json",
     "PSD002.json",
-    "PSD005.json",
-    "PSD009.json",
-    "PSD008.json",
     "PSD004.json",
-    "PSD007.json",
-    "PSD010.json",
-    "PSD006.json",
     "PSD001.json"
   ],
   "outputs": [
@@ -26,170 +21,27 @@
       }
     },
     {
-      "file": "PSD005.json",
-      "out": [
-        {
-          "nome_farmaco": "Aspirina",
-          "dose": "100 mg",
-          "modalit\u00e0": "orale",
-          "frequenza": "una volta al giorno"
-        },
-        {
-          "nome_farmaco": "Paracetamolo",
-          "dose": "500 mg",
-          "modalit\u00e0": "orale",
-          "frequenza": "due volte al giorno"
-        }
-      ]
-    },
-    {
-      "file": "PSD009.json",
-      "out": [
-        {
-          "nome_farmaco": "Aspirina",
-          "dose": "100 mg",
-          "modalit\u00e0": "orale",
-          "frequenza": "una volta al giorno"
-        },
-        {
-          "nome_farmaco": "Metformina",
-          "dose": "500 mg",
-          "modalit\u00e0": "orale",
-          "frequenza": "due volte al giorno"
-        }
-      ]
-    },
-    {
-      "file": "PSD008.json",
-      "out": [
-        {
-          "nome_farmaco": "St Jude Reagent N\u00b021",
-          "dose": "sostituzione valvolare aortica con protesi meccanica",
-          "modalit\u00e0": "chirurgico",
-          "frequenza": "una sola volta"
-        },
-        {
-          "nome_farmaco": "Pantoprazolo",
-          "dose": "20 mg",
-          "modalit\u00e0": "oralmente",
-          "frequenza": "1 cp alle ore 8-20"
-        },
-        {
-          "nome_farmaco": "Aceinocumaro",
-          "dose": "4 mg",
-          "modalit\u00e0": "endovenoso",
-          "frequenza": "INR alle ore 16 (INR odierno = 1.16 dose 1cp)"
-        },
-        {
-          "nome_farmaco": "Enoxaparina",
-          "dose": "6000 U sc",
-          "modalit\u00e0": "endovenosa",
-          "frequenza": "alle ore 18 fino a raggiungimento di INR stabile e a range terapeutico"
-        },
-        {
-          "nome_farmaco": "Bisoprololo",
-          "dose": "1.25 mg",
-          "modalit\u00e0": "oralmente",
-          "frequenza": "2 cp alle ore 8 e 1cp alle ore 18"
-        },
-        {
-          "nome_farmaco": "Zolpidem",
-          "dose": "10 mg",
-          "modalit\u00e0": "oralmente",
-          "frequenza": "1 cp alle ore 22"
-        },
-        {
-          "nome_farmaco": "Furosemide",
-          "dose": "25 mg",
-          "modalit\u00e0": "endovenosa",
-          "frequenza": "2 cp alle ore 8 e 2 cp alle ore 18"
-        },
-        {
-          "nome_farmaco": "Atorvastatina",
-          "dose": "10 mg",
-          "modalit\u00e0": "oralmente",
-          "frequenza": "1 cp alle ore 22"
-        },
-        {
-          "nome_farmaco": "Lexotan",
-          "dose": "3MG",
-          "modalit\u00e0": "oralmente",
-          "frequenza": "1CP ORE 22"
-        },
-        {
-          "nome_farmaco": "Humulin R",
-          "dose": "4 UI",
-          "modalit\u00e0": "endovenosa",
-          "frequenza": "Sec DTX"
-        }
-      ]
-    },
-    {
       "file": "PSD004.json",
-      "out": [
-        {
-          "nome_farmaco": "Aspirina",
-          "dose": "100 mg",
-          "modalit\u00e0": "una volta al giorno",
-          "frequenza": "oggi"
-        },
-        {
-          "nome_farmaco": "Pantoprazolo",
-          "dose": "20 mg",
-          "modalit\u00e0": "una volta al giorno",
-          "frequenza": "oggi"
-        }
-      ]
-    },
-    {
-      "file": "PSD007.json",
       "out": {
-        "nome_farmaco": "",
-        "dose": "",
-        "modalita": "",
-        "frequenza": ""
+        "error": "\n{\n  \"nome_farmaco\": \"Pantoprazolo\",\n  \"dose\": \"20 mg\",\n  \"modalit\u00e0\": \"1 cp alle ore 8\",\n  \"frequenza\": \"\"\n},\n{\n  \"nome_farmaco\": \"Acido acetilsalicilico\",\n  \"dose\": \"100 mg\",\n  \"modalit\u00e0\": \"1 cp dopo pranzo\",\n  \"frequenza\": \"\"\n},\n{\n  \"nome_farmaco\": \"Ticagrelor\",\n  \"dose\": \"90 mg\",\n  \"modalit\u00e0\": \"1 cp alle ore 8 e 1 cp alle ore 20\",\n  \"frequenza\": \"\"\n},\n{\n  \"nome_farmaco\": \"Bisoprololo\",\n  \"dose\": \"1.25 mg\",\n  \"modalit\u00e0\": \"1 cp alle ore 8 e 1 cp alle ore 20\",\n  \"frequenza\": \"\"\n},\n{\n  \"nome_farmaco\": \"Furosemide\",\n  \"dose\": \"25 mg\",\n  \"modalit\u00e0\": \"2 cp alle ore 8 e 1 cp alle ore 20\",\n  \"frequenza\": \"\"\n},\n{\n  \"nome_farmaco\": \"Canrenoato di potassio\",\n  \"dose\": \"100 mg\",\n  \"modalit\u00e0\": \"\u00bd cp alle ore 16\",\n  \"frequenza\": \"\"\n},\n{\n  \"nome_farmaco\": \"Atorvastatina\",\n  \"dose\": \"40 mg\",\n  \"modalit\u00e0\": \"1 cp alle ore 22\",\n  \"frequenza\": \"\"\n},\n{\n  \"nome_farmaco\": \"Tiotropio Resmatil\",\n  \"dose\": \"2 inalazioni al mattino\",\n  \"modalit\u00e0\": \"\",\n  \"frequenza\": \"\"\n}\n]\n\n"
       }
-    },
-    {
-      "file": "PSD010.json",
-      "out": {
-        "error": "\n\n{\n  \"nome_farmaco\": \"Aspirina\",\n  \"dose\": \"100 mg\",\n  \"modalit\u00e0\": \"una volta al giorno\",\n  \"frequenza\": \"una volta al giorno\"\n},\n\n{\n  \"nome_farmaco\": \"Clopidogrel\",\n  \"dose\": \"75 mg\",\n  \"modalit\u00e0\": \"una volta al giorno\",\n  \"frequenza\": \"una volta al giorno\"\n},\n\n{\n  \"nome_farmaco\": \"Ticagrelor\",\n  \"dose\": \"90 mg\",\n  \"modalit\u00e0\": \"due volte al giorno\",\n  \"frequenza\": \"una volta al giorno\"\n}\n\n"
-      }
-    },
-    {
-      "file": "PSD006.json",
-      "out": [
-        {
-          "nome_farmaco": "Pantoprazolo",
-          "dose": "20 mg",
-          "modalit\u00e0": "1 cp alle ore 8",
-          "frequenza": ""
-        },
-        {
-          "nome_farmaco": "Valsartan",
-          "dose": "80 mg",
-          "modalit\u00e0": "1 cp alle ore 8",
-          "frequenza": ""
-        },
-        {
-          "nome_farmaco": "Furosemide",
-          "dose": "25 mg",
-          "modalit\u00e0": "\u00bd cp alle ore 8",
-          "frequenza": ""
-        },
-        {
-          "nome_farmaco": "Prednisone",
-          "dose": "25 mg",
-          "modalit\u00e0": "1 cp alle ore 8",
-          "frequenza": ""
-        }
-      ]
     },
     {
       "file": "PSD001.json",
-      "out": {
-        "error": "\n{\n  \"nome_farmaco\": \"PANTOPRAZOLO\",\n  \"dose\": \"20 mg\",\n  \"modalit\u00e0\": \"1 cp alle ore 8\",\n  \"frequenza\": \"\"\n},\n{\n  \"nome_farmaco\": \"CLOPIDOGREL\",\n  \"dose\": \"75 mg\",\n  \"modalit\u00e0\": \"1 cp dopo pranzo\",\n  \"frequenza\": \"\"\n},\n{\n  \"nome_farmaco\": \"BISOPROLOLO\",\n  \"dose\": \"1.25 mg\",\n  \"modalit\u00e0\": \"1 cp alle ore 8 e 1 cp alle ore 20\",\n  \"frequenza\": \"\"\n},\n{\n  \"nome_farmaco\": \"RAMIPRIL\",\n  \"dose\": \"5 mg\",\n  \"modalit\u00e0\": \"1 cp alle ore 8 e 1 cp alle ore 20\",\n  \"frequenza\": \"\"\n},\n{\n  \"nome_farmaco\": \"FUROSEMIDE\",\n  \"dose\": \"500 mg\",\n  \"modalit\u00e0\": \"\u00bc cp alle ore 8 e \u00bc alle ore 20\",\n  \"frequenza\": \"\"\n},\n{\n  \"nome_farmaco\": \"CANREONATO DI POTASSIO\",\n  \"dose\": \"100 mg\",\n  \"modalit\u00e0\": \"\u00bd cp alle ore 16\",\n  \"frequenza\": \"\"\n},\n{\n  \"nome_farmaco\": \"LEVOTIROXINA\",\n  \"dose\": \"100 mcg\",\n  \"modalit\u00e0\": \"1 cp a digiuno alle ore 7\",\n  \"frequenza\": \"\"\n},\n{\n  \"nome_farmaco\": \"TIOTROPIO Respimat\",\n  \"dose\": \"2 inalazioni al mattino\",\n  \"modalit\u00e0\": \"\",\n  \"frequenza\": \"\"\n},\n{\n  \"nome_farmaco\": \"LOPRAZEPAM\",\n  \"dose\": \"1 mg\",\n  \"modalit\u00e0\": \"1 cp alle ore 22\",\n  \"frequenza\": \"\"\n},\n{\n  \"nome_farmaco\": \"DOMPEDRIONE\",\n  \"dose\": \"\",\n  \"modalit\u00e0\": \"1 cp a pranzo e a cena\",\n  \"frequenza\": \"\"\n}\n]\n\n"
-      }
+      "out": [
+        {
+          "nome_farmaco": "Aspirina",
+          "dose": "100 mg",
+          "modalit\u00e0": "una volta al giorno",
+          "frequenza": "a pranzo"
+        },
+        {
+          "nome_farmaco": "Clopidogrel",
+          "dose": "75 mg",
+          "modalit\u00e0": "una volta al giorno",
+          "frequenza": "dopo il pranzo"
+        }
+      ]
     }
   ]
 }

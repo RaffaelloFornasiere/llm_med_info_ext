@@ -5,7 +5,7 @@ def map_input(inputs: list = None) -> dict:
 
 
 def map_table_to_json(inputs: list = None) -> list:
-    table = inputs
+    table = inputs[0].output.value
     table = [
         {
             'medication_name': row[0],

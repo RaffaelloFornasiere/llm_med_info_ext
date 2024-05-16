@@ -1,1 +1,450 @@
-{"experiment_name": "Medication Extraction Zero Shot", "inputs": ["66947.txt.json", "80815.txt.json", "5091.txt.json", "661.txt.json", "28218.txt.json"], "outputs": [{"file": "66947.txt.json", "out": [{"medication_name": "mycophenolate mofetil", "medication_dosage": "1000 mg", "mode": "p.o.", "frequency": "b.i.d."}, {"medication_name": "oxybutynin chloride xl", "medication_dosage": "10 mg", "mode": "p.o.", "frequency": "q.d."}, {"medication_name": "insulin glargine", "medication_dosage": "20 units", "mode": "s.c.", "frequency": "q.a.m."}, {"medication_name": "furosemide", "medication_dosage": "40 mg", "mode": "p.o.", "frequency": "q.d."}, {"medication_name": "clopidogrel", "medication_dosage": "75 mg", "mode": "p.o.", "frequency": "daily"}, {"medication_name": "pravastatin sodium", "medication_dosage": "40 mg", "mode": "p.o.", "frequency": "q.h.s."}, {"medication_name": "prednisone", "medication_dosage": "5 mg", "mode": "p.o.", "frequency": "daily"}, {"medication_name": "cyclosporine (sandimmune)", "medication_dosage": "75 mg", "mode": "p.o.", "frequency": "b.i.d."}, {"medication_name": "metoprolol succinate extended release", "medication_dosage": "50 mg", "mode": "p.o.", "frequency": "q.d."}, {"medication_name": "fenofibrate (tricor)", "medication_dosage": "48 mg", "mode": "p.o.", "frequency": "daily"}]}, {"file": "80815.txt.json", "out": [{"medication_name": "aspirin", "medication_dosage": "81 mg", "mode": "p.o.", "frequency": "daily"}, {"medication_name": "Plavix", "medication_dosage": "75 mg", "mode": "p.o.", "frequency": "daily"}, {"medication_name": "Coumadin", "medication_dosage": "6 mg", "mode": "p.o.", "frequency": "daily"}, {"medication_name": "digoxin", "medication_dosage": "0.125 mg", "mode": "p.o.", "frequency": "daily"}, {"medication_name": "Lasix", "medication_dosage": "49 mg", "mode": "p.o.", "frequency": "daily"}, {"medication_name": "lisinopril", "medication_dosage": "10 mg", "mode": "p.o.", "frequency": "daily"}, {"medication_name": "Lopressor", "medication_dosage": "25 mg", "mode": "b.i.d.", "frequency": "daily"}, {"medication_name": "Zocor", "medication_dosage": "80 mg", "mode": "p.o.", "frequency": "daily"}, {"medication_name": "Flomax", "medication_dosage": "0.4 mg", "mode": "p.o.", "frequency": "every evening"}, {"medication_name": "Flovent", "medication_dosage": "110 mcg", "mode": "inhale b.i.d."}]}, {"file": "5091.txt.json", "out": [{"medication_name": "aspirin", "medication_dosage": "325 mg", "mode": "p.o.", "frequency": "q.d."}, {"medication_name": "vitamin C", "medication_dosage": "500 mg", "mode": "p.o.", "frequency": "b.i.d."}, {"medication_name": "calcitriol", "medication_dosage": "0.5 mcg", "mode": "p.o.", "frequency": "q.d."}, {"medication_name": "Colace", "medication_dosage": "100 mg", "mode": "p.o.", "frequency": "q.d."}, {"medication_name": "heparin", "medication_dosage": "5000 units", "mode": "subcutaneous", "frequency": "t.i.d."}, {"medication_name": "isosorbide dinitrate", "medication_dosage": "10 mg", "mode": "p.o.", "frequency": "t.i.d."}, {"medication_name": "lactulose", "medication_dosage": "30 mL", "mode": "p.o.", "frequency": "t.i.d."}, {"medication_name": "lisinopril", "medication_dosage": "50 mg", "mode": "p.o.", "frequency": "q.d."}, {"medication_name": "Lopressor", "medication_dosage": "50 mg", "mode": "p.o.", "frequency": "q.6h"}, {"medication_name": "simethicone", "medication_dosage": "80 mg", "mode": "p.o.", "frequency": "q.i.d."}, {"medication_name": "vancomycin", "medication_dosage": "1 g", "mode": "IV", "frequency": "every other day"}, {"medication_name": "zinc sulfate", "medication_dosage": "220 mg", "mode": "p.o.", "frequency": "q.d."}, {"medication_name": "Zocor", "medication_dosage": "80 mg", "mode": "p.o.", "frequency": "q.d."}, {"medication_name": "Nephro-Vite", "medication_dosage": "1 tab", "mode": "p.o.", "frequency": "q.d."}, {"medication_name": "Prandin", "medication_dosage": "0.5 mg", "mode": "p.o.", "frequency": "with each meal"}, {"medication_name": "Aranesp", "medication_dosage": "40 mcg", "mode": "subcutaneous", "frequency": "every week"}, {"medication_name": "insulin", "medication_dosage": "sliding scale", "mode": "", "frequency": ""}, {"medication_name": "Dulcolax", "medication_dosage": "10 mg", "mode": "p.o.", "frequency": "q.d."}, {"medication_name": "Tylenol", "medication_dosage": "", "mode": "p.r.n.", "frequency": ""}, {"medication_name": "Dilaudid", "medication_dosage": "2-4 mg", "mode": "p.o.", "frequency": "q.4h"}, {"medication_name": "oxycodone", "medication_dosage": "5-10 mg", "mode": "p.o.", "frequency": "q.4h"}, {"medication_name": "Zyprexa", "medication_dosage": "5 mg", "mode": "p.o.", "frequency": "q.8h"}, {"medication_name": "Maalox", "medication_dosage": "", "mode": "p.r.n.", "frequency": ""}]}, {"file": "661.txt.json", "out": [{"medication_name": "acetylsalicylic acid", "medication_dosage": "325 mg", "mode": "po", "frequency": "qd"}, {"medication_name": "colace", "medication_dosage": "100 mg", "mode": "po", "frequency": "bid"}, {"medication_name": "enalapril maleate", "medication_dosage": "10 mg", "mode": "po", "frequency": "bid"}, {"medication_name": "nph humulin insulin", "medication_dosage": "2 units qam; 3 units qpm sc 2 units qam 3 units qpm", "mode": "sc", "frequency": ""}, {"medication_name": "ntg", "medication_dosage": "1/150 (0.4 mg)", "mode": "tab sl q5min x 3 prn chest pain"}, {"medication_name": "zocor", "medication_dosage": "40 mg", "mode": "po", "frequency": "qhs"}, {"medication_name": "imdur", "medication_dosage": "30 mg", "mode": "po", "frequency": "qd"}, {"medication_name": "nephrocaps po", "medication_dosage": "2 tab po qd", "mode": "po", "frequency": ""}, {"medication_name": "nexium", "medication_dosage": "20 mg", "mode": "po", "frequency": "qd"}, {"medication_name": "toprol xl", "medication_dosage": "200 mg", "mode": "po", "frequency": "qhs"}]}, {"file": "28218.txt.json", "out": [{"medication_name": "Imuran", "dosage": "50 mg", "mode": "p.o.", "frequency": "q.p.m."}, {"medication_name": "Dulcolax", "dosage": "5 mg", "mode": "p.o.", "frequency": "daily prn"}, {"medication_name": "Calcium Carbonate", "dosage": "500 mg", "mode": "p.o.", "frequency": "t.i.d."}, {"medication_name": "Flexeril", "dosage": "10 mg", "mode": "p.o.", "frequency": "t.i.d."}, {"medication_name": "Dexamethasone", "dosage": "2 mg", "mode": "p.o.", "frequency": "daily"}, {"medication_name": "Lasix", "dosage": "60 mg", "mode": "p.o.", "frequency": "daily"}, {"medication_name": "Colace", "dosage": "100 mg", "mode": "p.o.", "frequency": "b.i.d."}, {"medication_name": "Methadone", "dosage": "5 mg", "mode": "p.o.", "frequency": "t.i.d."}, {"medication_name": "Regular Insulin", "dosage": "sliding scale", "mode": "", "frequency": ""}, {"medication_name": "Coumadin", "dosage": "4.5 mg", "mode": "p.o.", "frequency": "q.p.m."}, {"medication_name": "Sennosides", "dosage": "two tables", "mode": "p.o.", "frequency": "b.i.d."}, {"medication_name": "Mepron", "dosage": "750 mg", "mode": "p.o.", "frequency": "b.i.d."}, {"medication_name": "Paxil", "dosage": "10 mg", "mode": "p.o.", "frequency": "daily"}, {"medication_name": "Neurontin", "dosage": "300 mg", "mode": "p.o.", "frequency": "q.h.s."}, {"medication_name": "Neurontin", "dosage": "100 mg", "mode": "p.o.", "frequency": "q.8 a.m....q. noon"}, {"medication_name": "Miralax", "dosage": "17 g", "mode": "p.o.", "frequency": "daily."}]}]}
+{
+    "experiment_name": "Medication Extraction Zero Shot",
+    "inputs": [
+        "66947.txt.json",
+        "80815.txt.json",
+        "5091.txt.json",
+        "661.txt.json",
+        "28218.txt.json"
+    ],
+    "outputs": [
+        {
+            "file": "66947.txt.json",
+            "out": [
+                {
+                    "medication_name": "mycophenolate mofetil",
+                    "medication_dosage": "1000 mg",
+                    "mode": "p.o.",
+                    "frequency": "b.i.d."
+                },
+                {
+                    "medication_name": "oxybutynin chloride xl",
+                    "medication_dosage": "10 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.d."
+                },
+                {
+                    "medication_name": "insulin glargine",
+                    "medication_dosage": "20 units",
+                    "mode": "s.c.",
+                    "frequency": "q.a.m."
+                },
+                {
+                    "medication_name": "furosemide",
+                    "medication_dosage": "40 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.d."
+                },
+                {
+                    "medication_name": "clopidogrel",
+                    "medication_dosage": "75 mg",
+                    "mode": "p.o.",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "pravastatin sodium",
+                    "medication_dosage": "40 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.h.s."
+                },
+                {
+                    "medication_name": "prednisone",
+                    "medication_dosage": "5 mg",
+                    "mode": "p.o.",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "cyclosporine (sandimmune)",
+                    "medication_dosage": "75 mg",
+                    "mode": "p.o.",
+                    "frequency": "b.i.d."
+                },
+                {
+                    "medication_name": "metoprolol succinate extended release",
+                    "medication_dosage": "50 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.d."
+                },
+                {
+                    "medication_name": "fenofibrate (tricor)",
+                    "medication_dosage": "48 mg",
+                    "mode": "p.o.",
+                    "frequency": "daily"
+                }
+            ]
+        },
+        {
+            "file": "80815.txt.json",
+            "out": [
+                {
+                    "medication_name": "aspirin",
+                    "medication_dosage": "81 mg",
+                    "mode": "p.o.",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "Plavix",
+                    "medication_dosage": "75 mg",
+                    "mode": "p.o.",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "Coumadin",
+                    "medication_dosage": "6 mg",
+                    "mode": "p.o.",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "digoxin",
+                    "medication_dosage": "0.125 mg",
+                    "mode": "p.o.",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "Lasix",
+                    "medication_dosage": "49 mg",
+                    "mode": "p.o.",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "lisinopril",
+                    "medication_dosage": "10 mg",
+                    "mode": "p.o.",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "Lopressor",
+                    "medication_dosage": "25 mg",
+                    "mode": "b.i.d.",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "Zocor",
+                    "medication_dosage": "80 mg",
+                    "mode": "p.o.",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "Flomax",
+                    "medication_dosage": "0.4 mg",
+                    "mode": "p.o.",
+                    "frequency": "every evening"
+                },
+                {
+                    "medication_name": "Flovent",
+                    "medication_dosage": "110 mcg",
+                    "mode": "inhale b.i.d."
+                }
+            ]
+        },
+        {
+            "file": "5091.txt.json",
+            "out": [
+                {
+                    "medication_name": "aspirin",
+                    "medication_dosage": "325 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.d."
+                },
+                {
+                    "medication_name": "vitamin C",
+                    "medication_dosage": "500 mg",
+                    "mode": "p.o.",
+                    "frequency": "b.i.d."
+                },
+                {
+                    "medication_name": "calcitriol",
+                    "medication_dosage": "0.5 mcg",
+                    "mode": "p.o.",
+                    "frequency": "q.d."
+                },
+                {
+                    "medication_name": "Colace",
+                    "medication_dosage": "100 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.d."
+                },
+                {
+                    "medication_name": "heparin",
+                    "medication_dosage": "5000 units",
+                    "mode": "subcutaneous",
+                    "frequency": "t.i.d."
+                },
+                {
+                    "medication_name": "isosorbide dinitrate",
+                    "medication_dosage": "10 mg",
+                    "mode": "p.o.",
+                    "frequency": "t.i.d."
+                },
+                {
+                    "medication_name": "lactulose",
+                    "medication_dosage": "30 mL",
+                    "mode": "p.o.",
+                    "frequency": "t.i.d."
+                },
+                {
+                    "medication_name": "lisinopril",
+                    "medication_dosage": "50 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.d."
+                },
+                {
+                    "medication_name": "Lopressor",
+                    "medication_dosage": "50 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.6h"
+                },
+                {
+                    "medication_name": "simethicone",
+                    "medication_dosage": "80 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.i.d."
+                },
+                {
+                    "medication_name": "vancomycin",
+                    "medication_dosage": "1 g",
+                    "mode": "IV",
+                    "frequency": "every other day"
+                },
+                {
+                    "medication_name": "zinc sulfate",
+                    "medication_dosage": "220 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.d."
+                },
+                {
+                    "medication_name": "Zocor",
+                    "medication_dosage": "80 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.d."
+                },
+                {
+                    "medication_name": "Nephro-Vite",
+                    "medication_dosage": "1 tab",
+                    "mode": "p.o.",
+                    "frequency": "q.d."
+                },
+                {
+                    "medication_name": "Prandin",
+                    "medication_dosage": "0.5 mg",
+                    "mode": "p.o.",
+                    "frequency": "with each meal"
+                },
+                {
+                    "medication_name": "Aranesp",
+                    "medication_dosage": "40 mcg",
+                    "mode": "subcutaneous",
+                    "frequency": "every week"
+                },
+                {
+                    "medication_name": "insulin",
+                    "medication_dosage": "sliding scale",
+                    "mode": "",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "Dulcolax",
+                    "medication_dosage": "10 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.d."
+                },
+                {
+                    "medication_name": "Tylenol",
+                    "medication_dosage": "",
+                    "mode": "p.r.n.",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "Dilaudid",
+                    "medication_dosage": "2-4 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.4h"
+                },
+                {
+                    "medication_name": "oxycodone",
+                    "medication_dosage": "5-10 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.4h"
+                },
+                {
+                    "medication_name": "Zyprexa",
+                    "medication_dosage": "5 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.8h"
+                },
+                {
+                    "medication_name": "Maalox",
+                    "medication_dosage": "",
+                    "mode": "p.r.n.",
+                    "frequency": ""
+                }
+            ]
+        },
+        {
+            "file": "661.txt.json",
+            "out": [
+                {
+                    "medication_name": "acetylsalicylic acid",
+                    "medication_dosage": "325 mg",
+                    "mode": "po",
+                    "frequency": "qd"
+                },
+                {
+                    "medication_name": "colace",
+                    "medication_dosage": "100 mg",
+                    "mode": "po",
+                    "frequency": "bid"
+                },
+                {
+                    "medication_name": "enalapril maleate",
+                    "medication_dosage": "10 mg",
+                    "mode": "po",
+                    "frequency": "bid"
+                },
+                {
+                    "medication_name": "nph humulin insulin",
+                    "medication_dosage": "2 units qam; 3 units qpm sc 2 units qam 3 units qpm",
+                    "mode": "sc",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "ntg",
+                    "medication_dosage": "1/150 (0.4 mg)",
+                    "mode": "tab sl q5min x 3 prn chest pain"
+                },
+                {
+                    "medication_name": "zocor",
+                    "medication_dosage": "40 mg",
+                    "mode": "po",
+                    "frequency": "qhs"
+                },
+                {
+                    "medication_name": "imdur",
+                    "medication_dosage": "30 mg",
+                    "mode": "po",
+                    "frequency": "qd"
+                },
+                {
+                    "medication_name": "nephrocaps po",
+                    "medication_dosage": "2 tab po qd",
+                    "mode": "po",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "nexium",
+                    "medication_dosage": "20 mg",
+                    "mode": "po",
+                    "frequency": "qd"
+                },
+                {
+                    "medication_name": "toprol xl",
+                    "medication_dosage": "200 mg",
+                    "mode": "po",
+                    "frequency": "qhs"
+                }
+            ]
+        },
+        {
+            "file": "28218.txt.json",
+            "out": [
+                {
+                    "medication_name": "Imuran",
+                    "dosage": "50 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.p.m."
+                },
+                {
+                    "medication_name": "Dulcolax",
+                    "dosage": "5 mg",
+                    "mode": "p.o.",
+                    "frequency": "daily prn"
+                },
+                {
+                    "medication_name": "Calcium Carbonate",
+                    "dosage": "500 mg",
+                    "mode": "p.o.",
+                    "frequency": "t.i.d."
+                },
+                {
+                    "medication_name": "Flexeril",
+                    "dosage": "10 mg",
+                    "mode": "p.o.",
+                    "frequency": "t.i.d."
+                },
+                {
+                    "medication_name": "Dexamethasone",
+                    "dosage": "2 mg",
+                    "mode": "p.o.",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "Lasix",
+                    "dosage": "60 mg",
+                    "mode": "p.o.",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "Colace",
+                    "dosage": "100 mg",
+                    "mode": "p.o.",
+                    "frequency": "b.i.d."
+                },
+                {
+                    "medication_name": "Methadone",
+                    "dosage": "5 mg",
+                    "mode": "p.o.",
+                    "frequency": "t.i.d."
+                },
+                {
+                    "medication_name": "Regular Insulin",
+                    "dosage": "sliding scale",
+                    "mode": "",
+                    "frequency": ""
+                },
+                {
+                    "medication_name": "Coumadin",
+                    "dosage": "4.5 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.p.m."
+                },
+                {
+                    "medication_name": "Sennosides",
+                    "dosage": "two tables",
+                    "mode": "p.o.",
+                    "frequency": "b.i.d."
+                },
+                {
+                    "medication_name": "Mepron",
+                    "dosage": "750 mg",
+                    "mode": "p.o.",
+                    "frequency": "b.i.d."
+                },
+                {
+                    "medication_name": "Paxil",
+                    "dosage": "10 mg",
+                    "mode": "p.o.",
+                    "frequency": "daily"
+                },
+                {
+                    "medication_name": "Neurontin",
+                    "dosage": "300 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.h.s."
+                },
+                {
+                    "medication_name": "Neurontin",
+                    "dosage": "100 mg",
+                    "mode": "p.o.",
+                    "frequency": "q.8 a.m....q. noon"
+                },
+                {
+                    "medication_name": "Miralax",
+                    "dosage": "17 g",
+                    "mode": "p.o.",
+                    "frequency": "daily."
+                }
+            ]
+        }
+    ],
+    "dataset_dir": "../../../datasets/n2c2"
+}

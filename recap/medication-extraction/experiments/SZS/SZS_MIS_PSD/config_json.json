@@ -38,7 +38,7 @@
     },
     {
       "id": 2,
-      "stepClass": "ParseJsonStep",
+      "stepClass": "ParseJSONStep",
       "args": {
         "name": "parse_json",
         "inputs": [

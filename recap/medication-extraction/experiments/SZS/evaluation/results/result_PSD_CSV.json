@@ -1,278 +1,279 @@
 {
-  "experiment_name": "Simple Zero Shot - Mistral - PSD - CSV",
-  "inputs": [
-    "PSD003.json",
-    "PSD002.json",
-    "PSD005.json",
-    "PSD009.json",
-    "PSD008.json",
-    "PSD004.json",
-    "PSD007.json",
-    "PSD010.json",
-    "PSD006.json",
-    "PSD001.json"
-  ],
-  "outputs": [
-    {
-      "file": "PSD003.json",
-      "out": [
-        [
-          ""
-        ],
-        [
-          "Aspirina",
-          "100 mg",
-          "una volta al giorno",
-          "prima del pasto"
-        ],
-        [
-          "Metformina",
-          "500 mg",
-          "due volte al giorno",
-          "dopo i pasti"
-        ],
-        [
-          "Levotiroxina",
-          "50 mcg",
-          "una volta al giorno",
-          "nel mattino"
-        ],
-        [
-          "Furosemide",
-          "25 mg",
-          "una volta al giorno",
-          "prima del pranzo"
-        ],
-        [
-          "Enoxaparina",
-          "4000 U",
-          "una volta al giorno",
-          "sera"
-        ],
-        [
-          "Escitalopram",
-          "10 mg",
-          "una volta al giorno",
-          "notte"
-        ],
-        [
-          ""
-        ]
-      ]
-    },
-    {
-      "file": "PSD002.json",
-      "out": [
-        [
-          ""
-        ],
-        [
-          ""
-        ]
-      ]
-    },
-    {
-      "file": "PSD005.json",
-      "out": [
-        [
-          ""
-        ],
-        [
-          ""
-        ]
-      ]
-    },
-    {
-      "file": "PSD009.json",
-      "out": [
-        [
-          ""
-        ],
-        [
-          ""
-        ]
-      ]
-    },
-    {
-      "file": "PSD008.json",
-      "out": [
-        [
-          ""
-        ],
-        [
-          ""
-        ],
-        [
-          ""
-        ]
-      ]
-    },
-    {
-      "file": "PSD004.json",
-      "out": [
-        [
-          ""
-        ],
-        [
-          ""
-        ]
-      ]
-    },
-    {
-      "file": "PSD007.json",
-      "out": [
-        [
-          ""
-        ],
-        [
-          ""
-        ]
-      ]
-    },
-    {
-      "file": "PSD010.json",
-      "out": [
-        [
-          ""
-        ],
-        [
-          "Aspirina",
-          "100 mg",
-          "1 cp/die dopo pranzo",
-          ""
-        ],
-        [
-          "Acido acetilsalicilico",
-          "100 mg",
-          "1 cp/die dopo pranzo",
-          ""
-        ],
-        [
-          "Ticagrelor",
-          "90 mg",
-          "1 cp alle ore 8 e 1 cp alle ore 20",
-          ""
-        ],
-        [
-          "Bisoprololo",
-          "1.25 mg",
-          "1 cp alle ore 8 e 1 cp alle ore 20",
-          ""
-        ],
-        [
-          "Ramipril",
-          "2.5 mg",
-          "1 cp alle ore 8 e 1 cp alle ore 20",
-          ""
-        ],
-        [
-          "Furosemide",
-          "20 mg",
-          "1 fl ev alle ore 8 + 1 fl ev alle ore 14 + 1 fl ev alle ore 20",
-          ""
-        ],
-        [
-          "Canrenoato di potassio",
-          "25 mg",
-          "1 cp alle ore 16",
-          ""
-        ],
-        [
-          "Atorvastatina",
-          "100 mg",
-          "\u00bd cp alle ore 22",
-          ""
-        ],
-        [
-          "Spiolto",
-          "1 inalazione al mattino e 1 inalazione la sera",
-          ""
-        ],
-        [
-          "Tamsulosina",
-          "0.4 mg",
-          "1 cp alle ore 20"
-        ],
-        [
-          ""
-        ]
-      ]
-    },
-    {
-      "file": "PSD006.json",
-      "out": [
-        [
-          ""
-        ],
-        [
-          "PANTOPRAZOLO",
-          "20 mg",
-          "1 cp alle ore 8",
-          ""
-        ],
-        [
-          "VALSARTAN",
-          "80 mg",
-          "1 cp alle ore 8",
-          ""
-        ],
-        [
-          "FUROSEMIDE",
-          "25 mg",
-          "\u00bd cp alle ore 8",
-          ""
-        ],
-        [
-          "PREDNISONE",
-          "25 mg",
-          "1 cp alle ore 8",
-          ""
-        ],
-        [
-          ""
-        ]
-      ]
-    },
-    {
-      "file": "PSD001.json",
-      "out": [
-        [
-          ""
-        ],
-        [
-          ""
-        ]
-      ]
-    }
-  ],
-  "pipeline": [
-    {
-      "name": "input text",
-      "inputs": ""
-    },
-    {
-      "name": "step1",
-      "model": "LLamaCppModel",
-      "prompt": "<|im_start|>system\nEmulare uno strumento per il compito specificato. Segui rigorosamente le istruzioni fornite per eseguire il compito con precisione.\nIl tuo ruolo \u00e8 quello di aderire esclusivamente alle linee guida fornite e di eseguire le azioni designate senza alcuna deviazione.<|im_end|>\n<|im_start|>user\nCOMPITO: Estrazione di entit\u00e0 denominate per i farmaci\nEstrarre tutti e soli i farmaci dal documento sottostante.\nInserite tutte le entit\u00e0 estratte in una tabella csv con le colonne nome del farmaco, dose, modalit\u00e0 e frequenza.\nSe non ci sono dati in una delle colonne, scrivere \"nm\".\nSeguire un formato csv, come questo:\nnome del farmaco;dosaggio;modalit\u00e0;frequenza\n\n```documento.txt\n{document}\n```\n<|im_end|>\n<|im_start|>assistant\n```medicinali.csv\nnome del farmaco;dosaggio;modalit\u00e0;frequenza",
-      "params": {
-        "temperature": 0.0,
-        "mirostat_tau": 5.0,
-        "n_predict": 1024,
-        "mirostat": 2,
-        "stop": [
-          "###################",
-          "USER",
-          "ASSISTANT",
-          "```"
-        ]
-      },
-      "map_input": "def map_input(inputs: list = None):\n    return {'document': inputs[0].output.value}\n",
-      "map_output": "def map_output(output):\n    output = output.replace('<dummy32000>', '')\n    if not output.endswith('<|im_end|>'):\n        output += '<|im_end|>'\n    return output\n",
-      "inputs": "input text"
-    },
-    {
-      "name": "parse_csv",
-      "inputs": "step1"
-    }
-  ]
+    "experiment_name": "Simple Zero Shot - Mistral - PSD - CSV",
+    "inputs": [
+        "PSD003.json",
+        "PSD002.json",
+        "PSD005.json",
+        "PSD009.json",
+        "PSD008.json",
+        "PSD004.json",
+        "PSD007.json",
+        "PSD010.json",
+        "PSD006.json",
+        "PSD001.json"
+    ],
+    "outputs": [
+        {
+            "file": "PSD003.json",
+            "out": [
+                [
+                    ""
+                ],
+                [
+                    "Aspirina",
+                    "100 mg",
+                    "una volta al giorno",
+                    "prima del pasto"
+                ],
+                [
+                    "Metformina",
+                    "500 mg",
+                    "due volte al giorno",
+                    "dopo i pasti"
+                ],
+                [
+                    "Levotiroxina",
+                    "50 mcg",
+                    "una volta al giorno",
+                    "nel mattino"
+                ],
+                [
+                    "Furosemide",
+                    "25 mg",
+                    "una volta al giorno",
+                    "prima del pranzo"
+                ],
+                [
+                    "Enoxaparina",
+                    "4000 U",
+                    "una volta al giorno",
+                    "sera"
+                ],
+                [
+                    "Escitalopram",
+                    "10 mg",
+                    "una volta al giorno",
+                    "notte"
+                ],
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "file": "PSD002.json",
+            "out": [
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "file": "PSD005.json",
+            "out": [
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "file": "PSD009.json",
+            "out": [
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "file": "PSD008.json",
+            "out": [
+                [
+                    ""
+                ],
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "file": "PSD004.json",
+            "out": [
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "file": "PSD007.json",
+            "out": [
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "file": "PSD010.json",
+            "out": [
+                [
+                    ""
+                ],
+                [
+                    "Aspirina",
+                    "100 mg",
+                    "1 cp/die dopo pranzo",
+                    ""
+                ],
+                [
+                    "Acido acetilsalicilico",
+                    "100 mg",
+                    "1 cp/die dopo pranzo",
+                    ""
+                ],
+                [
+                    "Ticagrelor",
+                    "90 mg",
+                    "1 cp alle ore 8 e 1 cp alle ore 20",
+                    ""
+                ],
+                [
+                    "Bisoprololo",
+                    "1.25 mg",
+                    "1 cp alle ore 8 e 1 cp alle ore 20",
+                    ""
+                ],
+                [
+                    "Ramipril",
+                    "2.5 mg",
+                    "1 cp alle ore 8 e 1 cp alle ore 20",
+                    ""
+                ],
+                [
+                    "Furosemide",
+                    "20 mg",
+                    "1 fl ev alle ore 8 + 1 fl ev alle ore 14 + 1 fl ev alle ore 20",
+                    ""
+                ],
+                [
+                    "Canrenoato di potassio",
+                    "25 mg",
+                    "1 cp alle ore 16",
+                    ""
+                ],
+                [
+                    "Atorvastatina",
+                    "100 mg",
+                    "\u00bd cp alle ore 22",
+                    ""
+                ],
+                [
+                    "Spiolto",
+                    "1 inalazione al mattino e 1 inalazione la sera",
+                    ""
+                ],
+                [
+                    "Tamsulosina",
+                    "0.4 mg",
+                    "1 cp alle ore 20"
+                ],
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "file": "PSD006.json",
+            "out": [
+                [
+                    ""
+                ],
+                [
+                    "PANTOPRAZOLO",
+                    "20 mg",
+                    "1 cp alle ore 8",
+                    ""
+                ],
+                [
+                    "VALSARTAN",
+                    "80 mg",
+                    "1 cp alle ore 8",
+                    ""
+                ],
+                [
+                    "FUROSEMIDE",
+                    "25 mg",
+                    "\u00bd cp alle ore 8",
+                    ""
+                ],
+                [
+                    "PREDNISONE",
+                    "25 mg",
+                    "1 cp alle ore 8",
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "file": "PSD001.json",
+            "out": [
+                [
+                    ""
+                ],
+                [
+                    ""
+                ]
+            ]
+        }
+    ],
+    "pipeline": [
+        {
+            "name": "input text",
+            "inputs": ""
+        },
+        {
+            "name": "step1",
+            "model": "LLamaCppModel",
+            "prompt": "<|im_start|>system\nEmulare uno strumento per il compito specificato. Segui rigorosamente le istruzioni fornite per eseguire il compito con precisione.\nIl tuo ruolo \u00e8 quello di aderire esclusivamente alle linee guida fornite e di eseguire le azioni designate senza alcuna deviazione.<|im_end|>\n<|im_start|>user\nCOMPITO: Estrazione di entit\u00e0 denominate per i farmaci\nEstrarre tutti e soli i farmaci dal documento sottostante.\nInserite tutte le entit\u00e0 estratte in una tabella csv con le colonne nome del farmaco, dose, modalit\u00e0 e frequenza.\nSe non ci sono dati in una delle colonne, scrivere \"nm\".\nSeguire un formato csv, come questo:\nnome del farmaco;dosaggio;modalit\u00e0;frequenza\n\n```documento.txt\n{document}\n```\n<|im_end|>\n<|im_start|>assistant\n```medicinali.csv\nnome del farmaco;dosaggio;modalit\u00e0;frequenza",
+            "params": {
+                "temperature": 0.0,
+                "mirostat_tau": 5.0,
+                "n_predict": 1024,
+                "mirostat": 2,
+                "stop": [
+                    "###################",
+                    "USER",
+                    "ASSISTANT",
+                    "```"
+                ]
+            },
+            "map_input": "def map_input(inputs: list = None):\n    return {'document': inputs[0].output.value}\n",
+            "map_output": "def map_output(output):\n    output = output.replace('<dummy32000>', '')\n    if not output.endswith('<|im_end|>'):\n        output += '<|im_end|>'\n    return output\n",
+            "inputs": "input text"
+        },
+        {
+            "name": "parse_csv",
+            "inputs": "step1"
+        }
+    ],
+    "dataset_dir": "../../../datasets/Policlinico_San_Donato_txt"
 }

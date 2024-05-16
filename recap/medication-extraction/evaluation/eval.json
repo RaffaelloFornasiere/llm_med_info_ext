@@ -1,0 +1,31 @@
+{
+  "experiments_dir": "../experiments",
+  "experiments_file_pattern": "result_.*\\.json",
+  "evaluations": [
+    {
+      "className": "FullRowExactMatch",
+      "args": {
+        "join_ann": {
+          "type": "function",
+          "module": "utils",
+          "function_name": "join_ann"
+        }
+      }
+    },
+    {
+      "className": "EmbeddingCosineDistance",
+      "args": {
+        "embed_fn": {
+          "type": "function",
+          "module": "utils",
+          "function_name": "embed_fn"
+        },
+        "join_ann": {
+          "type": "function",
+          "module": "utils",
+          "function_name": "join_ann"
+        }
+      }
+    }
+  ]
+}

@@ -1,463 +1,230 @@
 {
-    "experiment_name": "Medication Extraction Zero Shot",
-    "inputs": [
-        "PSD003.json",
-        "PSD002.json",
-        "PSD005.json",
-        "PSD009.json",
-        "PSD008.json",
-        "PSD004.json",
-        "PSD007.json",
-        "PSD010.json",
-        "PSD006.json",
-        "PSD001.json"
-    ],
-    "outputs": [
+  "experiment_name": "Medication Extraction Zero Shot",
+  "dataset_dir": "../../../datasets/Policlinico_San_Donato_txt/",
+  "inputs": [
+    "PSD003.json",
+    "PSD002.json",
+    "PSD004.json",
+    "PSD001.json"
+  ],
+  "outputs": [
+    {
+      "file": "PSD003.json",
+      "out": [
         {
-            "file": "PSD003.json",
-            "out": [
-                {
-                    "nome_farmaco": "pantoprazolo",
-                    "dosaggio": "20 mg",
-                    "modalit\u00e0": "1 cp alle ore 8",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "acenocumarolo",
-                    "dosaggio": "4 mg",
-                    "modalit\u00e0": "INR del 06.04.21 = 1.73 dose \u00bc cp, INR odierno = 1.66 dose \u00bd cp da somministrare",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "bisoprololo",
-                    "dosaggio": "1.25 mg",
-                    "modalit\u00e0": "1 cp alle ore 8 e 1 cp alle ore 20",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "ramipril",
-                    "dosaggio": "5 mg",
-                    "modalit\u00e0": "1 cp alle ore 8",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "furosemide",
-                    "dosaggio": "25 mg",
-                    "modalit\u00e0": "1 cp alle ore 8 e 1 cp alle ore 20",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "canrenato di potassio",
-                    "dosaggio": "25 mg",
-                    "modalit\u00e0": "1 cp alle ore 16",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "enoxaparina",
-                    "dosaggio": "4000 U sc",
-                    "modalit\u00e0": "alle ore 18 fino al raggiungimento di INR stabile e terapeutico",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "escitalopram",
-                    "dosaggio": "10 mg",
-                    "modalit\u00e0": "1 cp alle ore 22",
-                    "frequenza": ""
-                }
-            ]
+          "medication_name": "pantoprazolo",
+          "dosage": "20 mg",
+          "mode": "1 cp alle ore 8",
+          "frequency": ""
         },
         {
-            "file": "PSD002.json",
-            "out": [
-                {
-                    "nome_farmaco": "pantoprazol",
-                    "dosaggio": "20 mg",
-                    "modalit\u00e0": "1 cp alle ore 8",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "acenocumaro",
-                    "dosaggio": "4 mg",
-                    "modalit\u00e0": "INR alle ore 18",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "metoprololo",
-                    "dosaggio": "100 mg",
-                    "modalit\u00e0": "\u00bd cp alle ore 8, \u00bd cp alle ore 14 e \u00bd cp alle ore 20",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "ramipril",
-                    "dosaggio": "5 mg",
-                    "modalit\u00e0": "1 cp alle ore 8 e 1 cp alle ore 20",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "cloruro di potassio",
-                    "dosaggio": "600 mg",
-                    "modalit\u00e0": "1 cp alle ore 12 e 1 cp alle ore 20, da sospendere secondo kaliemia"
-                },
-                {
-                    "nome_farmaco": "furosemide",
-                    "dosaggio": "25 mg",
-                    "modalit\u00e0": "2 cp alle ore 8 e 2 cp alle ore 20",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "canrenoato di potassio",
-                    "dosaggio": "100 mg",
-                    "modalit\u00e0": "\u00bd cp alle ore 16",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "lorazepam",
-                    "dosaggio": "1 mg",
-                    "modalit\u00e0": "1 cp alle ore 8",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "quetiapina",
-                    "dosaggio": "25 mg",
-                    "modalit\u00e0": "1 cpalle ore 22 (da sospendere eventualmente prima del rientro a domicilio)",
-                    "frequenza": ""
-                }
-            ]
+          "medication_name": "acenocumarolo",
+          "dosage": "4 mg",
+          "mode": "INR del 06.04.21 = 1.73 dose \u00bc cp, INR odierno = 1.66 dose \u00bd cp da somministrare",
+          "frequency": ""
         },
         {
-            "file": "PSD005.json",
-            "out": [
-                {
-                    "nome_farmaco": "pantoprazolo",
-                    "dosaggio": "20 mg 1 cp alle ore 8"
-                },
-                {
-                    "nome_farmaco": "acenocumaroil",
-                    "dosaggio": "4 mg sec INR alle ore 16 (INR del 14.10.21 = 1.63 dose \u00bd cp, INR odierno = 2.71 dose 0 cp)"
-                },
-                {
-                    "nome_farmaco": "bisoprololo",
-                    "dosaggio": "2.5 mg 1 cp alle ore 8"
-                },
-                {
-                    "nome_farmaco": "ramipril",
-                    "dosaggio": "5 mg 1 cp alle ore 8"
-                },
-                {
-                    "nome_farmaco": "furosemide",
-                    "dosaggio": "25 mg 1 cp alle ore 8 e 1 cp alle ore 20"
-                },
-                {
-                    "nome_farmaco": "canrenoato di potassio",
-                    "dosaggio": "25 mg 1 cp alle ore 16"
-                },
-                {
-                    "nome_farmaco": "tiotropio Respimat",
-                    "dosaggio": "2 inalazioni al mattino"
-                }
-            ]
+          "medication_name": "bisoprololo",
+          "dosage": "1.25 mg",
+          "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
+          "frequency": ""
         },
         {
-            "file": "PSD009.json",
-            "out": [
-                {
-                    "nome_farmaco": "pantoprazolo",
-                    "dosaggio": "20 mg",
-                    "modalit\u00e0": "1 cp alle ore 8",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "acenocumarol",
-                    "dosaggio": "4 mg",
-                    "modalit\u00e0": "INR alle ore 18",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "bisoprololo",
-                    "dosaggio": "2.5 mg",
-                    "modalit\u00e0": "1 cp alle ore 8 e 1 cp alle ore 20",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "ramipril",
-                    "dosaggio": "5 mg",
-                    "modalit\u00e0": "1 cp alle ore 8 e 1 cp alle ore 20",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "furosemide",
-                    "dosaggio": "25 mg",
-                    "modalit\u00e0": "1 cp alle ore 8 e 1 cp alle ore 20",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "canrenoato di potassio",
-                    "dosaggio": "25 mg",
-                    "modalit\u00e0": "1 cp alle ore 16",
-                    "frequenza": ""
-                }
-            ]
+          "medication_name": "ramipril",
+          "dosage": "5 mg",
+          "mode": "1 cp alle ore 8",
+          "frequency": ""
         },
         {
-            "file": "PSD008.json",
-            "out": [
-                {
-                    "nome_farmaco": "metformina",
-                    "dosaggio": "500 mg",
-                    "modalit\u00e0": "due volte al giorno",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "valsartan",
-                    "dosaggio": "80 mg",
-                    "modalit\u00e0": "una volta al giorno",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "sitagliptin",
-                    "dosaggio": "100 mg",
-                    "modalit\u00e0": "una volta al giorno",
-                    "frequenza": "dopo la colazione"
-                },
-                {
-                    "nome_farmaco": "idrochlorotiazide",
-                    "dosaggio": "12.5 mg",
-                    "modalit\u00e0": "una volta al giorno",
-                    "frequenza": "al mattino"
-                },
-                {
-                    "nome_farmaco": "paracetamolo",
-                    "dosaggio": "500 mg",
-                    "modalit\u00e0": "fino a 3 volte al giorno",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "alendronato",
-                    "dosaggio": "70 mg",
-                    "modalit\u00e0": "una volta alla settimana",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "sertralina",
-                    "dosaggio": "50 mg",
-                    "modalit\u00e0": "una volta al giorno",
-                    "frequenza": ""
-                }
-            ]
+          "medication_name": "furosemide",
+          "dosage": "25 mg",
+          "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
+          "frequency": ""
         },
         {
-            "file": "PSD004.json",
-            "out": [
-                {
-                    "nome_farmaco": "pantoprazolo",
-                    "dosaggio": "20 mg 1 cp alle ore 8"
-                },
-                {
-                    "nome_farmaco": "acido acetilsalicilico",
-                    "dosaggio": "100 mg 1 cp dopo pranzo"
-                },
-                {
-                    "nome_farmaco": "ticagrelor",
-                    "dosaggio": "90 mg 1 cp alle ore 8 e 1 cp alle ore 20"
-                },
-                {
-                    "nome_farmaco": "bisoprololo",
-                    "dosaggio": "1.25 mg 1 cp alle ore 8 e 1 cp alle ore 20"
-                },
-                {
-                    "nome_farmaco": "furosemide",
-                    "dosaggio": "25 mg 2 cp alle ore 8 e 1 cp alle ore 20"
-                },
-                {
-                    "nome_farmaco": "tiotropio resmatil",
-                    "dosaggio": "2 inalazioni al mattino"
-                },
-                {
-                    "nome_farmaco": "prednisone",
-                    "dosaggio": "25 mg 1 cp alle ore 8 per 5 giorni, quindi scalare"
-                },
-                {
-                    "nome_farmaco": "atorvastatina",
-                    "dosaggio": "40 mg 1 cp alle ore 22"
-                }
-            ]
+          "medication_name": "canrenato di potassio",
+          "dosage": "25 mg",
+          "mode": "1 cp alle ore 16",
+          "frequency": ""
         },
         {
-            "file": "PSD007.json",
-            "out": [
-                {
-                    "nome_farmaco": "pantoprazolo",
-                    "dosaggio": "20 mg",
-                    "modalit\u00e0": "1 cp alle ore 8",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "acido acetilsalicilico",
-                    "dosaggio": "100 mg",
-                    "modalit\u00e0": "1 cp dopo pranzo",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "bisoprololo",
-                    "dosaggio": "1.25 mg",
-                    "modalit\u00e0": "1 cp alle ore 8 e 1 cp alle ore 20",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "ramipril",
-                    "dosaggio": "2.5 mg",
-                    "modalit\u00e0": "1 cp alle ore 8",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "furosemide",
-                    "dosaggio": "25 mg",
-                    "modalit\u00e0": "1 cp alle ore 8 e 1 cp alle ore 20",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "carbamazepina",
-                    "dosaggio": "400 mg",
-                    "modalit\u00e0": "1 cp alle ore 8 e 1 cp+1/2 cp alle ore 20",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "topiramato",
-                    "dosaggio": "1 cp alle ore 8 e 1 cp alle ore 20",
-                    "modalit\u00e0": "ndr",
-                    "frequenza": ""
-                }
-            ]
+          "medication_name": "enoxaparina",
+          "dosage": "4000 U sc",
+          "mode": "alle ore 18 fino al raggiungimento di INR stabile e terapeutico",
+          "frequency": ""
         },
         {
-            "file": "PSD010.json",
-            "out": [
-                {
-                    "nome_farmaco": "metformina",
-                    "dosaggio": "500 mg",
-                    "modalit\u00e0": "due volte al giorno",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "valsartan",
-                    "dosaggio": "80 mg",
-                    "modalit\u00e0": "una volta al giorno",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "sitagliptin",
-                    "dosaggio": "100 mg",
-                    "modalit\u00e0": "una volta al giorno",
-                    "frequenza": "dopo la colazione"
-                },
-                {
-                    "nome_farmaco": "idrochlorotiazide",
-                    "dosaggio": "12.5 mg",
-                    "modalit\u00e0": "una volta al giorno",
-                    "frequenza": "al mattino"
-                },
-                {
-                    "nome_farmaco": "paracetamolo",
-                    "dosaggio": "500 mg",
-                    "modalit\u00e0": "fino a 3 volte al giorno",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "alendronato",
-                    "dosaggio": "70 mg",
-                    "modalit\u00e0": "una volta alla settimana",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "sertralina",
-                    "dosaggio": "50 mg",
-                    "modalit\u00e0": "una volta al giorno",
-                    "frequenza": ""
-                }
-            ]
-        },
-        {
-            "file": "PSD006.json",
-            "out": [
-                {
-                    "nome_farmaco": "pantoprazolo",
-                    "dosaggio": "20 mg",
-                    "modalit\u00e0": "1 cp alle ore 8",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "valsartan",
-                    "dosaggio": "80 mg",
-                    "modalit\u00e0": "1 cp alle ore 8",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "furosemide",
-                    "dosaggio": "25 mg",
-                    "modalit\u00e0": "\u00bd cp alle ore 8",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "prednisone",
-                    "dosaggio": "25 mg",
-                    "modalit\u00e0": "1 cp alle ore 8",
-                    "frequenza": ""
-                }
-            ]
-        },
-        {
-            "file": "PSD001.json",
-            "out": [
-                {
-                    "nome_farmaco": "pantoprazolo",
-                    "dosaggio": "20 mg",
-                    "modalit\u00e0": "1 cp alle ore 8",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "clopidogrel",
-                    "dosaggio": "75 mg",
-                    "modalit\u00e0": "1 cp dopo pranzo",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "bisoprololo",
-                    "dosaggio": "1.25 mg",
-                    "modalit\u00e0": "1 cp alle ore 8 e 1 cp alle ore 20",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "ramipril",
-                    "dosaggio": "5 mg",
-                    "modalit\u00e0": "1 cp alle ore 8 e 1 cp alle ore 20",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "furosemide",
-                    "dosaggio": "500 mg",
-                    "modalit\u00e0": "\u00bc cp alle ore 8 e \u00bc alle ore 20",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "potassio",
-                    "dosaggio": "100 mg",
-                    "modalit\u00e0": "\u00bd cp alle ore 16",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "lorazepam",
-                    "dosaggio": "1 mg",
-                    "modalit\u00e0": "1 cp alle ore 22",
-                    "frequenza": ""
-                },
-                {
-                    "nome_farmaco": "domperidone",
-                    "dosaggio": "1 cp a pranzo e a cena",
-                    "modalit\u00e0": "",
-                    "frequenza": ""
-                }
-            ]
+          "medication_name": "escitalopram",
+          "dosage": "10 mg",
+          "mode": "1 cp alle ore 22",
+          "frequency": ""
         }
-    ],
-    "dataset_dir": "../../../datasets/Policlinico_San_Donato_txt"
+      ]
+    },
+    {
+      "file": "PSD002.json",
+      "out": [
+        {
+          "medication_name": "pantoprazol",
+          "dosage": "20 mg",
+          "mode": "1 cp alle ore 8",
+          "frequency": ""
+        },
+        {
+          "medication_name": "acenocumaro",
+          "dosage": "4 mg",
+          "mode": "INR alle ore 18",
+          "frequency": ""
+        },
+        {
+          "medication_name": "metoprololo",
+          "dosage": "100 mg",
+          "mode": "\u00bd cp alle ore 8, \u00bd cp alle ore 14 e \u00bd cp alle ore 20",
+          "frequency": ""
+        },
+        {
+          "medication_name": "ramipril",
+          "dosage": "5 mg",
+          "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
+          "frequency": ""
+        },
+        {
+          "medication_name": "cloruro di potassio",
+          "dosage": "600 mg",
+          "mode": "1 cp alle ore 12 e 1 cp alle ore 20, da sospendere secondo kaliemia",
+          "frequency": null
+        },
+        {
+          "medication_name": "furosemide",
+          "dosage": "25 mg",
+          "mode": "2 cp alle ore 8 e 2 cp alle ore 20",
+          "frequency": ""
+        },
+        {
+          "medication_name": "canrenoato di potassio",
+          "dosage": "100 mg",
+          "mode": "\u00bd cp alle ore 16",
+          "frequency": ""
+        },
+        {
+          "medication_name": "lorazepam",
+          "dosage": "1 mg",
+          "mode": "1 cp alle ore 8",
+          "frequency": ""
+        },
+        {
+          "medication_name": "quetiapina",
+          "dosage": "25 mg",
+          "mode": "1 cpalle ore 22 (da sospendere eventualmente prima del rientro a domicilio)",
+          "frequency": ""
+        }
+      ]
+    },
+    {
+      "file": "PSD004.json",
+      "out": [
+        {
+          "medication_name": "pantoprazolo",
+          "dosage": "20 mg 1 cp alle ore 8",
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "acido acetilsalicilico",
+          "dosage": "100 mg 1 cp dopo pranzo",
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "ticagrelor",
+          "dosage": "90 mg 1 cp alle ore 8 e 1 cp alle ore 20",
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "bisoprololo",
+          "dosage": "1.25 mg 1 cp alle ore 8 e 1 cp alle ore 20",
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "furosemide",
+          "dosage": "25 mg 2 cp alle ore 8 e 1 cp alle ore 20",
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "tiotropio resmatil",
+          "dosage": "2 inalazioni al mattino",
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "prednisone",
+          "dosage": "25 mg 1 cp alle ore 8 per 5 giorni, quindi scalare",
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "atorvastatina",
+          "dosage": "40 mg 1 cp alle ore 22",
+          "mode": null,
+          "frequency": null
+        }
+      ]
+    },
+    {
+      "file": "PSD001.json",
+      "out": [
+        {
+          "medication_name": "pantoprazolo",
+          "dosage": "20 mg",
+          "mode": "1 cp alle ore 8",
+          "frequency": ""
+        },
+        {
+          "medication_name": "clopidogrel",
+          "dosage": "75 mg",
+          "mode": "1 cp dopo pranzo",
+          "frequency": ""
+        },
+        {
+          "medication_name": "bisoprololo",
+          "dosage": "1.25 mg",
+          "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
+          "frequency": ""
+        },
+        {
+          "medication_name": "ramipril",
+          "dosage": "5 mg",
+          "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
+          "frequency": ""
+        },
+        {
+          "medication_name": "furosemide",
+          "dosage": "500 mg",
+          "mode": "\u00bc cp alle ore 8 e \u00bc alle ore 20",
+          "frequency": ""
+        },
+        {
+          "medication_name": "potassio",
+          "dosage": "100 mg",
+          "mode": "\u00bd cp alle ore 16",
+          "frequency": ""
+        },
+        {
+          "medication_name": "lorazepam",
+          "dosage": "1 mg",
+          "mode": "1 cp alle ore 22",
+          "frequency": ""
+        },
+        {
+          "medication_name": "domperidone",
+          "dosage": "1 cp a pranzo e a cena",
+          "mode": "",
+          "frequency": ""
+        }
+      ]
+    }
+  ]
 }

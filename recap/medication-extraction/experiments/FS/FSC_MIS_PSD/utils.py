@@ -17,7 +17,7 @@ def get_most_representative_example(examples, chunk_size = 15):
 
 
 def add_examples_csv(inputs: list = None, **kwargs):
-    document = inputs['text']
+    document = inputs[0].input.value['text']
     example_files = os.listdir(kwargs['examples_dir'])
     examples = [json.load(open(kwargs['examples_dir'] + file, 'r')) for file in example_files]
 
@@ -39,7 +39,7 @@ def add_examples_csv(inputs: list = None, **kwargs):
 
 
 def add_examples_json(inputs: list = None, **kwargs):
-    document = inputs['text']
+    document = inputs[0].input.value['text']
     example_files = os.listdir(kwargs['examples_dir'])
     examples = [json.load(open(kwargs['examples_dir'] + file, 'r')) for file in example_files]
 
@@ -57,6 +57,17 @@ def add_examples_json(inputs: list = None, **kwargs):
         examples += '```\n---\n'
 
     return {'examples': examples, 'document': document}
+def map_ita_json_to_json(inputs: list = None):
+    json = inputs[0].output.value
+    json = [
+        {
+            'medication_name': row['nome_farmaco'] if 'nome_farmaco' in row else None,
+            'dosage': row['dosaggio'] if 'dosaggio' in row else None,
+            'mode': row['modalità'] if 'modalità' in row else None,
+            'frequency': row['frequenza'] if 'frequenza' in row else None,
+        }
+        for row in json]
+    return json
 
 
 def map_input(inputs: list = None):
@@ -64,7 +75,7 @@ def map_input(inputs: list = None):
 
 
 def map_table_to_json(inputs: list = None) -> list:
-    table = inputs
+    table = inputs[0].output.value
     table = [
         {
             'medication_name': row[0],

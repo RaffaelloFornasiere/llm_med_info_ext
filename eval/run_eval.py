@@ -53,12 +53,8 @@ def run(config: str):
         _aggregate_metrics = []
         for sample in data:
             if 'error' in sample['extraction']:
-                sample['metrics'] = {
-                    'precision': 0,
-                    'recall': 0,
-                    'f1_score': 0,
-                }
-                _aggregate_metrics.append(sample)
+                for eval_conf in evaluations:
+                    sample['metrics'] = {eval_conf['className']: {'precision': 0, 'recall': 0, 'f1_score': 0}}
                 continue
             extracted = sample['extraction']
 
@@ -78,23 +74,27 @@ def run(config: str):
                 )
                 evalClass.evaluate()
                 metrics = evalClass.get_metrics()
-                eval_metrics[eval_conf['className']] = metrics
+                eval_metrics[evalClass.name] = metrics
 
             sample['metrics'] = eval_metrics
             _aggregate_metrics.append(sample)
 
+        if len(_aggregate_metrics) == 0:
+            keys = []
+        else:
+            keys = set(_aggregate_metrics[0]['metrics'].keys())
         aggregate_metrics = {}
-        for _eval in evaluations:
-            aggregate_metrics[_eval['className']] = {
+        for _eval in keys:
+            aggregate_metrics[_eval] = {
                 'precision': sum(
-                    [sample['metrics'][_eval['className']]['precision'] for sample in _aggregate_metrics]) / len(
+                    [sample['metrics'][_eval]['precision'] for sample in _aggregate_metrics]) / len(
                     _aggregate_metrics),
-                'recall': sum([sample['metrics'][_eval['className']]['recall'] for sample in _aggregate_metrics]) / len(
+                'recall': sum([sample['metrics'][_eval]['recall'] for sample in _aggregate_metrics]) / len(
                     _aggregate_metrics),
                 'f1_score': sum(
-                    [sample['metrics'][_eval['className']]['f1_score'] for sample in _aggregate_metrics]) / len(
+                    [sample['metrics'][_eval]['f1_score'] for sample in _aggregate_metrics]) / len(
                     _aggregate_metrics),
             }
 
         os.chdir(current_dir)
-        json.dump(aggregate_metrics, open(file.replace('.json', '_eval.json'), 'w'), indent=4)
+        json.dump(aggregate_metrics, open(file.replace('result_', 'eval_'), 'w'), indent=4)

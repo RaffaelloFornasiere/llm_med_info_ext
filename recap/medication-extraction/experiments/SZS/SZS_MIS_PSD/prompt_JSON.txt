@@ -14,9 +14,9 @@ Seguire un formato json come questo:
     "frequenza": string
 }}
 
-``documento.txt
+```documento.txt
 {document}
 ```
 <|im_end|>
 <|im_start|>assistente
-``medicinali.json
+```medicinali.json

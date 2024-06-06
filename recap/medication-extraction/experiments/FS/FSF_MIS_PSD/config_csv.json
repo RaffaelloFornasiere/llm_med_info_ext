@@ -29,7 +29,7 @@
           "arg_name": "map_input"
         },
         "map_input_args": {
-          "examples_dir": "../../../datasets/few-shot-examples/synth-ita/",
+          "examples_dir": "../../../datasets/few-shot-examples/synth-ita/"
         },
         "inputs": [
           0

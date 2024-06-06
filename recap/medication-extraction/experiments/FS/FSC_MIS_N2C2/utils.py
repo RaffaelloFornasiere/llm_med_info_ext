@@ -2,7 +2,7 @@ import json
 import os
 
 
-def get_most_representative_example(examples, chunk_size = 15):
+def get_most_representative_example(examples, chunk_size=15):
     chunks = []
     for example in examples:
         ann_lines = [line['line'] for line in example['annotations']]
@@ -15,9 +15,20 @@ def get_most_representative_example(examples, chunk_size = 15):
         chunks.append(chunk)
     return chunks
 
+def map_ita_json_to_json(inputs: list = None):
+    json = inputs[0].output.value
+    json = [
+        {
+            'medication_name': row['nome_farmaco'] if 'nome_farmaco' in row else None,
+            'dosage': row['dosaggio'] if 'dosaggio' in row else None,
+            'mode': row['modalità'] if 'modalità' in row else None,
+            'frequency': row['frequenza'] if 'frequenza' in row else None,
+        }
+        for row in json]
+    return json
 
 def add_examples_csv(inputs: list = None, **kwargs):
-    document = inputs['text']
+    document = inputs[0].input.value['text']
     example_files = os.listdir(kwargs['examples_dir'])
     examples = [json.load(open(kwargs['examples_dir'] + file, 'r')) for file in example_files]
 
@@ -30,7 +41,7 @@ def add_examples_csv(inputs: list = None, **kwargs):
         examples += chunk['text'] + '\n'
         examples += '```\n'
         examples += '``` example_extraction_' + str(i + 1) + '.csv\n'
-        examples += 'farmaco;dosaggio;modalità;frequenza\n'
+        examples += 'chem_name;dosage;mode;frequency\n'
         for ann in chunk['annotations']:
             examples += ';'.join([value for value in list(ann.values())[:4]]) + '\n'
         examples += '```\n---\n'
@@ -39,20 +50,20 @@ def add_examples_csv(inputs: list = None, **kwargs):
 
 
 def add_examples_json(inputs: list = None, **kwargs):
-    document = inputs['text']
+    document = inputs[0].input.value['text']
     example_files = os.listdir(kwargs['examples_dir'])
     examples = [json.load(open(kwargs['examples_dir'] + file, 'r')) for file in example_files]
 
-    chunk_size = 15
+    chunk_size = 10
     chunks = get_most_representative_example(examples, chunk_size)
     examples = ''
-    for i,chunk in enumerate(chunks):
-        examples += '``` example_document' + str(i+1) + '.txt\n'
+    for i, chunk in enumerate(chunks):
+        examples += '``` example_document' + str(i + 1) + '.txt\n'
         examples += chunk['text'] + '\n'
         examples += '```\n'
-        examples += '``` example_extraction_' + str(i+1) + '.json\n'
+        examples += '``` example_extraction_' + str(i + 1) + '.json\n'
         annotations = chunk['annotations']
-        annotations = [{k:v for k,v in ann.items() if k != 'line'} for ann in annotations]
+        annotations = [{k: v for k, v in ann.items() if k != 'line'} for ann in annotations]
         examples += json.dumps(annotations, indent=4) + '\n'
         examples += '```\n---\n'
 
@@ -64,7 +75,7 @@ def map_input(inputs: list = None):
 
 
 def map_table_to_json(inputs: list = None) -> list:
-    table = inputs
+    table = inputs[0].output.value
     table = [
         {
             'medication_name': row[0],

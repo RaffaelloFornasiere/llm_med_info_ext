@@ -62,6 +62,20 @@
           2
         ]
       }
+    },
+    {
+      "id": 4,
+      "stepClass": "MapStep",
+      "args": {
+        "name": "map to json",
+        "utils.py": {
+          "function_name": "map_ita_json_to_json",
+          "arg_name": "map_input"
+        },
+        "inputs": [
+          3
+        ]
+      }
     }
   ],
   "outputFileName": "result_PSD_JSON.json"

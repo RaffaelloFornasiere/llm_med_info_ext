@@ -15,3 +15,16 @@ def map_table_to_json(inputs: list = None) -> list:
         }
         for row in table if len(row) > 0 and ''.join(row).strip() != '']
     return table
+
+
+def map_ita_json_to_json(inputs: list = None):
+    json = inputs[0].output.value
+    json = [
+        {
+            'medication_name': row['nome_farmaco'] if 'nome_farmaco' in row else None,
+            'dosage': row['dosaggio'] if 'dosaggio' in row else None,
+            'mode': row['modalità'] if 'modalità' in row else None,
+            'frequency': row['frequenza'] if 'frequenza' in row else None,
+        }
+        for row in json]
+    return json

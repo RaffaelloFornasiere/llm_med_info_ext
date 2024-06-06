@@ -10,7 +10,7 @@
       "name":"mistral",
       "code":"MIS",
       "url":"147.189.192.78:8080",
-      "openai_api": false,
+      "openai_api": false
    },
    "steps":[
       {

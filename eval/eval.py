@@ -1,5 +1,11 @@
+from Levenshtein import distance as lev
+from scipy.spatial import distance
+from step.step import *
+
+
 class Eval:
-    def __init__(self, annotations, extracted, original_text, clean_ann_fn=None, clean_ext_fn=None):
+    def __init__(self, annotations, extracted, original_text, clean_ann_fn=None, clean_ext_fn=None, name=None):
+        self.name = self.__class__.__name__ if name is None else name
         self.annotations = annotations
         self.extracted = extracted
         self.original_text = original_text
@@ -24,9 +30,9 @@ class Eval:
         return self.true_positives / (self.true_positives + self.false_negatives)
 
     def get_f1_score(self):
-        precision = self.get_precision() if self.get_precision() != 0 else 1e10 - 10
-        recall = self.get_recall() if self.get_recall() != 0 else 1e10 - 10
-        return 2 * (precision * recall) / (precision + recall)
+        precision = self.get_precision()
+        recall = self.get_recall()
+        return 2 * (precision * recall) / (precision + recall) if precision + recall > 0 else 0
 
     def get_metrics(self):
         """
@@ -41,8 +47,9 @@ class Eval:
 
 
 class ExactMatchEval(Eval):
-    def __init__(self, annotations, extracted, original_text, clean_ann_fn=None, clean_ext_fn=None, map_ann=None):
-        super().__init__(annotations, extracted, original_text, clean_ann_fn, clean_ext_fn)
+    def __init__(self, annotations, extracted, original_text, clean_ann_fn=None, clean_ext_fn=None, map_ann=None,
+                 name=None):
+        super().__init__(annotations, extracted, original_text, clean_ann_fn, clean_ext_fn, name)
         self.map_ann = map_ann
 
     def evaluate(self):
@@ -69,8 +76,9 @@ class ExactMatchEval(Eval):
 
 
 class FullRowExactMatch(Eval):
-    def __init__(self, annotations, extracted, original_text, clean_ann_fn=None, clean_ext_fn=None, join_ann=None):
-        super().__init__(annotations, extracted, original_text, clean_ann_fn, clean_ext_fn)
+    def __init__(self, annotations, extracted, original_text, clean_ann_fn=None, clean_ext_fn=None, join_ann=None,
+                 name=None):
+        super().__init__(annotations, extracted, original_text, clean_ann_fn, clean_ext_fn, name)
         self.join_ann = join_ann
 
     def join(self, array):
@@ -100,10 +108,20 @@ class FullRowExactMatch(Eval):
                 self.false_positives += 1
 
 
+class LevenshteinDistance(Eval):
+    def __init__(self, annotations, extracted, original_text, clean_ann_fn=None, clean_ext_fn=None, k_dist=1,
+                 name=None):
+        super().__init__(annotations, extracted, original_text, clean_ann_fn, clean_ext_fn, name)
+        self.k_dist = k_dist
+
+    def evaluate(self):
+        lev('party', 'park')
+
+
 class EmbeddingCosineDistance(Eval):
     def __init__(self, annotations, extracted, original_text, join_ann, embed_fn, clean_ann_fn=None, clean_ext_fn=None,
-                 k_sim=0.9):
-        super().__init__(annotations, extracted, original_text, clean_ann_fn, clean_ext_fn)
+                 k_sim=0.9, name=None):
+        super().__init__(annotations, extracted, original_text, clean_ann_fn, clean_ext_fn, name)
         self.join_ann = join_ann
         self.embed_fn = embed_fn
         self.k_sim = k_sim
@@ -122,13 +140,16 @@ class EmbeddingCosineDistance(Eval):
         self.false_negatives = 0
         self.true_positives = 0
 
-        anns = [self.embed_fn(self.join(ann)) for ann in self.annotations]
-        exts = [self.embed_fn(self.join(ext)) for ext in self.extracted]
+        anns = [self.join(ann) for ann in self.annotations]
+        exts = [self.join(ext) for ext in self.extracted]
+
+        embed_anns = [self.embed_fn(ann) for ann in anns]
+        embed_exts = [self.embed_fn(ext) for ext in exts]
 
         distances = []
-        for i, ann in enumerate(anns):
-            for j, ext in enumerate(exts):
-                distances.append((i, j, 1 - cosine(ann, ext)))
+        for i, ann in enumerate(embed_anns):
+            for j, ext in enumerate(embed_exts):
+                distances.append((i, j, 1 - distance.cosine(ann, ext)))
 
         distances.sort(key=lambda x: x[2], reverse=True)
         matched_anns = []
@@ -154,24 +175,13 @@ class EmbeddingCosineDistance(Eval):
 
 
 class LLMEvaluation(Eval):
-    def __init__(self, annotations, extracted, original_text, clean_ann_fn=None, clean_ext_fn=None):
+    def __init__(self, annotations, extracted, original_text, prompt, parse_output, clean_ann_fn=None, clean_ext_fn=None):
         super().__init__(annotations, extracted, original_text, clean_ann_fn, clean_ext_fn)
+        self.prompt = prompt
+        self.parse_output = parse_output
 
     def evaluate(self):
-        """
-        Main evaluation function that computes evaluation metrics.
-        """
-        self.false_positives = 0
-        self.false_negatives = 0
-        self.true_positives = 0
+        pass
 
-        for ann in self.annotations:
-            if ann in self.extracted:
-                self.true_positives += 1
-            else:
-                self.false_negatives += 1
 
-        for ext in self.extracted:
-            if ext not in self.annotations:
-                self.false_positives += 1
 

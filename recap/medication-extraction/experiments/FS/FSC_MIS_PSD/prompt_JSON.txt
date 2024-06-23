@@ -6,11 +6,10 @@ TASK: Named Entity Medical Extraction
 COMPITO: Estrazione di entità denominate di farmaci
 Estrarre tutti e soli i farmaci dal documento sottostante.
 Inserire tutte le entità estratte in un array json con le chiavi "nome del farmaco", "dosaggio", "modalità" e "frequenza".
-Se non ci sono dati in nessuna delle colonne, scrivere "nm".
 Seguire un formato json come questo:
 {{
     "nome_farmaco": string,
-    "dose": string,
+    "dosaggio": string,
     "modalità": string,
     "frequenza": string
 }}
@@ -28,3 +27,4 @@ Estrai i farmaci dal seguente documento:
 <|im_end|>
 <|im_start|>assistant
 ```medicinali.json
+[

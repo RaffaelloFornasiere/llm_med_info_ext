@@ -13,6 +13,9 @@ class Eval:
         self.clean_ann_fn = clean_ann_fn
         self.clean_ext_fn = clean_ext_fn
 
+        self.annotations = self.clean_ann_fn(self.annotations) if self.clean_ann_fn else self.annotations
+        self.extracted = self.clean_ext_fn(self.extracted) if self.clean_ext_fn else self.extracted
+
         self.false_positives = None
         self.false_negatives = None
         self.true_positives = None
@@ -24,10 +27,10 @@ class Eval:
         raise NotImplementedError  # This will be implemented in subclasses
 
     def get_precision(self):
-        return self.true_positives / (self.true_positives + self.false_positives)
+        return self.true_positives / (self.true_positives + self.false_positives) if self.true_positives + self.false_positives > 0 else 0
 
     def get_recall(self):
-        return self.true_positives / (self.true_positives + self.false_negatives)
+        return self.true_positives / (self.true_positives + self.false_negatives) if self.true_positives + self.false_negatives > 0 else 0
 
     def get_f1_score(self):
         precision = self.get_precision()
@@ -91,11 +94,12 @@ class FullRowExactMatch(Eval):
         """
         Main evaluation function that computes evaluation metrics.
         """
+
+        anns = [self.join(ann) for ann in self.annotations]
+        exts = [self.join(ext) for ext in self.extracted]
         self.false_positives = 0
         self.false_negatives = 0
         self.true_positives = 0
-        anns = [self.join(ann) for ann in self.annotations]
-        exts = [self.join(ext) for ext in self.extracted]
 
         for ann in anns:
             if ann in exts:
@@ -175,13 +179,25 @@ class EmbeddingCosineDistance(Eval):
 
 
 class LLMEvaluation(Eval):
-    def __init__(self, annotations, extracted, original_text, prompt, parse_output, clean_ann_fn=None, clean_ext_fn=None):
-        super().__init__(annotations, extracted, original_text, clean_ann_fn, clean_ext_fn)
-        self.prompt = prompt
-        self.parse_output = parse_output
+    def __init__(self, annotations, extracted, original_text, callback_model, clean_ann_fn=None,
+                 clean_ext_fn=None, name=None):
+        super().__init__(annotations, extracted, original_text, clean_ann_fn, clean_ext_fn, name)
+        self.callback_model = callback_model
 
     def evaluate(self):
-        pass
+        results = []
+        for i, ext in enumerate(self.extracted):
+            for j, ann in enumerate(self.annotations):
+                # if names have at least 5 characters in common
+                if len(set(ext['medication_name'].lower()) & set(ann['medication_name'].lower())) < 5:
+                    continue
 
+                res = self.callback_model(ext, ann)
+                if not res or isinstance(res, dict) and 'error' in res:
+                    continue
+                results.append(res)
+                break
 
-
+        self.true_positives = len(results)
+        self.false_positives = len(self.extracted) - len(results)
+        self.false_negatives = len(self.annotations) - len(results)

@@ -12,50 +12,50 @@
       "file": "PSD003.json",
       "out": [
         {
-          "medication_name": "Pantoprazolo",
-          "dosage": null,
+          "medication_name": "PANTOPRAZOLO",
+          "dosage": "20 mg",
           "mode": "1 cp alle ore 8",
           "frequency": ""
         },
         {
-          "medication_name": "Ace\u043d\u043ecumarol\u043e",
-          "dosage": null,
+          "medication_name": "ACENOCUMAROLO",
+          "dosage": "4 mg sec INR",
           "mode": "",
           "frequency": ""
         },
         {
-          "medication_name": "Bisoprololo",
-          "dosage": null,
+          "medication_name": "BISOPROLOLO",
+          "dosage": "1.25 mg",
           "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
           "frequency": ""
         },
         {
-          "medication_name": "Ramipril",
-          "dosage": null,
+          "medication_name": "RAMIPRIL",
+          "dosage": "5 mg",
           "mode": "1 cp alle ore 8",
           "frequency": ""
         },
         {
-          "medication_name": "Furosemide",
-          "dosage": null,
+          "medication_name": "FUROSEMIDE",
+          "dosage": "25 mg",
           "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
           "frequency": ""
         },
         {
-          "medication_name": "Canrenoato di potassio",
-          "dosage": null,
+          "medication_name": "CANREONATO DI POTASSIO",
+          "dosage": "25 mg",
           "mode": "1 cp alle ore 16",
           "frequency": ""
         },
         {
-          "medication_name": "Enoxaparina",
-          "dosage": null,
+          "medication_name": "ENOKSAPARINA",
+          "dosage": "4000 U sc",
           "mode": "alle ore 18 fino al raggiungimento di INR stabile e terapeutico",
           "frequency": ""
         },
         {
-          "medication_name": "Escitalopram",
-          "dosage": null,
+          "medication_name": "ESCITALOPRAM",
+          "dosage": "10 mg",
           "mode": "1 cp alle ore 22",
           "frequency": ""
         }
@@ -66,55 +66,55 @@
       "out": [
         {
           "medication_name": "Pantoprazolo",
-          "dosage": null,
+          "dosage": "20 mg",
           "mode": "1 cp alle ore 8",
           "frequency": ""
         },
         {
           "medication_name": "Ace\u043d\u043ecumaroI",
-          "dosage": null,
+          "dosage": "4 mg sec INR",
           "mode": "alle ore 18 (INR del 31.01.21 = 2.21 dose \u00bc cp, INR odierno = 3.31, dose 0 cp)",
           "frequency": ""
         },
         {
           "medication_name": "Metoprololo",
-          "dosage": null,
+          "dosage": "100 mg",
           "mode": "\u00bd cp alle ore 8, \u00bd cp alle ore 14 e \u00bd cp alle ore 20",
           "frequency": ""
         },
         {
           "medication_name": "Ramipril",
-          "dosage": null,
+          "dosage": "5 mg",
           "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
           "frequency": ""
         },
         {
           "medication_name": "Cloruro di Potassio",
-          "dosage": null,
+          "dosage": "600 mg",
           "mode": "1 cp alle ore 12 e 1 cp alle ore 20, da sospendere secondo kaliemia",
           "frequency": ""
         },
         {
           "medication_name": "Furosemide",
-          "dosage": null,
+          "dosage": "25 mg",
           "mode": "2 cp alle ore 8 e 2 cp alle ore 20",
           "frequency": ""
         },
         {
           "medication_name": "Canrenoato di Potassio",
-          "dosage": null,
+          "dosage": "100 mg",
           "mode": "\u00bd cp alle ore 16",
           "frequency": ""
         },
         {
           "medication_name": "Lorazepam",
-          "dosage": null,
+          "dosage": "1 mg",
           "mode": "1 cp alle ore 8",
           "frequency": ""
         },
         {
           "medication_name": "Quetiapina",
-          "dosage": null,
+          "dosage": "25 mg",
           "mode": "1 cp alle ore 22 (da sospendere eventualmente prima del rientro a domicilio)",
           "frequency": ""
         }
@@ -124,50 +124,50 @@
       "file": "PSD004.json",
       "out": [
         {
-          "medication_name": "Pantoprazolo",
-          "dosage": null,
+          "medication_name": "PANTOPRAZOLO",
+          "dosage": "20 mg",
           "mode": "1 cp alle ore 8",
           "frequency": ""
         },
         {
-          "medication_name": "Acido acetilsalicilico",
-          "dosage": null,
+          "medication_name": "ACIDO ACETILSALICILICO",
+          "dosage": "100 mg",
           "mode": "1 cp dopo pranzo",
           "frequency": ""
         },
         {
-          "medication_name": "Ticagrelor",
-          "dosage": null,
+          "medication_name": "TICAGRELOR",
+          "dosage": "90 mg",
           "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
           "frequency": ""
         },
         {
-          "medication_name": "Bisoprololo",
-          "dosage": null,
+          "medication_name": "BISOPROLOLO",
+          "dosage": "1.25 mg",
           "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
           "frequency": ""
         },
         {
-          "medication_name": "Furosemide",
-          "dosage": null,
+          "medication_name": "FUROSEMIDE",
+          "dosage": "25 mg",
           "mode": "2 cp alle ore 8 e 1 cp alle ore 20",
           "frequency": ""
         },
         {
-          "medication_name": "Canrenoato di potassio",
-          "dosage": null,
+          "medication_name": "CANREONATO DI POTASSIO",
+          "dosage": "100 mg",
           "mode": "\u00bd cp alle ore 16",
           "frequency": ""
         },
         {
-          "medication_name": "Atorvastatina",
-          "dosage": null,
+          "medication_name": "ATORVASTATINA",
+          "dosage": "40 mg",
           "mode": "1 cp alle ore 22",
           "frequency": ""
         },
         {
-          "medication_name": "Tiotropio Resmatil",
-          "dosage": null,
+          "medication_name": "TIOTROPIO RESPIMAT",
+          "dosage": "2 inalazioni",
           "mode": "inalazione al mattino",
           "frequency": ""
         }
@@ -178,63 +178,57 @@
       "out": [
         {
           "medication_name": "PANTOPRAZOLO",
-          "dosage": null,
+          "dosage": "20 mg",
           "mode": "1 cp alle ore 8",
-          "frequency": ""
+          "frequency": "una volta al giorno"
         },
         {
           "medication_name": "CLOPIDOGREL",
-          "dosage": null,
+          "dosage": "75 mg",
           "mode": "1 cp dopo pranzo",
-          "frequency": ""
+          "frequency": "una volta al giorno"
         },
         {
           "medication_name": "BISOPROLOLO",
-          "dosage": null,
+          "dosage": "1.25 mg",
           "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
-          "frequency": ""
+          "frequency": "due volte al giorno"
         },
         {
           "medication_name": "RAMIPRIL",
-          "dosage": null,
+          "dosage": "5 mg",
           "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
-          "frequency": ""
+          "frequency": "due volte al giorno"
         },
         {
           "medication_name": "FUROSEMIDE",
-          "dosage": null,
+          "dosage": "500 mg",
           "mode": "\u00bc cp alle ore 8 e \u00bc alle ore 20",
-          "frequency": ""
+          "frequency": "due volte al giorno"
         },
         {
           "medication_name": "CANREONATO DI POTASSIO",
-          "dosage": null,
+          "dosage": "100 mg",
           "mode": "\u00bd cp alle ore 16",
-          "frequency": ""
+          "frequency": "una volta al giorno"
         },
         {
           "medication_name": "LEVOTIROXINA",
-          "dosage": null,
+          "dosage": "100 mcg",
           "mode": "1 cp a digiuno alle ore 7",
-          "frequency": ""
+          "frequency": "una volta al giorno"
         },
         {
           "medication_name": "TIOTROPIO Respimat",
-          "dosage": null,
-          "mode": "",
-          "frequency": ""
+          "dosage": "2 inalazioni",
+          "mode": "inalazione al mattino",
+          "frequency": "una volta al giorno"
         },
         {
-          "medication_name": "LOPRAZEPAM",
-          "dosage": null,
+          "medication_name": "LOREZAPAM",
+          "dosage": "1 mg",
           "mode": "1 cp alle ore 22",
-          "frequency": ""
-        },
-        {
-          "medication_name": "DOMPEDRIONE",
-          "dosage": null,
-          "mode": "1 cp a pranzo e a cena",
-          "frequency": ""
+          "frequency": "una volta al giorno"
         }
       ]
     }

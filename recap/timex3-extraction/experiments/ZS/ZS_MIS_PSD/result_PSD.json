@@ -1,0 +1,73 @@
+{
+  "experiment_name": "Medication Extraction Zero Shot",
+  "dataset_dir": "../../../datasets/Policlinico_San_Donato_txt/",
+  "inputs": [
+    "PSD003.json",
+    "PSD002.json",
+    "PSD004.json",
+    "PSD001.json"
+  ],
+  "outputs": [
+    {
+      "file": "PSD003.json",
+      "out": [
+        {
+          "date_value": "07.04.21",
+          "text": "San Donato Milanese, Milano"
+        },
+        {
+          "date_value": "30.03.21",
+          "text": "Ricovero iniziale del paziente"
+        }
+      ]
+    },
+    {
+      "file": "PSD002.json",
+      "out": [
+        {
+          "date_value": "21.01.21",
+          "text": "01.02.21"
+        },
+        {
+          "date_value": "21.01.21",
+          "text": "07.01.21"
+        }
+      ]
+    },
+    {
+      "file": "PSD004.json",
+      "out": [
+        {
+          "date_value": "12.01.21",
+          "text": "San Donato Milanese, Milano"
+        },
+        {
+          "date_value": "04.01.21",
+          "text": "Intervento di rivascolarizione miocardica mediante BPAC X 4 (LIMA-IVA, Ao-Dg-Mg-IVP sequenziale)"
+        },
+        {
+          "date_value": "03.01.21",
+          "text": "Tampone per Sars-Cov2: negativo"
+        },
+        {
+          "date_value": "01.01.21",
+          "text": "Febbre serotina il 01/01/21 e 02/01/21, tampone per Sars-Cov2: negativo"
+        },
+        {
+          "date_value": "10.12.20",
+          "text": "Ecocardiogramma eseguito in acuto: severa coronaropatia critica aterosclerotica con stenosi significativa di IVA prossimale, occlusione al tratto medio, malattia multisgemnetale di Dg1, subollcusione di RI a sx, stenosi subocclusiva di CDx prossimale, stenosi critica di PL ed occlusione di IVP-->PCI+DES su CDx prossimale, riapertura di occlusione di IVP che presenta malattia diffusa multifocale ed impianto di DES all'origine di tale ramo."
+        },
+        {
+          "date_value": "09.12.20",
+          "text": "EcoTSA (09/12/20): non stenosi emodinamicamente significative"
+        }
+      ]
+    },
+    {
+      "file": "PSD001.json",
+      "out": {
+        "error": "[\n    {\n        \"date_value\": \"2021-07-28\",\n        \"text\": \"San Donato Milanese, Milano\"\n    },\n    {\n        \"date_value\": \"2021-07-21\",\n        \"text\": \"Intervento di sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21 in ministernotomia, Dr. Biondi\"\n    },\n    {\n        \"date_value\": \"2021-07-20\",\n        \"text\": \"Intervento di sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21 in ministernotomia, Dr. Biondi\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Tampone per Sars-Cov2: negativo\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21, normoposta, con gradiente medio del flusso anterogrado di 10 mmHg.\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21, normoposta, con gradiente medio del flusso anterogrado di 10 mmHg.\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21, normoposta, con gradiente medio del flusso anterogrado di 10 mmHg.\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21, normoposta, con gradiente medio del flusso anterogrado di 10 mmHg.\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21, normoposta, con gradiente medio del flusso anterogrado di 10 mmHg.\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21, normoposta, con gradiente medio del flusso anterogrado di 10 mmHg.\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21, normoposta, con gradiente medio del flusso anterogrado di 10 mmHg.\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21, normoposta, con gradiente medio del flusso anterogrado di 10 mmHg.\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21, normoposta, con gradiente medio del flusso anterogrado di 10 mmHg.\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21, normoposta, con gradiente medio del flusso anterogrado di 10 mmHg.\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21, normoposta, con gradiente medio del flusso anterogrado di 10 mmHg.\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21, normoposta, con gradiente medio del flusso anterogrado di 10 mmHg.\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21, normoposta, con gradiente medio del flusso anterogrado di 10 mmHg.\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21, normoposta, con gradiente medio del flusso anterogrado di 10 mmHg.\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21, normoposta, con gradiente medio del flusso anterogrado di 10 mmHg.\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21, normoposta, con gradiente medio del flusso anterogrado di 10 mmHg.\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotesi sutureless Edwards Intuity N\u00b0 21, normoposta, con gradiente medio del flusso anterogrado di 10 mmHg.\"\n    },\n    {\n        \"date_value\": \"2021-07-19\",\n        \"text\": \"Ecocardiogramma TT 27.07.21: Sostituzione valvolare aortica con bioprotes"
+      }
+    }
+  ]
+}

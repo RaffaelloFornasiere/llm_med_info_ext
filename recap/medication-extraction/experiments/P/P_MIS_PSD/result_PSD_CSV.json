@@ -1,0 +1,194 @@
+{
+  "experiment_name": "Medication Extraction Zero Shot",
+  "dataset_dir": "../../../datasets/Policlinico_San_Donato_txt/",
+  "inputs": [
+    "PSD003.json",
+    "PSD002.json",
+    "PSD004.json",
+    "PSD001.json"
+  ],
+  "outputs": [
+    {
+      "file": "PSD003.json",
+      "out": [
+        {
+          "medication_name": "PANTOPRAZOLO",
+          "dosage": "20 mg 1 cp alle ore 8",
+          "mode": "sc",
+          "frequency": ""
+        },
+        {
+          "medication_name": "ACENOCUMAROLO",
+          "dosage": "4 mg sec INR alle ore 18",
+          "mode": "sc",
+          "frequency": ""
+        },
+        {
+          "medication_name": "BISOPROLOLO",
+          "dosage": "1.25 mg 1 cp alle ore 8 e 1 cp alle ore 20",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "RAMIPRIL",
+          "dosage": "5 mg 1 cp alle ore 8",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "FUROSEMIDE",
+          "dosage": "25 mg 1 cp alle ore 8 e 1 cp alle ore 20",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "CANREONATO DI POTASSIO",
+          "dosage": "25 mg 1 cp alle ore 16",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "ENOKSAPARINA",
+          "dosage": "4000 U sc alle ore 18 fino al raggiungimento di INR stabile e terapeutico",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "ESCITALOPRAM",
+          "dosage": "10 mg 1 cp alle ore 22",
+          "mode": null,
+          "frequency": null
+        }
+      ]
+    },
+    {
+      "file": "PSD002.json",
+      "out": [
+        {
+          "medication_name": "Sorin 25 S redo",
+          "dosage": "n/d",
+          "mode": "Impianto meccanico aortico",
+          "frequency": "Singola"
+        }
+      ]
+    },
+    {
+      "file": "PSD004.json",
+      "out": [
+        {
+          "medication_name": "PANTOPRAZOLO",
+          "dosage": "20 mg 1 cp alle ore 8",
+          "mode": "oralmente",
+          "frequency": "1 volta al giorno"
+        },
+        {
+          "medication_name": "ACIDO ACETILSALICILICO",
+          "dosage": "100 mg 1 cp dopo pranzo",
+          "mode": "oralmente",
+          "frequency": "1 volta al giorno"
+        },
+        {
+          "medication_name": "TICAGRELOR",
+          "dosage": "90 mg 1 cp alle ore 8 e 1 cp alle ore 20",
+          "mode": "oralmente",
+          "frequency": "due volte al giorno"
+        },
+        {
+          "medication_name": "BISOPROLOLO",
+          "dosage": "1.25 mg 1 cp alle ore 8 e 1 cp alle ore 20",
+          "mode": "oralmente",
+          "frequency": "due volte al giorno"
+        },
+        {
+          "medication_name": "FUROSEMIDE",
+          "dosage": "25 mg 2 cp alle ore 8 e 1 cp alle ore 20",
+          "mode": "oralmente",
+          "frequency": "due volte al giorno"
+        },
+        {
+          "medication_name": "CANREONATO DI POTASSIO",
+          "dosage": "100 mg \u00bd cp alle ore 16",
+          "mode": "oralmente",
+          "frequency": "una volta al giorno"
+        },
+        {
+          "medication_name": "ATORVASTATINA",
+          "dosage": "40 mg 1 cp alle ore 22",
+          "mode": "oralmente",
+          "frequency": "una volta al giorno"
+        },
+        {
+          "medication_name": "TIOTROPIO RESPIMAT",
+          "dosage": "2 inalazioni al mattino",
+          "mode": "inalazione",
+          "frequency": "1 volta al giorno"
+        }
+      ]
+    },
+    {
+      "file": "PSD001.json",
+      "out": [
+        {
+          "medication_name": "PANTOPRAZOLO",
+          "dosage": "20 mg",
+          "mode": "1 compresse",
+          "frequency": "alle ore 8"
+        },
+        {
+          "medication_name": "CLOPIDOGREL",
+          "dosage": "75 mg",
+          "mode": "1 compresse",
+          "frequency": "dopo pranzo"
+        },
+        {
+          "medication_name": "BISOPROLOLO",
+          "dosage": "1.25 mg",
+          "mode": "1 compresse",
+          "frequency": "alle ore 8 e alle ore 20"
+        },
+        {
+          "medication_name": "RAMIPRIL",
+          "dosage": "5 mg",
+          "mode": "1 compresse",
+          "frequency": "alle ore 8 e alle ore 20"
+        },
+        {
+          "medication_name": "FUROSEMIDE",
+          "dosage": "500 mg",
+          "mode": "\u00bc compresse",
+          "frequency": "alle ore 8 e alle ore 20"
+        },
+        {
+          "medication_name": "CANREONATO DI POTASSIO",
+          "dosage": "100 mg",
+          "mode": "\u00bd compresse",
+          "frequency": "alle ore 16"
+        },
+        {
+          "medication_name": "LEVOTIROXINA",
+          "dosage": "100 mcg",
+          "mode": "1 compresse a digiuno",
+          "frequency": "alle ore 7"
+        },
+        {
+          "medication_name": "TIOTROPIO Respimat",
+          "dosage": "2 inalazioni",
+          "mode": "Inalazione al mattino",
+          "frequency": "una volta al giorno"
+        },
+        {
+          "medication_name": "LORAZEPAM",
+          "dosage": "1 mg",
+          "mode": "1 compresse",
+          "frequency": "alle ore 22"
+        },
+        {
+          "medication_name": "DOMPERIDONE",
+          "dosage": "1 compresse",
+          "mode": "A pranzo e a cena",
+          "frequency": "una volta al giorno"
+        }
+      ]
+    }
+  ]
+}

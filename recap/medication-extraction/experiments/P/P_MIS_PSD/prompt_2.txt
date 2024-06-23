@@ -1,0 +1,14 @@
+{history}
+<|im_start|>user
+Inserire tutte le entità estratte in un array json con le chiavi "nome del farmaco", "dosaggio", "modalità" e "frequenza".
+Seguire un formato json come questo:
+{{
+    "nome_farmaco": string,
+    "dosaggio": string,
+    "modalità": string,
+    "frequenza": string
+}}
+<|im_end|>
+<|im_start|>assistant
+```medications.json
+[

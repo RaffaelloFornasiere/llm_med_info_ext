@@ -1,5 +1,5 @@
 import os
-import json
+import json5 as json
 import genesis_cloud.utils as u
 from tqdm import tqdm
 from step.step import *
@@ -31,8 +31,11 @@ def run(config_file='config.json', verbose: bool = False):
         elif file_type == 'txt':
             return {arg_name: open(value, 'r').read()}
         elif file_type == 'py':
-            function = getattr(importlib.import_module(arg_name), value['function_name'])
-            return {value['arg_name']: function}
+            functions = {}
+            for entry in value:
+                function = getattr(importlib.import_module(arg_name), entry['function_name'])
+                functions[entry['arg_name']] = function
+            return functions
         elif arg_name == 'model':
             return {arg_name: model}
         else:

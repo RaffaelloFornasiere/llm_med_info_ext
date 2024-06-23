@@ -1,0 +1,18 @@
+{history}
+<|im_start|>user
+Converti ogni data in un formato standard (aaaa-mm-gg) e crea un oggetto JSON per ciascuna data con le seguenti chiavi:
+
+date_value: la data nel formato aaaa-mm-gg
+text: il testo originale della data
+
+Segui il seguente formato:
+{{
+    "date_value": "aaaa-mm-gg",
+    "text": "original date text"
+}}
+Sii rigoroso nel rispettare il formato richiesto (usa i trattini per separare anno, mese e giorno).
+
+<|im_end|>
+<|im_start|>assistant
+```dates.json
+[

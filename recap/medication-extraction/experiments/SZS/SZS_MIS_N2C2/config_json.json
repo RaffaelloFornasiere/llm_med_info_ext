@@ -27,10 +27,16 @@
         "prompt.txt": "prompt_JSON.txt",
         "params.json": "params.json",
         "model": "MIS",
-        "utils.py": {
-          "function_name": "map_input",
-          "arg_name": "map_input"
-        },
+        "utils.py": [
+          {
+            "function_name": "map_input",
+            "arg_name": "map_input"
+          },
+          {
+            "function_name": "map_output",
+            "arg_name": "map_output"
+          }
+        ],
         "inputs": [
           0
         ]

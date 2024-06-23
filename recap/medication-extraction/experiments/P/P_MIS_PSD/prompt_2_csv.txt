@@ -1,0 +1,8 @@
+{history}
+<|im_start|>user
+Inserire tutte le entità estratte in una tabella csv con le colonne "nome del farmaco", "dosaggio", "modalità" e "frequenza".
+Usare il separatore ";".
+<|im_end|>
+<|im_start|>assistant
+```medications.csv
+nome del farmaco;dosaggio;modalità;frequenza

@@ -5,7 +5,6 @@ Il tuo ruolo è quello di aderire esclusivamente alle linee guida fornite e di e
 COMPITO: Estrazione di entità denominate di farmaci
 Estrarre tutti e soli i farmaci dal documento sottostante.
 Inserire tutte le entità estratte in una tabella csv con le colonne nome del farmaco, dosaggio, modalità e frequenza.
-Se non ci sono dati in nessuna delle colonne, scrivere "nm".
 Seguire un formato csv, come questo:
 "nome del farmaco;dosaggio;modalità;frequenza".
 <|im_end|>

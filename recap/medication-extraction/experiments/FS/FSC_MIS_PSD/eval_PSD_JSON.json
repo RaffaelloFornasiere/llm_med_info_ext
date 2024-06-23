@@ -1,7 +1,12 @@
 {
-    "FullRowExactMatch2": {
-        "precision": 0.0,
-        "recall": 0.0,
-        "f1_score": 0.0
-    }
+    FullRowExactMatch: {
+        precision: 0.4027777777777778,
+        recall: 0.4444444444444444,
+        f1_score: 0.4217171717171717,
+    },
+    FullRowExactMatch2: {
+        precision: 0.4375,
+        recall: 0.475,
+        f1_score: 0.4545454545454546,
+    },
 }

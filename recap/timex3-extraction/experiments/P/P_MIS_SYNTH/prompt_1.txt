@@ -1,0 +1,12 @@
+<|im_start|>system
+Emulare uno strumento per il compito specificato. Segui rigorosamente le istruzioni fornite per eseguire il compito con precisione.
+Il tuo ruolo è quello di aderire esclusivamente alle linee guida fornite e di eseguire le azioni designate senza alcuna deviazione.<|im_end|>
+<|im_start|>user
+Please read the following medical document and count all dates mentioned,
+regardless of their format (absolute, relative, partial, etc.).
+Use context to fill in any missing parts of the dates.
+```document.txt
+{document}
+```
+<|im_end|>
+<|im_start|>assistant

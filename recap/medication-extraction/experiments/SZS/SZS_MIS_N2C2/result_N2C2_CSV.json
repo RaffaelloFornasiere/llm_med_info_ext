@@ -13,19 +13,145 @@
       "file": "66947.txt.json",
       "out": [
         {
-          "medication_name": "MYCOOLPHARquan",
+          "medication_name": "[report_end]",
           "dosage": null,
           "mode": null,
           "frequency": null
         },
         {
-          "medication_name": "\"1/day",
+          "medication_name": "<|im_end|>",
           "dosage": null,
           "mode": null,
           "frequency": null
         },
         {
-          "medication_name": "8",
+          "medication_name": "<|im_start|>assistant",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "medications.csv",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "medication_name",
+          "dosage": "dosage",
+          "mode": "mode",
+          "frequency": "frequency"
+        },
+        {
+          "medication_name": "MYCOPHENOLATE MOFETIL 1000 MG PO BID",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "OXYBUTYNIN CHLORIDE XL 10 MG PO QD",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "INSULIN GLARGINE 20 UNITS SC QAM",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "FUROSEMIDE PO QD",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "CLOPIDOGREL 75 MG PO QD",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "PRAVASTIN 40 MG PO QHS",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "PREDNISONE 5 MG PO QD",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "CYCLOSPORINE ( SANDIMMUNE ) 75 MG PO BID",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "METOPROLOL SUCCINATE EXTENDED RELEASE 50 MG PO QD",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "FENOFIBRATE ( TRICOR ) 48 MG PO QD",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "ENTERIC COATED ASA 325 MG PO DAILY",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "PLAVIX ( CLOPIDOGREL ) 75 MG PO DAILY",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "CYCLOSPORINE ( SANDIMMUNE ) 75 MG PO BID",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "LASIX ( FUROSEMIDE ) 40 MG PO DAILY",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "INSULIN GLARGINE 20 UNITS SC DAILY",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "METOPROLOL SUCCINATE EXTENDED RELEASE 50 MG PO DAILY",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "CELLCEPT ( MYCOPHENOLATE MOFETIL ) 1 , 000 MG PO BID",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "PRAVACHOL ( PRAVASTATIN ) 40 MG PO BEDTIME",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "PREDNISOLONE SODIUM PHOSPHATE 5MG/5ML 5 MG PO DAILY",
           "dosage": null,
           "mode": null,
           "frequency": null
@@ -36,9 +162,111 @@
       "file": "80815.txt.json",
       "out": [
         {
-          "medication_name": "aspirroutine",
-          "dosage": "nm",
-          "mode": "No arrhythmias or other dysrhythymia",
+          "medication_name": "[report_end]",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "<|im_end|>",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "<|im_start|>assistant",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "medications.csv",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "medication_name",
+          "dosage": "dosage",
+          "mode": "mode",
+          "frequency": "frequency"
+        },
+        {
+          "medication_name": "aspirin",
+          "dosage": "81 mg ",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "medication_name": "Plavix",
+          "dosage": "75 mg ",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "medication_name": "Coumadin",
+          "dosage": "5 mg ",
+          "mode": "p.o.",
+          "frequency": "every evening"
+        },
+        {
+          "medication_name": "digoxin",
+          "dosage": "0.125 mg ",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "medication_name": "Lasix",
+          "dosage": "49 mg ",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "medication_name": "lisinopril",
+          "dosage": "10 mg ",
+          "mode": "p.o.",
+          "frequency": "daily"
+        },
+        {
+          "medication_name": "Lopressor",
+          "dosage": "25 mg ",
+          "mode": "b.i.d.",
+          "frequency": "every 6 hours"
+        },
+        {
+          "medication_name": "Zocor",
+          "dosage": "80 mg ",
+          "mode": "p.o.",
+          "frequency": "at bed time"
+        },
+        {
+          "medication_name": "Flomax",
+          "dosage": "0.4 mg ",
+          "mode": "p.o.",
+          "frequency": "every evening"
+        },
+        {
+          "medication_name": "vancomycin",
+          "dosage": "250 mg ",
+          "mode": "p.o.",
+          "frequency": "x8 days at discharge"
+        },
+        {
+          "medication_name": "Lactobacillus",
+          "dosage": "2 tabs ",
+          "mode": "p.o.",
+          "frequency": "t.i.d."
+        },
+        {
+          "medication_name": "Metoprolol",
+          "dosage": "25 mg ",
+          "mode": "p.o.",
+          "frequency": "b.i.d."
+        },
+        {
+          "medication_name": "Flovent",
+          "dosage": "110 mcg ",
+          "mode": "inhale b.i.d.",
           "frequency": null
         }
       ]
@@ -47,15 +275,183 @@
       "file": "5091.txt.json",
       "out": [
         {
-          "medication_name": "Aspirin ",
-          "dosage": " Aspirin 12",
+          "medication_name": "[report_end]",
+          "dosage": null,
           "mode": null,
           "frequency": null
         },
         {
-          "medication_name": "aspir",
+          "medication_name": "<|im_end|>",
           "dosage": null,
           "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "<|im_start|>assistant",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "medications.csv",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "medication_name",
+          "dosage": "dosage",
+          "mode": "mode",
+          "frequency": "frequency"
+        },
+        {
+          "medication_name": "Aspirin",
+          "dosage": "325 mg p.o. daily ",
+          "mode": "p.o.",
+          "frequency": "1"
+        },
+        {
+          "medication_name": "Lopressor",
+          "dosage": "50 mg p.o. q.6h.",
+          "mode": "p.o.",
+          "frequency": "q.6h"
+        },
+        {
+          "medication_name": "Norvasc",
+          "dosage": "10 mg p.o. daily ",
+          "mode": "p.o.",
+          "frequency": "1"
+        },
+        {
+          "medication_name": "Zocor",
+          "dosage": "80 mg p.o. daily ",
+          "mode": "p.o.",
+          "frequency": "1"
+        },
+        {
+          "medication_name": "Plavix",
+          "dosage": "not mentioned",
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "PhosLo",
+          "dosage": "not mentioned",
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "Prandin",
+          "dosage": "0.5 mg p.o. with each meal ",
+          "mode": "p.o.",
+          "frequency": "q.6h"
+        },
+        {
+          "medication_name": "Nephrocaps",
+          "dosage": "not mentioned",
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "Epogen",
+          "dosage": "Aranesp 40 mcg subcutaneous every week ",
+          "mode": "subcutaneous",
+          "frequency": "every week"
+        },
+        {
+          "medication_name": "Calcitriol",
+          "dosage": "0.5 mcg p.o. daily ",
+          "mode": "p.o.",
+          "frequency": "1"
+        },
+        {
+          "medication_name": "Colace",
+          "dosage": "100 mg p.o. daily ",
+          "mode": "p.o.",
+          "frequency": "1"
+        },
+        {
+          "medication_name": "Heparin",
+          "dosage": "5000 units subcutaneous t.i.d.",
+          "mode": "subcutaneous",
+          "frequency": "t.i.d"
+        },
+        {
+          "medication_name": "Isosorbide dinitrate",
+          "dosage": "10 mg p.o. t.i.d.",
+          "mode": "p.o.",
+          "frequency": "t.i.d"
+        },
+        {
+          "medication_name": "Lactulose",
+          "dosage": "30 mL p.o. t.i.d.",
+          "mode": "p.o.",
+          "frequency": "t.i.d"
+        },
+        {
+          "medication_name": "Lisinopril",
+          "dosage": "50 mg p.o. daily ",
+          "mode": "p.o.",
+          "frequency": "1"
+        },
+        {
+          "medication_name": "Simethicone",
+          "dosage": "80 mg p.o. q.i.d.",
+          "mode": "p.o.",
+          "frequency": "q.i.d"
+        },
+        {
+          "medication_name": "Vancomycin",
+          "dosage": "1 g IV every other day ",
+          "mode": "IV",
+          "frequency": "every other day"
+        },
+        {
+          "medication_name": "Zinc sulfate",
+          "dosage": "220 mg p.o. daily for two weeks ",
+          "mode": "p.o.",
+          "frequency": "for two weeks"
+        },
+        {
+          "medication_name": "Dulcolax",
+          "dosage": "10 mg PR daily ",
+          "mode": "PR",
+          "frequency": "1"
+        },
+        {
+          "medication_name": "Tylenol",
+          "dosage": "not mentioned",
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "Dilaudid",
+          "dosage": "2-4 mg p.o. q.4h. as needed for pain ",
+          "mode": "p.o.",
+          "frequency": "as needed"
+        },
+        {
+          "medication_name": "Oxycodone",
+          "dosage": "5-10 mg p.o. q.4h. hours as needed for pain ",
+          "mode": "p.o.",
+          "frequency": "q.4h"
+        },
+        {
+          "medication_name": "Zyprexa",
+          "dosage": "5 mg p.o. q.8h. as needed for anxiety or agitation ",
+          "mode": "p.o.",
+          "frequency": "q.8h"
+        },
+        {
+          "medication_name": "Maalox",
+          "dosage": "not mentioned",
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "Reglan",
+          "dosage": "for nausea ",
+          "mode": "not mentioned",
           "frequency": null
         }
       ]
@@ -64,19 +460,187 @@
       "file": "661.txt.json",
       "out": [
         {
-          "medication_name": "ACETY",
-          "dosage": "nm",
-          "mode": null,
-          "frequency": null
-        },
-        {
-          "medication_name": "Acetyl",
+          "medication_name": "[report_end]",
           "dosage": null,
           "mode": null,
           "frequency": null
         },
         {
-          "medication_name": "ACETIONS: Discharges",
+          "medication_name": "<|im_end|>",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "<|im_start|>assistant",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "medications.csv",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "medication_name",
+          "dosage": "dosage",
+          "mode": "mode",
+          "frequency": "frequency"
+        },
+        {
+          "medication_name": "ACETYLSALICYLIC ACID 325 MG PO QD",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "COLACE ( DOCUSATE SODIUM ) 100 MG PO BID",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "ENALAPRIL MALEATE 10 MG PO BID",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "INSTructions: hold on mornings of dialysis",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "NPH HUMULIN INSULIN ( INSULIN NPH HUMAN )",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "2 UNITS QAM",
+          "dosage": " 3 UNITS QPM SC 2 UNITS QAM 3 UNITS QPM",
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "NTG 1/150 ( NITROGLYCERIN 1/150 ( 0.4 MG ) )",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "1 TAB SL Q5MIN X 3 PRN Chest Pain",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "ZOCOR ( SIMVASTATIN ) 40 MG PO QHS",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "Food/Drug Interaction Instruction",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "Avoid grapefruit unless MD instructs otherwise",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "IMDUR ( ISOSORBIDE MONONIT.( SR ) ) 30 MG PO QD",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "Food/Drug Interaction Instruction",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "Give on an empty stomach ( give 1hr before or 2hr after food )",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "NEPHROCAPS ( NEPHRO-VIT RX ) 2 TAB PO QD",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "ALERT overridden: Override added on 4/29/04 by",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "SCHMALZRIED , EZEQUIEL L. , M.D.",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "POTENTIALLY SERIOUS INTERACTION: SIMVASTATIN &amp",
+          "dosage": " NIACIN ,",
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "VIT. B-3 Reason for override: home regimen",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "NEXIUM ( ESOMEPRAZOLE ) 20 MG PO QD",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "TOPROL XL ( METOPROLOL ( SUST. REL. ) ) 200 MG PO QHS",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "Food/Drug Interaction Instruction",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "Take consistently with meals or on empty stomach",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "DIET: House / 2 gm Na / ADA 2100 cals/day / Low saturated fat",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "low cholesterol / Renal diet (FDI)",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "ACTIVITY: Walking as tolerated",
           "dosage": null,
           "mode": null,
           "frequency": null
@@ -87,20 +651,194 @@
       "file": "28218.txt.json",
       "out": [
         {
-          "medication_name": "Aspirinfectious infection",
+          "medication_name": "[report_end]",
           "dosage": null,
           "mode": null,
           "frequency": null
         },
         {
-          "medication_name": "name",
+          "medication_name": "<|im_end|>",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "<|im_start|>assistant",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "medications.csv",
+          "dosage": null,
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "medication_name",
           "dosage": "dosage",
           "mode": "mode",
           "frequency": "frequency"
         },
         {
-          "medication_name": "aspirin 10/75",
-          "dosage": null,
+          "medication_name": "aspirin",
+          "dosage": "81 mg ",
+          "mode": "mechanical soft diet",
+          "frequency": ""
+        },
+        {
+          "medication_name": "baclofen",
+          "dosage": "5 mg t.i.d.",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "B12",
+          "dosage": "1000 mg daily",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "iron sulfate",
+          "dosage": "325 mg daily",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "Cymbalta",
+          "dosage": "20 mg p.o. b.i.d.",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "Neurontin",
+          "dosage": "100 mg b.i.d.",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "Lamictal",
+          "dosage": "200 mg b.i.d.",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "Prilosec",
+          "dosage": "20 daily",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "levothyroxine",
+          "dosage": "",
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "Glucophage",
+          "dosage": "500 once a day",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "Reglan",
+          "dosage": "10 once a day",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "niacin",
+          "dosage": "500 once a day",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "Senna",
+          "dosage": "2 tabs b.i.d.",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "Zocor",
+          "dosage": "20 mg once a day",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "Nicoderm patch ",
+          "dosage": "",
+          "mode": null,
+          "frequency": null
+        },
+        {
+          "medication_name": "Colace",
+          "dosage": "100 mg p.o. b.i.d.",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "Lopressor",
+          "dosage": "100 mg p.o. b.i.d.",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "lidoderm",
+          "dosage": "5% patch to the low back",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "Tylenol",
+          "dosage": "p.r.n.",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "ducolox ",
+          "dosage": "p.r.n.",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "Mylanta ",
+          "dosage": "p.r.n.",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "lactulose ",
+          "dosage": "p.r.n.",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "Seroquel",
+          "dosage": "100 mg p.o. b.i.d.",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "prednisone",
+          "dosage": "50 mg ",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "Dilaudid",
+          "dosage": "1 mg",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "ciprofloxacin",
+          "dosage": "700 mg p.o. b.i.d.",
+          "mode": "",
+          "frequency": null
+        },
+        {
+          "medication_name": "vancomycin",
+          "dosage": "",
           "mode": null,
           "frequency": null
         }

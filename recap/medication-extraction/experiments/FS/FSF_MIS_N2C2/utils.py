@@ -10,18 +10,23 @@ def add_examples_csv(inputs: list = None, **kwargs):
         [';'.join([value for value in list(row.values())[:4]]) for row in example['annotations']])
     return {'example_doc': example_doc, 'example_csv': example_csv, 'document': document}
 
+
 def add_examples_json(inputs: list = None, **kwargs):
     document = inputs[0].input.value['text']
     example = json.load(open(kwargs['examples_dir'] + os.listdir(kwargs['examples_dir'])[0], 'r'))
     example_doc = example['text']
 
-    example_json = [{k:v for k,v in item.items() if k != 'line'} for item in example['annotations']]
+    example_json = [{k: v for k, v in item.items() if k != 'line'} for item in example['annotations']]
     return {'example_doc': example_doc, 'example_json': example_json, 'document': document}
-
 
 
 def map_input(inputs: list = None):
     return inputs[0].output.value
+
+
+def map_output(model_input, output) -> dict:
+    return model_input[model_input.rfind('['):] + output
+
 
 def map_ita_json_to_json(inputs: list = None):
     json = inputs[0].output.value

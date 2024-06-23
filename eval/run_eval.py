@@ -1,6 +1,6 @@
 from eval.eval import *
 import re
-import json
+import json5 as json
 import os
 import importlib
 

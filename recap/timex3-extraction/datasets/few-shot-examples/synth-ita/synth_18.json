@@ -1,0 +1,30 @@
+{
+  "text": "**Patient Discharge Summary**\n\n---\n\n**Patient Information:**\n- Patient Name: Sarah Thompson\n- Age: 60\n- Gender: Female\n- Admission Date: December 10, 2024\n- Discharge Date: 12-25-2024\n\n---\n\n**Chief Complaint:**\nMs. Sarah Thompson presented with:\n- Diffuse abdominal pain\n- Nausea\n- Vomiting\n\n---\n\n**Medical History:**\n- Chronic kidney disease\n- Hypertension\n- Diabetes mellitus type 2\n\n---\n\n**Initial Assessment:**\nUpon admission, Ms. Thompson underwent:\n- Comprehensive physical examination\n- Laboratory studies\n- Imaging studies (abdominal ultrasound, CT)\n- Consultations with specialists in nephrology, gastroenterology, and endocrinology\n\n---\n\n**Diagnosis:**\n- Acute kidney injury\n- Dehydration\n- Hypovolemia\n- Acute cholecystitis\n\n---\n\n**Treatment Plan:**\n- Intravenous fluids\n- Insulin therapy\n- Broad-spectrum antibiotics\n- Consultation with surgical team for consideration of laparoscopic cholecystectomy\n\n---\n\n**Multidisciplinary Approach:**\n- Collaboration among physicians, nurses, pharmacists, dietitians, social workers, and physical therapists\n\n---\n\n**Diagnostic Studies:**\n- MRCP\n- Hepatobiliary scintigraphy\n\n---\n\n**Surgical Intervention:**\n- Laparoscopic cholecystectomy performed on December 24, 2024\n\n---\n\n**Postoperative Management:**\n- Renal function monitoring\n- Glycemic control\n- Wound care\n- Diet advancement\n\n---\n\n**Discharge Planning:**\n- Medication reconciliation\n- Dietary counseling\n- Wound care instructions\n- Arrangements for outpatient follow-up with multiple specialties\n\n---\n\n**Discharge Summary:**\nMs. Thompson was discharged home on December 25, 2024, in stable condition, with close outpatient follow-up scheduled.\n\n---\n\n**Physician's Note:**\nThe comprehensive care provided to Ms. Thompson highlights the importance of a structured approach and multidisciplinary collaboration in managing complex medical conditions.",
+  "annotations": [
+    {
+      "text": "December 10, 2024",
+      "date_value": "2024-12-10",
+      "line": 8
+    },
+    {
+      "text": "12-25-2024",
+      "date_value": "2024-12-25",
+      "line": 9
+    },
+    {
+      "text": "on December 25, 2024",
+      "date_value": "2024-12-25",
+      "line": 86
+    },
+    {
+      "text": "postoperative management",
+      "date_value": "2024-12-25",
+      "line": 69
+    },
+    {
+      "text": "after fifteen days",
+      "date_value": "2024-12-25",
+      "line": -1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+Emulate a tool for the specified task. Strictly follow the provided instructions to execute the task accurately.
+Your role is to adhere solely to the given guidelines and perform the designated actions without deviation.<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+TASK: Named Entity Medical Extraction
+Extract all and only the medications from the document below.
+Put all the extracted entities into a json array with the keys medication_name, dosage, mode and frequency.
+Follow a json format like this:
+{{
+    "medication_name": string,
+    "dosage": string,
+    "mode": string,
+    "frequency": string
+}}
+
+```document.txt
+{document}
+```
+<|eot_id|>
+<|start_header_id|>assistant<|end_header_id|>
+```medications.json
+[

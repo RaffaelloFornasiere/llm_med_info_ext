@@ -1,7 +1,12 @@
 import json
 
+
 def map_input(inputs: list = None) -> dict:
     return {'document': inputs[0].output.value['text']}
+
+
+def map_output(model_input, output) -> dict:
+    return model_input[model_input.rfind('['):] + output
 
 
 def map_table_to_json(inputs: list = None) -> list:

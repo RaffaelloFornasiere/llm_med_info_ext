@@ -1,0 +1,80 @@
+{
+  "experiment_name": "Medication Extraction Zero Shot",
+  "experiment_code": "med_ext_szs_n2c2_csv",
+  "dataset": {
+    "name": "N2C2",
+    "code": "N2C2",
+    "dir": "../../../datasets/synthetic-data/"
+  },
+  "model": {
+    "name": "mistral",
+    "code": "MIS",
+    "url": "147.189.192.78:8080"
+  },
+  "steps": [
+    {
+      "id": 0,
+      "stepClass": "InputStep",
+      "args": {
+        "name": "input"
+      }
+    },
+    {
+      "id": 1,
+      "stepClass": "Step",
+      "args": {
+        "name": "step 1",
+        "prompt.txt": "prompt_1.txt",
+        "params.json": "params.json",
+        "model": "MIS",
+        "utils.py": [
+          {
+            "function_name": "map_input",
+            "arg_name": "map_input"
+          },
+          {
+            "function_name": "map_output_1",
+            "arg_name": "map_output"
+          }
+        ],
+        "inputs": [
+          0
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "stepClass": "Step",
+      "args": {
+        "name": "step 1",
+        "prompt.txt": "prompt_2.txt",
+        "params.json": "params.json",
+        "model": "MIS",
+        "utils.py": [
+          {
+            "function_name": "map_input_2",
+            "arg_name": "map_input"
+          },
+          {
+            "function_name": "map_output",
+            "arg_name": "map_output"
+          }
+        ],
+        "inputs": [
+          1
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "stepClass": "ParseJSONStep",
+      "args": {
+        "name": "parse_json",
+        "inputs": [
+          2
+        ]
+      }
+    }
+  ],
+  "outputFileName": "result_I2B2.json"
+}

@@ -1,6 +1,6 @@
 import genesis_cloud.utils as u
-import json
 import json5
+import json
 import inspect
 from json import JSONEncoder
 import graphviz
@@ -49,9 +49,12 @@ class Step:
         return [step for step in self.inputs if isinstance(step, Step)]
 
     @staticmethod
-    def map_output(output):
+    def map_output(model_input, output):
         output = output.replace('<dummy32000>', '')
         if not output.endswith('<|im_end|>'):
+            output += '<|im_end|>'
+        if output.endswith('<|eot_id|>'):
+            output = output[:output.index('<|eot_id|>')]
             output += '<|im_end|>'
         return output
 
@@ -67,11 +70,11 @@ class Step:
         model_input = self.get_model_input()
         self.input.value = model_input
         output = self.model(model_input, **self.params)
-        self.output.value = self.map_output(output) if self.map_output else output
+        self.output.value = self.map_output(model_input, output) if self.map_output else output
         return self.output.value
 
     def __str__(self):
-        return json.dumps({k: v for k, v in {
+        return json5.dumps({k: v for k, v in {
             'name': self.name,
             'model': self.model.__class__.__name__ if self.model else None,
             'prompt': self.prompt,
@@ -120,6 +123,8 @@ class ParseJSONStep(Step):
         output = output.replace('```', '')
         if output.endswith('<|im_end|>'):
             output = output[:output.index('<|im_end|>')]
+        if output.endswith('<|eot_id|>'):
+            output = output[:output.index('<|eot_id|>')]
         try:
             output = json5.loads(output)
         except:
@@ -156,7 +161,8 @@ class ParseCSVStep(Step):
         output = output.replace('```', '')
         if output.endswith('<|im_end|>'):
             output = output[:output.index('<|im_end|>')]
-
+        if output.endswith('<|eot_id|>'):
+            output = output[:output.index('<|eot_id|>')]
         output = output.split('\n')
         output = [line.split(self.separator) for line in output]
         self.output.value = output
@@ -228,4 +234,4 @@ class Pipeline:
         return self.steps[-1].output.value
 
     def __str__(self):
-        return json.dumps([json.loads(str(step)) for step in self.steps])
+        return json5.dumps([json5.loads(str(step)) for step in self.steps])

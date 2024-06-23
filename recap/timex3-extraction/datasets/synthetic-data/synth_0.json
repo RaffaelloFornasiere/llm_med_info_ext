@@ -1,0 +1,29 @@
+{
+  "text": "**Discharge Letter:**\n\nPatient Name: John Doe  \nAge: 45  \nDate of Admission: March 15, 2024  \nDate of Discharge: March 22, 2024  \n\nDear Dr. Smith,\n\nI am writing to inform you about the discharge of Mr. John Doe, a 45-year-old male who was admitted to our hospital on March 15, 2024, complaining of severe chest pain and shortness of breath. Upon admission, Mr. Doe was promptly evaluated by our medical team.\n\nDuring his hospitalization, Mr. Doe underwent several diagnostic tests, including a chest X-ray, an electrocardiogram (ECG), and a blood panel. The results revealed evidence of myocardial infarction, necessitating urgent intervention.\n\nOn March 16, 2024, Mr. Doe underwent a coronary angiography, which confirmed significant blockage in his left anterior descending artery. Subsequently, on March 18, 2024, he underwent a successful percutaneous coronary intervention (PCI) with stent placement.\n\nFollowing the procedure, Mr. Doe was closely monitored in the cardiac care unit (CCU). He responded well to treatment and showed signs of clinical improvement. Daily assessments of his vital signs and cardiac function were performed, and he remained hemodynamically stable throughout his hospital stay.\n\nOn March 22, 2024, after seven days of hospitalization, Mr. Doe's condition had significantly improved, and he was deemed medically stable for discharge. He was provided with detailed instructions regarding medication regimen, dietary modifications, and follow-up appointments with his cardiologist.\n\nWe anticipate a smooth recovery for Mr. Doe and encourage him to adhere to the prescribed treatment plan to optimize his cardiac health.\n\nSincerely,\n\n[Physician's Signature]  \nDr. Emily Johnson  \nCardiologist  ",
+  "annotations": [
+    {
+      "text": "March 15, 2024",
+      "date_value": "2024-03-15"
+    },
+    {
+      "text": "March 16, 2024",
+      "date_value": "2024-03-16"
+    },
+    {
+      "text": "March 18, 2024",
+      "date_value": "2024-03-18"
+    },
+    {
+      "text": "March 22, 2024",
+      "date_value": "2024-03-22"
+    },
+    {
+      "text": "seven days",
+      "date_value": "2024-03-22"
+    },
+    {
+      "text": "daily",
+      "date_value": "2024-03-22"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{history}
+<|im_start|>user
+Put the result into a Json array where each object of the array follows the structure:
+{{
+    date_alue: string,
+    description: string,
+}}
+Be sure that the value format is yyyy-mm-dd. The description field should contain what type of event occured at that time point
+<|im_end|>
+<|im_start|>assistant
+```dates.json
+[

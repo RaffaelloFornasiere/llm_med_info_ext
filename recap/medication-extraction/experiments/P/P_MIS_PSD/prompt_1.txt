@@ -1,0 +1,13 @@
+<|im_start|>system
+Emulare uno strumento per il compito specificato. Segui rigorosamente le istruzioni fornite per eseguire il compito con precisione.
+Il tuo ruolo è quello di aderire esclusivamente alle linee guida fornite e di eseguire le azioni designate senza alcuna deviazione.<|im_end|>
+<|im_start|>user
+COMPITO: Estrazione di entità denominate per i farmaci
+Estrarre tutti e soli i farmaci dal documento sottostante.
+Per ciascun farmaco, fornire il nome del farmaco, il dosaggio, la modalità e la frequenza.
+
+```document.txt
+{document}
+```
+<|im_end|>
+<|im_start|>assistant

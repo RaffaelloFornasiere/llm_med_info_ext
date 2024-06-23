@@ -4,11 +4,10 @@ Your role is to adhere solely to the given guidelines and perform the designated
 <|im_start|>user
 TASK: Named Entity Medical Extraction
 Extract all and only the medications from the document below.
-Put all the extracted entities into a json array with the keys chem_name, dosage, mode and frequency.
-If no data in any of the keys write "nm".
+Put all the extracted entities into a json array with the keys medication_name, dosage, mode and frequency.
 Follow a json format like this:
 {{
-    "chem_name": string,
+    "medication_name": string,
     "dosage": string,
     "mode": string,
     "frequency": string
@@ -20,3 +19,4 @@ Follow a json format like this:
 <|im_end|>
 <|im_start|>assistant
 ```medications.json
+[

@@ -1,1 +1,163 @@
-{"experiment_name": "Medication Extraction Zero Shot", "dataset_dir": "../../../datasets/Policlinico_San_Donato_txt/", "inputs": ["PSD003.json", "PSD002.json", "PSD004.json", "PSD001.json"], "outputs": [{"file": "PSD003.json", "out": [{"medication_name": null, "dosage": null, "mode": null, "frequency": null}]}, {"file": "PSD002.json", "out": [{"medication_name": null, "dosage": null, "mode": null, "frequency": null}]}, {"file": "PSD004.json", "out": [{"medication_name": null, "dosage": null, "mode": null, "frequency": null}]}, {"file": "PSD001.json", "out": [{"medication_name": null, "dosage": null, "mode": null, "frequency": null}]}]}
+{
+  "experiment_name": "Medication Extraction Zero Shot",
+  "dataset_dir": "../../../datasets/Policlinico_San_Donato_txt/",
+  "inputs": [
+    "PSD003.json",
+    "PSD002.json",
+    "PSD004.json",
+    "PSD001.json"
+  ],
+  "outputs": [
+    {
+      "file": "PSD003.json",
+      "out": []
+    },
+    {
+      "file": "PSD002.json",
+      "out": [
+        {
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        }
+      ]
+    },
+    {
+      "file": "PSD004.json",
+      "out": [
+        {
+          "medication_name": "Pantoprazolo",
+          "dosage": "20 mg",
+          "mode": "1 cp alle ore 8",
+          "frequency": ""
+        },
+        {
+          "medication_name": "Acido acetilsalicilico",
+          "dosage": "100 mg",
+          "mode": "1 cp dopo pranzo",
+          "frequency": ""
+        },
+        {
+          "medication_name": "Ticagrelor",
+          "dosage": "90 mg",
+          "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
+          "frequency": ""
+        },
+        {
+          "medication_name": "Bisoprololo",
+          "dosage": "1.25 mg",
+          "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
+          "frequency": ""
+        },
+        {
+          "medication_name": "Furosemide",
+          "dosage": "25 mg",
+          "mode": "2 cp alle ore 8 e 1 cp alle ore 20",
+          "frequency": ""
+        },
+        {
+          "medication_name": "Canreonato di potassio",
+          "dosage": "100 mg",
+          "mode": "\u00bd cp alle ore 16",
+          "frequency": ""
+        },
+        {
+          "medication_name": "Atorvastatina",
+          "dosage": "40 mg",
+          "mode": "1 cp alle ore 22",
+          "frequency": ""
+        },
+        {
+          "medication_name": "Tiotropio RespiMAT",
+          "dosage": "",
+          "mode": "2 inalazioni al mattino",
+          "frequency": ""
+        },
+        {
+          "medication_name": "Prednisone",
+          "dosage": "25 mg",
+          "mode": "1 cp alle ore 8 per 5 giorni, quindi scalare",
+          "frequency": ""
+        }
+      ]
+    },
+    {
+      "file": "PSD001.json",
+      "out": [
+        {
+          "medication_name": "Ferinject",
+          "dosage": "1 g",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "medication_name": "amlodipina",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "medication_name": "pantoprazolo",
+          "dosage": "20 mg",
+          "mode": "1 cp ore 8",
+          "frequency": ""
+        },
+        {
+          "medication_name": "clopidogrel",
+          "dosage": "75 mg",
+          "mode": "1 cp dopo pranzo",
+          "frequency": ""
+        },
+        {
+          "medication_name": "bisoprololo",
+          "dosage": "1.25 mg",
+          "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
+          "frequency": ""
+        },
+        {
+          "medication_name": "ramipril",
+          "dosage": "5 mg",
+          "mode": "1 cp alle ore 8 e 1 cp alle ore 20",
+          "frequency": null
+        },
+        {
+          "medication_name": "furosemide",
+          "dosage": "500 mg",
+          "mode": "\u00bc cp alle ore 8 e \u00bc alle ore 20",
+          "frequency": ""
+        },
+        {
+          "medication_name": "canreonato di potassio",
+          "dosage": "100 mg",
+          "mode": "\u00bd cp alle ore 16",
+          "frequency": ""
+        },
+        {
+          "medication_name": "levotiroxina",
+          "dosage": "100 mcg",
+          "mode": "1 cp a digiuno alle ore 7",
+          "frequency": ""
+        },
+        {
+          "medication_name": "tiotropio Respimat",
+          "dosage": "",
+          "mode": "2 inalazioni al mattino",
+          "frequency": ""
+        },
+        {
+          "medication_name": "lorazepam",
+          "dosage": "1 mg",
+          "mode": "1 cp alle ore 22",
+          "frequency": ""
+        },
+        {
+          "medication_name": "domperidone",
+          "dosage": "",
+          "mode": "1 cp a pranzo e a cena",
+          "frequency": ""
+        }
+      ]
+    }
+  ]
+}

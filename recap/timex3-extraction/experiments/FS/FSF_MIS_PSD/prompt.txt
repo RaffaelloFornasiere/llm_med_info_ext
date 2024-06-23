@@ -1,0 +1,41 @@
+<|im_start|>system
+Emula uno strumento per il compito specificato. Segui rigorosamente le istruzioni fornite per eseguire il compito in modo accurato.
+Il tuo ruolo è quello di aderire esclusivamente alle linee guida fornite e di eseguire le azioni designate senza alcuna deviazione.<|im_end|>
+<|im_start|>user
+TASK: Time Expression Extraction
+Per favore, leggi il seguente documento medico ed estrai tutte le date menzionate, indipendentemente dal loro formato (assolute, relative, parziali, ecc.).
+Usa il contesto per completare eventuali parti mancanti delle date.
+Converti ogni data in un formato standard (gg-mm-aaaa) e crea un oggetto JSON per ciascuna data con le seguenti chiavi:
+
+date_value: la data nel formato gg-mm-aaaa
+description: una descrizione dell'evento che si è verificato in quella data
+
+Segui il seguente formato:
+{{
+    "date_value": "yyyy-mm-dd",
+    "text": "original date text"
+}}
+Sii rigoroso nel rispettare il formato richiesto (usa i trattini per separare anno, mese e giorno).
+
+<|im_end|>
+<|im_start|>user
+Di seguito viene riportato un esempio completo:
+
+```esempio_documento.txt
+{example_doc}
+```
+
+```esempio_farmaci.json
+{example_json}
+```
+<|im_end|>
+<|im_start|>user
+Fai lo stesso per il documento qui sotto:
+
+```documento.txt
+{document}
+```
+<|im_end|>
+<|im_start|>assistant
+```dates.json
+[

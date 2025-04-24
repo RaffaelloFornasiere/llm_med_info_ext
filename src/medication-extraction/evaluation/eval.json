@@ -23,17 +23,6 @@
           "function_name": "join_ann"
         }
       }
-    },
-//    {
-//      "className": "LLMEvaluation",
-//      "args": {
-//        "name": "LLMEvaluation",
-//        "callback_model": {
-//          "type": "function",
-//          "module": "utils",
-//          "function_name": "callback_model"
-//        }
-//      }
-//    }
+    }
   ]
 }

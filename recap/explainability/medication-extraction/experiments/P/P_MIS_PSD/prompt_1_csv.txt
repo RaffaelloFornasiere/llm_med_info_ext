@@ -1,0 +1,18 @@
+<|im_start|>system
+Emulare uno strumento per il compito specificato. Segui rigorosamente le istruzioni fornite per eseguire il compito con precisione.
+Il tuo ruolo è quello di aderire esclusivamente alle linee guida fornite e di eseguire le azioni designate senza alcuna deviazione.<|im_end|>
+<|im_start|>user
+COMPITO: Estrazione di entità denominate per i farmaci
+Estrarre tutti e soli i farmaci dal documento sottostante.
+Inserite tutte le entità estratte in una tabella csv con le colonne nome del farmaco, dosaggio, modalità e frequenza.
+Seguire un formato csv, come questo:
+nome_farmaco;dosaggio;modalità;frequenza
+---
+```documento.txt
+{document}
+```
+---
+<|im_end|>
+<|im_start|>assistant
+```medicinali.csv
+nome_farmaco;dosaggio;modalità;frequenza

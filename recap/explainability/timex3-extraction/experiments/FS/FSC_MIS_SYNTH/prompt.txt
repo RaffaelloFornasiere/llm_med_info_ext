@@ -1,0 +1,32 @@
+<|im_start|>system
+Emulate a tool for the specified task. Strictly follow the provided instructions to execute the task accurately.
+Your role is to adhere solely to the given guidelines and perform the designated actions without deviation.<|im_end|>
+<|im_start|>user
+TASK: Time Expression Extraction
+Please read the following medical document and extract all dates mentioned,
+regardless of their format (absolute, relative, partial, etc.).
+Use context to fill in any missing parts of the dates.
+Convert each date into a standardized format (dd-mm-yyyy)
+and create a JSON object for each date with the following keys:
+- date_value: the date in yyyy-mm-dd format
+- text: the original date text
+
+Follow the json format below:
+{{
+    "date_value": "yyyy-mm-dd",
+    "text": "original date text"
+}}
+<|im_end|>
+<|im_start|>user
+Here below there are some examples of extractions:
+{examples}
+<|im_end|>
+<|im_start|>user
+Do the same for the document below:
+```document.txt
+{document}
+```
+<|im_end|>
+<|im_start|>assistant
+```dates.json
+[

@@ -1,0 +1,292 @@
+{
+  "experiment_name": "Medication Extraction Zero Shot",
+  "dataset_dir": "../../../datasets/n2c2-2009/",
+  "inputs": [
+    "66947.txt.json",
+    "80815.txt.json",
+    "5091.txt.json",
+    "661.txt.json",
+    "28218.txt.json"
+  ],
+  "outputs": [
+    {
+      "file": "66947.txt.json",
+      "out": [
+        {
+          "medication_name": "mycophenolate mofetil",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": 19
+        },
+        {
+          "medication_name": "oxybutynin chloride",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": 20
+        },
+        {
+          "medication_name": "insulin glargine",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": 21
+        },
+        {
+          "medication_name": "furosemide",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": 24
+        },
+        {
+          "medication_name": "cyclosporine (sandimmune)",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": 33
+        },
+        {
+          "medication_name": "metoprolol succinate extended release",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": 40
+        },
+        {
+          "medication_name": "cellcept (mycophenolate mofetil)",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": 55
+        },
+        {
+          "medication_name": "pravachol",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": 65
+        },
+        {
+          "medication_name": "prednisone",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": 75
+        }
+      ]
+    },
+    {
+      "file": "80815.txt.json",
+      "out": [
+        {
+          "medication_name": "aspirin",
+          "dosage": "81 mg",
+          "mode": "p.o.",
+          "frequency": "",
+          "line": ""
+        },
+        {
+          "medication_name": "Plavix",
+          "dosage": "75 mg",
+          "mode": "p.o.",
+          "frequency": "",
+          "line": ""
+        },
+        {
+          "medication_name": "Coumadin",
+          "dosage": "5 mg",
+          "mode": "p.o.",
+          "frequency": "",
+          "line": ""
+        },
+        {
+          "medication_name": "digoxin",
+          "dosage": "0.125 mg",
+          "mode": "p.o.",
+          "frequency": "",
+          "line": ""
+        },
+        {
+          "medication_name": "Lasix",
+          "dosage": "49 mg daily",
+          "mode": "p.o.",
+          "frequency": "",
+          "line": ""
+        },
+        {
+          "medication_name": "lisinopril",
+          "dosage": "10 mg daily",
+          "mode": "p.o.",
+          "frequency": "",
+          "line": ""
+        },
+        {
+          "medication_name": "Lopressor",
+          "dosage": "25 mg b.i.d.",
+          "mode": "p.o.",
+          "frequency": "",
+          "line": ""
+        },
+        {
+          "medication_name": "Zocor",
+          "dosage": "80 mg daily",
+          "mode": "p.o.",
+          "frequency": "",
+          "line": ""
+        },
+        {
+          "medication_name": "Flomax",
+          "dosage": "0.4 mg daily",
+          "mode": "p.o.",
+          "frequency": "",
+          "line": ""
+        },
+        {
+          "medication_name": "vancomycin",
+          "dosage": "250 mg p.o. every 6 hours x8 days at discharge",
+          "mode": "p.o.",
+          "frequency": "",
+          "line": ""
+        },
+        {
+          "medication_name": "Coumadin",
+          "dosage": "5 mg p.o. every evening",
+          "mode": "p.o.",
+          "frequency": "",
+          "line": ""
+        }
+      ]
+    },
+    {
+      "file": "5091.txt.json",
+      "out": [
+        {
+          "medication_name": "aspirin",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": "48"
+        },
+        {
+          "medication_name": "lopressor",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": "50"
+        },
+        {
+          "medication_name": "norvasc",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": "51"
+        },
+        {
+          "medication_name": "zocor",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": "54"
+        },
+        {
+          "medication_name": "plavix",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": "57"
+        },
+        {
+          "medication_name": "phoslo",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": "60"
+        },
+        {
+          "medication_name": "prandin",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": "71"
+        },
+        {
+          "medication_name": "nephrocaps",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": "72"
+        },
+        {
+          "medication_name": "epogen",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": "73"
+        },
+        {
+          "medication_name": "calcitriol",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": "142"
+        }
+      ]
+    },
+    {
+      "file": "661.txt.json",
+      "out": [
+        {
+          "medication_name": "acetylsalicylic acid",
+          "dosage": "325 mg",
+          "mode": "po",
+          "frequency": "qd"
+        },
+        {
+          "medication_name": "colace",
+          "dosage": "100 mg",
+          "mode": "po",
+          "frequency": "bid"
+        },
+        {
+          "medication_name": "enalapril maleate",
+          "dosage": "10 mg",
+          "mode": "po",
+          "frequency": "bid",
+          "instructions": "hold on mornings of dialysis"
+        },
+        {
+          "medication_name": "insulin NPH",
+          "dosage": "2 units qam; 3 units qpm sc 2 units qam 3 units qpm",
+          "mode": "sc",
+          "frequency": ""
+        },
+        {
+          "medication_name": "isosorbide mononitrate",
+          "dosage": "30 mg po qd"
+        },
+        {
+          "medication_name": "esomeprazole",
+          "dosage": "20 mg po qd"
+        },
+        {
+          "medication_name": "metoprolol succinate",
+          "dosage": "200 mg po qhs"
+        }
+      ]
+    },
+    {
+      "file": "28218.txt.json",
+      "out": [
+        {
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": ""
+        }
+      ]
+    }
+  ]
+}

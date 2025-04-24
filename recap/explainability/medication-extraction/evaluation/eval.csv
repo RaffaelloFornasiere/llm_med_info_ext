@@ -1,0 +1,32 @@
+Zero-shot,Policlinico San Donato,JSON,Full Medication,0.427,0.41,0.418
+Zero-shot,Policlinico San Donato,JSON,Names Only,0.858,0.81,0.833
+Zero-shot,Policlinico San Donato,CSV,Full Medication,0.0,0.0,0.0
+Zero-shot,Policlinico San Donato,CSV,Names Only,0.182,0.2,0.19
+Zero-shot,N2C2 2009,JSON,Full Medication,0.446,0.115,0.181
+Zero-shot,N2C2 2009,JSON,Names Only,0.964,0.392,0.513
+Zero-shot,N2C2 2009,CSV,Full Medication,0.418,0.217,0.278
+Zero-shot,N2C2 2009,CSV,Names Only,0.557,0.453,0.498
+Few-shot chunks,Policlinico San Donato,JSON,Full Medication,0.403,0.444,0.422
+Few-shot chunks,Policlinico San Donato,JSON,Names Only,0.438,0.475,0.455
+Few-shot chunks,Policlinico San Donato,CSV,Full Medication,0.05,0.05,0.05
+Few-shot chunks,Policlinico San Donato,CSV,Names Only,0.891,0.891,0.891
+Few-shot chunks,N2C2 2009,JSON,Full Medication,0.616,0.243,0.342
+Few-shot chunks,N2C2 2009,JSON,Names Only,0.965,0.547,0.683
+Few-shot chunks,N2C2 2009,CSV,Full Medication,0.38,0.16,0.224
+Few-shot chunks,N2C2 2009,CSV,Names Only,0.837,0.526,0.636
+Few-shot full,Policlinico San Donato,JSON,Full Medication,0.69,0.715,0.7
+Few-shot full,Policlinico San Donato,JSON,Names Only,0.867,0.944,0.898
+Few-shot full,Policlinico San Donato,CSV,Full Medication,0.433,0.453,0.443
+Few-shot full,Policlinico San Donato,CSV,Names Only,0.869,0.888,0.878
+Few-shot full,N2C2 2009,JSON,Full Medication,0.364,0.109,0.166
+Few-shot full,N2C2 2009,JSON,Names Only,0.885,0.479,0.606
+Few-shot full,N2C2 2009,CSV,Full Medication,0.366,0.136,0.198
+Few-shot full,N2C2 2009,CSV,Names Only,0.857,0.546,0.66
+Sequential,Policlinico San Donato,JSON,Full Medication,0.188,0.188,0.188
+Sequential,Policlinico San Donato,JSON,Names Only,0.694,0.666,0.679
+Sequential,Policlinico San Donato,CSV,Full Medication,0.156,0.156,0.156
+Sequential,Policlinico San Donato,CSV,Names Only,0.694,0.666,0.679
+Sequential,N2C2 2009,JSON,Full Medication,0.597,0.134,0.217
+Sequential,N2C2 2009,JSON,Names Only,0.961,0.358,0.512
+Sequential,N2C2 2009,CSV,Full Medication,0.288,0.055,0.092
+Sequential,N2C2 2009,CSV,Names Only,0.808,0.318,0.442

@@ -1,0 +1,12 @@
+Zero-shot,Synthetic dataset,Full Medication,0.949,0.806,0.861
+Zero-shot,I2B2 2012,Full Medication,0.811,0.589,0.651
+Zero-shot,Policlinico San Donato,Full Medication,0.0,0.0,0.0
+Few-shot chunks,Policlinico San Donato,Full Medication,0.941,0.518,0.665
+Few-shot chunks,I2B2 2012,Full Medication,0.954,0.592,0.701
+Few-shot full,Synthetic dataset,Full Medication,0.926,0.917,0.916
+Few-shot chunks,Synthetic dataset,Full Medication,0.975,0.898,0.931
+Few-shot full,Policlinico San Donato,Full Medication,0.931,0.622,0.738
+Few-shot full,I2B2 2012,Full Medication,0.803,0.794,0.79
+Sequential,Policlinico San Donato,Full Medication,0.856,0.317,0.46
+Sequential,Synthetic dataset,Full Medication,0.966,0.898,0.926
+Sequential,I2B2 2012,Full Medication,0.757,0.644,0.66

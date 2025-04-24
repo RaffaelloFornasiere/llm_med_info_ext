@@ -33,7 +33,7 @@
             "arg_name": "map_input"
           },
           {
-            "function_name": "map_output_1",
+            "function_name": "map_output_step_1",
             "arg_name": "map_output"
           }
         ],
@@ -52,7 +52,7 @@
         "model": "MIS",
         "utils.py": [
           {
-            "function_name": "map_input_2",
+            "function_name": "map_input_step_2",
             "arg_name": "map_input"
           },
           {

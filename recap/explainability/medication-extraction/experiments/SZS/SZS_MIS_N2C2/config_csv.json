@@ -1,0 +1,74 @@
+{
+  "experiment_name": "Medication Extraction Zero Shot",
+  "experiment_code": "med_ext_szs_n2c2_csv",
+  "dataset": {
+    "name": "N2C2",
+    "code": "N2C2",
+    "dir": "../../../datasets/n2c2-2009/"
+  },
+  "model": {
+    "name": "mistral",
+    "code": "MIS",
+    "url": "147.189.192.78:8080"
+  },
+  "steps": [
+    {
+      "id": 0,
+      "stepClass": "InputStep",
+      "args": {
+        "name": "input"
+      }
+    },
+    {
+      "id": 1,
+      "stepClass": "Step",
+      "args": {
+        "name": "step 1",
+        "prompt.txt": "prompt_CSV.txt",
+        "params.json": "params.json",
+        "model": "MIS",
+        "utilities.utilities_w_line.py": [
+          {
+            "function_name": "map_input",
+            "arg_name": "map_input"
+          },
+          {
+            "function_name": "map_output",
+            "arg_name": "map_output"
+          }
+        ],
+        "inputs": [
+          0
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "stepClass": "ParseCSVStep",
+      "args": {
+        "name": "parse_csv",
+        "separator": ";",
+        "inputs": [
+          1
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "stepClass": "MapStep",
+      "args": {
+        "name": "map to json",
+        "utilities.utilities_w_line.py": [
+          {
+            "function_name": "map_table_to_json",
+            "arg_name": "map_input"
+          }
+        ],
+        "inputs": [
+          2
+        ]
+      }
+    }
+  ],
+  "outputFileName": "result_N2C2_CSV.json"
+}

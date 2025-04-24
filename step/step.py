@@ -1,4 +1,4 @@
-import genesis_cloud.utils as u
+import llama_cpp_client.utils as u
 import json5
 import json
 import inspect
@@ -16,9 +16,13 @@ class Model(JSONEncoder):
 
 class LLamaCppModel(Model):
     def __init__(self, instance_url):
+        super().__init__()
         self.instance_url = instance_url
 
     def __call__(self, prompt, **params):
+        tokens = json5.loads(u.tokenize(self.instance_url, prompt))
+        if len(tokens) > 8192:
+            print(f"Warning: input too long (> 8192 tokens)")
         return u.call_model(self.instance_url, prompt, **params)
 
 

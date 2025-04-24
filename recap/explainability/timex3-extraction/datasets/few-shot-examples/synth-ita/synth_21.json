@@ -1,0 +1,30 @@
+{
+    "text": "**Patient Discharge Summary**\n\n---\n\n**Patient Information:**\n- Name: Michael Johnson\n- Age: 45\n- Gender: Male\n- Admission Date: February 15, 2023\n- Discharge Date: 02/25/2023\n\nMichael Johnson, a 45-year-old male, was admitted to our hospital on February 15, 2023, following a motor vehicle accident resulting in multiple traumatic injuries. Mr. Johnson presented with a decreased level of consciousness, severe head trauma, and bilateral lower extremity fractures.\n\nUpon admission, Mr. Johnson was intubated and transferred to the trauma bay for emergent resuscitation and stabilization. He was hemodynamically unstable, with evidence of hypovolemic shock requiring aggressive fluid resuscitation and blood transfusions. In addition to his head injury and lower extremity fractures, Mr. Johnson also sustained rib fractures, pulmonary contusions, and a splenic laceration, necessitating urgent surgical intervention.\n\nDuring his hospitalization, Mr. Johnson underwent a series of lifesaving procedures, including emergent craniotomy for intracranial hemorrhage evacuation, open reduction and internal fixation of bilateral femur fractures, and splenectomy for splenic injury. He was closely monitored in the intensive care unit (ICU) for postoperative complications, including respiratory failure, sepsis, and intracranial hypertension.\n\nThroughout his hospital stay, Mr. Johnson's clinical course was marked by significant challenges and complications, including ventilator-associated pneumonia, acute kidney injury, and development of a deep vein thrombosis. He required ongoing critical care support, including mechanical ventilation, vasopressor therapy, and continuous renal replacement therapy, to stabilize his condition and prevent further deterioration.\n\nDespite the complexity and severity of his injuries, Mr. Johnson demonstrated remarkable resilience and gradual improvement over the course of his hospitalization. With aggressive medical management, multidisciplinary care coordination, and the dedication of our healthcare team, Mr. Johnson's condition gradually stabilized, and he showed signs of neurologic recovery and improvement in his overall clinical status.\n\nOn February 25, 2023, Mr. Johnson was deemed medically stable for transfer out of the ICU and discharged from the hospital to a subacute rehabilitation facility for continued therapy and rehabilitation. He was provided with a comprehensive discharge plan, including instructions for wound care, physical therapy, occupational therapy, and outpatient follow-up with neurosurgery, orthopedics, and rehabilitation medicine specialists.\n\nThe hospitalization and recovery journey of Mr. Michael Johnson highlight the resilience of the human spirit and the transformative impact of collaborative, multidisciplinary care in overcoming life-threatening injuries and achieving meaningful recovery.",
+    "annotations": [
+        {
+            "text": "February 15, 2023",
+            "date_value": "2023-02-15",
+            "line": 8
+        },
+        {
+            "text": "02/25/2023",
+            "date_value": "2023-02-25",
+            "line": 9
+        },
+        {
+            "text": "on February 25, 2023",
+            "date_value": "2023-02-25",
+            "line": 21
+        },
+        {
+            "text": "February 25, 2023",
+            "date_value": "2023-02-25",
+            "line": 21
+        },
+        {
+            "text": "over the course of his hospitalization",
+            "date_value": "2023-02-25",
+            "line": 19
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+<|im_start|>system
+Emulate a tool for the specified task. Strictly follow the provided instructions to execute the task accurately.
+Your role is to adhere solely to the given guidelines and perform the designated actions without deviation.<|im_end|>
+<|im_start|>user
+Please read the following medical document and count all dates mentioned,
+regardless of their format (absolute, relative, partial, etc.).
+Use context to fill in any missing parts of the dates.
+```document.txt
+{document}
+```
+<|im_end|>
+<|im_start|>assistant

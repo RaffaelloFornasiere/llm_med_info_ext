@@ -22,10 +22,10 @@ Few-shot full,N2C2 2009,JSON,Full Medication,0.364,0.109,0.166
 Few-shot full,N2C2 2009,JSON,Names Only,0.885,0.479,0.606
 Few-shot full,N2C2 2009,CSV,Full Medication,0.366,0.136,0.198
 Few-shot full,N2C2 2009,CSV,Names Only,0.857,0.546,0.66
-Sequential,Policlinico San Donato,JSON,Full Medication,0.188,0.188,0.188
 Sequential,Policlinico San Donato,JSON,Names Only,0.694,0.666,0.679
-Sequential,Policlinico San Donato,CSV,Full Medication,0.156,0.156,0.156
+Sequential,Policlinico San Donato,JSON,Full Medication,0.188,0.188,0.188
 Sequential,Policlinico San Donato,CSV,Names Only,0.694,0.666,0.679
+Sequential,Policlinico San Donato,CSV,Full Medication,0.156,0.156,0.156
 Sequential,N2C2 2009,JSON,Full Medication,0.597,0.134,0.217
 Sequential,N2C2 2009,JSON,Names Only,0.961,0.358,0.512
 Sequential,N2C2 2009,CSV,Full Medication,0.288,0.055,0.092

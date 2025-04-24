@@ -32,6 +32,7 @@ def run(config_file='config.json', verbose: bool = False):
             return {arg_name: open(value, 'r').read()}
         elif file_type == 'py':
             functions = {}
+            arg_name = '.'.join(key.split('.')[:-1])
             for entry in value:
                 function = getattr(importlib.import_module(arg_name), entry['function_name'])
                 functions[entry['arg_name']] = function

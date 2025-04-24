@@ -1,0 +1,76 @@
+{
+  "experiment_name": "Medication Extraction Zero Shot",
+  "experiment_code": "med_ext_szs_n2c2_json",
+  "dataset": {
+    "name": "N2C2",
+    "code": "N2C2",
+    "dir": "../../../datasets/n2c2-2009/"
+  },
+  "model": {
+    "name": "mistral",
+    "code": "MIS",
+    "url": "147.189.192.78:8080"
+  },
+  "steps": [
+    {
+      "id": 0,
+      "stepClass": "InputStep",
+      "args": {
+        "name": "input"
+      }
+    },
+    {
+      "id": 1,
+      "stepClass": "MapStep",
+      "args": {
+        "name": "add examples",
+        "utilities.utilities_w_line.py": [
+          {
+            "function_name": "add_examples_json_chunks_w_line",
+            "arg_name": "map_input"
+          }
+        ],
+        "map_input_args": {
+          "examples_dir": "../../../datasets/few-shot-examples/n2c2-2009/"
+        },
+        "inputs": [
+          0
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "stepClass": "Step",
+      "args": {
+        "name": "step 1",
+        "prompt.txt": "prompt_JSON.txt",
+        "params.json": "params.json",
+        "model": "MIS",
+        "utilities.utilities_w_line.py": [
+          {
+            "function_name": "map_input_few_shot",
+            "arg_name": "map_input"
+          },
+          {
+            "function_name": "map_output",
+            "arg_name": "map_output"
+          }
+        ],
+        "inputs": [
+          1
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "stepClass": "ParseJSONStep",
+      "args": {
+        "name": "parse_json",
+        "inputs": [
+          2
+        ]
+      }
+    }
+  ],
+  "outputFileName": "result_N2C2_JSON.json"
+}

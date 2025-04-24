@@ -1,0 +1,7 @@
+{history}
+<|im_start|>user
+Per ciascun oggetto estratto, modificare il json esistente per includere una chiave "linea" che indica il numero di riga in cui è stato trovato l'oggetto.
+<|im_end|>
+<|im_start|>assistant
+```medications.json
+[

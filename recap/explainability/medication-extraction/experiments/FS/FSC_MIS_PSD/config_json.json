@@ -1,0 +1,92 @@
+{
+  "experiment_name": "Medication Extraction Zero Shot",
+  "experiment_code": "med_ext_szs_psd_json",
+  "dataset": {
+    "name": "PSD",
+    "code": "PSD",
+    "dir": "../../../datasets/Policlinico_San_Donato_txt/"
+  },
+  "model": {
+    "name": "mistral",
+    "code": "MIS",
+    "url": "147.189.192.78:8080"
+  },
+  "steps": [
+    {
+      "id": 0,
+      "stepClass": "InputStep",
+      "args": {
+        "name": "input"
+      }
+    },
+    {
+      "id": 1,
+      "stepClass": "MapStep",
+      "args": {
+        "name": "add examples",
+        "utilities.utilities_w_line.py": [
+          {
+            "function_name": "add_examples_json",
+            "arg_name": "map_input"
+          }
+        ],
+        "map_input_args": {
+          "examples_dir": "../../../datasets/few-shot-examples/synth-ita/"
+        },
+        "inputs": [
+          0
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "stepClass": "Step",
+      "args": {
+        "name": "step 1",
+        "prompt.txt": "prompt_JSON.txt",
+        "params.json": "params.json",
+        "model": "MIS",
+        "utilities.utilities_w_line.py": [
+          {
+            "function_name": "map_input_few_shot",
+            "arg_name": "map_input"
+          },
+          {
+            "function_name": "map_output",
+            "arg_name": "map_output"
+          }
+        ],
+        "inputs": [
+          1
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "stepClass": "ParseJSONStep",
+      "args": {
+        "name": "parse_json",
+        "inputs": [
+          2
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "stepClass": "MapStep",
+      "args": {
+        "name": "map to json",
+        "utilities.utilities_w_line.py": [
+          {
+            "function_name": "map_ita_json_to_json",
+            "arg_name": "map_input"
+          }
+        ],
+        "inputs": [
+          3
+        ]
+      }
+    }
+  ],
+  "outputFileName": "result_PSD_JSON.json"
+}

@@ -1,0 +1,235 @@
+{
+  "experiment_name": "Medication Extraction Zero Shot",
+  "dataset_dir": "../../../datasets/Policlinico_San_Donato_txt/",
+  "inputs": [
+    "PSD003.json",
+    "PSD002.json",
+    "PSD004.json",
+    "PSD001.json"
+  ],
+  "outputs": [
+    {
+      "file": "PSD003.json",
+      "out": [
+        {
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": 123
+        },
+        {
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": "",
+          "line": 145
+        }
+      ]
+    },
+    {
+      "file": "PSD002.json",
+      "out": [
+        {
+          "medication_name": "Lasix",
+          "dosage": "25 mg 2cpx2/die",
+          "mode": "oralmente",
+          "frequency": "due volte al giorno",
+          "line": 48
+        },
+        {
+          "medication_name": "Pantoprazole",
+          "dosage": "20 mg 1 cp",
+          "mode": "orale",
+          "frequency": "una volta al giorno",
+          "line": 49
+        },
+        {
+          "medication_name": "Metoprololo",
+          "dosage": "100 mg \u00bd cp",
+          "mode": "orale",
+          "frequency": "tre volte al giorno",
+          "line": 50
+        },
+        {
+          "medication_name": "Ramipril",
+          "dosage": "5 mg 1 cp",
+          "mode": "orale",
+          "frequency": "due volte al giorno",
+          "line": 51
+        },
+        {
+          "medication_name": "Furosemide",
+          "dosage": "25 mg 2 cp",
+          "mode": "orale",
+          "frequency": "due volte al giorno",
+          "line": 52
+        },
+        {
+          "medication_name": "Canrenato di potassio",
+          "dosage": "100 mg \u00bd cp",
+          "mode": "orale",
+          "frequency": "una volta al giorno",
+          "line": 53
+        },
+        {
+          "medication_name": "Lorazepam",
+          "dosage": "1 mg 1 cp",
+          "mode": "orale",
+          "frequency": "una volta al giorno",
+          "line": 54
+        },
+        {
+          "medication_name": "Quetiapina",
+          "dosage": "25 mg 1 cp",
+          "mode": "orale",
+          "frequency": "una volta al giorno",
+          "line": 55
+        }
+      ]
+    },
+    {
+      "file": "PSD004.json",
+      "out": [
+        {
+          "medication_name": "PANTOPRAZOLO",
+          "dosage": "20 mg 1 cp alle ore 8",
+          "mode": "",
+          "frequency": "",
+          "line": 128
+        },
+        {
+          "medication_name": "ATORVASTATINA",
+          "dosage": "40 mg 1 cp alle ore 22",
+          "mode": "",
+          "frequency": "",
+          "line": 134
+        },
+        {
+          "medication_name": "FUROSEMIDE",
+          "dosage": "25 mg 2 cp alle ore 8 e 1 cp alle ore 20",
+          "mode": "",
+          "frequency": "",
+          "line": 135
+        },
+        {
+          "medication_name": "CANREONATO DI POTASSIO",
+          "dosage": "100 mg \u00bd cp alle ore 16",
+          "mode": "",
+          "frequency": "",
+          "line": 136
+        },
+        {
+          "medication_name": "BISOPROLOLO",
+          "dosage": "1.25 mg 1 cp alle ore 8 e 1 cp alle ore 20",
+          "mode": "",
+          "frequency": "",
+          "line": 137
+        },
+        {
+          "medication_name": "TIOTROPIO RESPIMAT",
+          "dosage": "2 inalazioni al mattino",
+          "mode": "",
+          "frequency": "",
+          "line": 138
+        },
+        {
+          "medication_name": "ACIDO ACETILSALICILICO",
+          "dosage": "100 mg 1 cp dopo pranzo",
+          "mode": "",
+          "frequency": "",
+          "line": 139
+        },
+        {
+          "medication_name": "TICAGRELOR",
+          "dosage": "90 mg 1 cp alle ore 8 e 1 cp alle ore 20",
+          "mode": "",
+          "frequency": "",
+          "line": 140
+        },
+        {
+          "medication_name": "PREDNISONE",
+          "dosage": "25 mg 1 cp alle ore 8 per 5 giorni, quindi scalare",
+          "mode": "",
+          "frequency": "",
+          "line": 141
+        }
+      ]
+    },
+    {
+      "file": "PSD001.json",
+      "out": [
+        {
+          "medication_name": "PANTOPRAZOLO",
+          "dosage": "20 mg 1 cp ore 8",
+          "mode": "",
+          "frequency": "",
+          "line": 120
+        },
+        {
+          "medication_name": "CLOPIDOGREL",
+          "dosage": "75 mg 1 cp dopo pranzo",
+          "mode": "",
+          "frequency": "",
+          "line": 121
+        },
+        {
+          "medication_name": "BISOPROLOLO",
+          "dosage": "1.25 mg 1 cp alle ore 8 e 1 cp alle ore 20",
+          "mode": "",
+          "frequency": "",
+          "line": 122
+        },
+        {
+          "medication_name": "RAMIPRIL",
+          "dosage": "5 mg 1 cp alle ore 8 e 1 cp alle ore 20",
+          "mode": "",
+          "frequency": "",
+          "line": 123
+        },
+        {
+          "medication_name": "FUROSEMIDE",
+          "dosage": "500 mg \u00bc cp alle ore 8 e \u00bc alle ore 20",
+          "mode": "",
+          "frequency": "",
+          "line": 124
+        },
+        {
+          "medication_name": "CANREONATO DI POTASSIO",
+          "dosage": "100 mg \u00bd cp alle ore 16",
+          "mode": "",
+          "frequency": "",
+          "line": 125
+        },
+        {
+          "medication_name": "LEVOTIROXINA",
+          "dosage": "100 mcg 1 cp a digiuno alle ore 7",
+          "mode": "",
+          "frequency": "",
+          "line": 126
+        },
+        {
+          "medication_name": "TIOTROPIO Respimat",
+          "dosage": "2 inalazioni al mattino",
+          "mode": "",
+          "frequency": "",
+          "line": 127
+        },
+        {
+          "medication_name": "LORAZEPAM",
+          "dosage": "1 mg 1 cp alle ore 22",
+          "mode": "",
+          "frequency": "",
+          "line": 128
+        },
+        {
+          "medication_name": "DOMPEDRIONE",
+          "dosage": "1 cp a pranzo e a cena",
+          "mode": "",
+          "frequency": "",
+          "line": 129
+        }
+      ]
+    }
+  ]
+}

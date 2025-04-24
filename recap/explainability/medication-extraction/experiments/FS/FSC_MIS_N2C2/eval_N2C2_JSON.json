@@ -1,0 +1,17 @@
+{
+    LineAndName: {
+        precision: 0.4,
+        recall: 0.4,
+        f1_score: 0.4,
+    },
+    LineOnly: {
+        precision: 0.2652777777777778,
+        recall: 0.04506787330316742,
+        f1_score: 0.07612634279300945,
+    },
+    MedicationName: {
+        precision: 0.6438095238095238,
+        recall: 0.24410382101558575,
+        f1_score: 0.33885710384647316,
+    },
+}

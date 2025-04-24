@@ -1,0 +1,17 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+Emulate a tool for the specified task. Strictly follow the provided instructions to execute the task accurately.
+Your role is to adhere solely to the given guidelines and perform the designated actions without deviation.<|eot_id|>
+<|start_header_id|>user<|end_header_id|>
+```extracted.json
+{extracted}
+```
+
+```ground_truth.json
+{ground_truth}
+```
+
+Generate a third json that contains the same keys of the ground_truth.json and for each field indicates with a boolean whether the extracted json has any mention of this information (regardless of its location or format) or not.
+Consider all mentions of relevant information, regardless of their position in the JSON structure. Indicate true if the extracted JSON contains any hint about the corresponding key's value, even if it is not explicitly mentioned under that exact key.
+<|eot_id|>
+<|start_header_id|>assistant<|end_header_id|>
+```result.json

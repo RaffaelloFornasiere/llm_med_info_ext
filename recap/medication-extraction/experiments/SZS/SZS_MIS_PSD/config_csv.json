@@ -27,7 +27,7 @@
         "prompt.txt": "prompt_CSV.txt",
         "params.json": "params.json",
         "model": "MIS",
-        "utils.py": [
+        "utilities.utilities.py": [
           {
             "function_name": "map_input",
             "arg_name": "map_input"
@@ -54,7 +54,7 @@
       "stepClass": "MapStep",
       "args": {
         "name": "map to json",
-        "utils.py": [
+        "utilities.utilities.py": [
           {
             "function_name": "map_table_to_json",
             "arg_name": "map_input"

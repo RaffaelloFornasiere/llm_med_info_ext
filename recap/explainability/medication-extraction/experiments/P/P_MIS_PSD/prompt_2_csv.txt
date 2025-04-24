@@ -1,0 +1,7 @@
+{history}
+<|im_start|>user
+Per ciascuna riga del csv, aggiungere all'inizio una colonna "linea" che indica il numero di riga in cui è stata trovata la riga.
+<|im_end|>
+<|im_start|>assistant
+```medications.csv
+linea;nome del farmaco;dosaggio;modalità;frequenza

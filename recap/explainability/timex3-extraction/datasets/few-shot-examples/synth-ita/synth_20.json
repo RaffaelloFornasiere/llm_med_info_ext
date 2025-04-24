@@ -1,0 +1,35 @@
+{
+    "text": "**Patient Discharge Summary**\n\n---\n\n**Patient Information:**\n- Name: Elizabeth Johnson\n- Age: 58\n- Gender: Female\n- Admission Date: 10-20-2024\n- Discharge Date: October 30, 2024\n\nElizabeth Johnson, a 58-year-old female, was admitted to our hospital on October 20, 2024, presenting with a constellation of symptoms suggestive of an acute exacerbation of chronic obstructive pulmonary disease (COPD). Ms. Johnson has a significant medical history, including COPD, hypertension, and coronary artery disease.\n\nUpon admission, Ms. Johnson appeared dyspneic, with a respiratory rate of 28 breaths per minute, oxygen saturation of 88% on room air, and accessory muscle use. She also complained of chest tightness, productive cough with purulent sputum, and generalized weakness. Given the severity of her symptoms, Ms. Johnson was promptly placed on supplemental oxygen therapy, initiated on bronchodilators, corticosteroids, and antibiotics, and admitted to the medical ward for further management.\n\nDuring her hospitalization, Ms. Johnson's clinical course was marked by persistent respiratory distress despite maximal medical therapy. She required escalating doses of supplemental oxygen, non-invasive positive pressure ventilation (NIPPV), and frequent respiratory treatments to alleviate her symptoms and improve her oxygenation. Despite these interventions, her arterial blood gases demonstrated worsening hypoxemia and hypercapnia, indicative of acute respiratory failure.\n\nGiven the refractory nature of Ms. Johnson's respiratory failure, discussions regarding advanced respiratory support measures were initiated, including invasive mechanical ventilation and consideration for transfer to the intensive care unit (ICU) for higher-level care. However, Ms. Johnson expressed a strong preference for comfort-focused care and quality of life preservation over aggressive life-sustaining interventions.\n\nIn accordance with Ms. Johnson's wishes and in collaboration with her healthcare proxy, a decision was made to pursue a palliative care approach, focusing on symptom management, comfort measures, and end-of-life support. Ms. Johnson was transitioned to comfort-focused therapy, including opioid analgesia for dyspnea, benzodiazepines for anxiety, and supplemental oxygen to maintain comfort and alleviate distress.\n\nThroughout her hospital stay, Ms. Johnson received compassionate and holistic care from our interdisciplinary team, including physicians, nurses, respiratory therapists, social workers, and chaplains. Goals of care discussions were held regularly to ensure alignment with Ms. Johnson's values, preferences, and goals for end-of-life care.\n\nOn October 30, 2024, Ms. Johnson's condition continued to decline despite aggressive supportive measures, and she peacefully passed away surrounded by her loved ones. End-of-life care was provided with dignity, respect, and compassion, honoring Ms. Johnson's wishes and ensuring a comfortable and peaceful transition.\n\nThe hospitalization and end-of-life care of Ms. Elizabeth Johnson exemplify the importance of patient-centered care, interdisciplinary collaboration, and compassionate communication in providing quality end-of-life care to patients with advanced illness.",
+    "annotations": [
+        {
+            "text": "10-20-2024",
+            "date_value": "2024-10-20",
+            "line": 8
+        },
+        {
+            "text": "October 30, 2024",
+            "date_value": "2024-10-30",
+            "line": 9
+        },
+        {
+            "text": "on October 30, 2024",
+            "date_value": "2024-10-30",
+            "line": 23
+        },
+        {
+            "text": "during her hospitalization",
+            "date_value": "2024-10-30",
+            "line": 15
+        },
+        {
+            "text": "October 30, 2024",
+            "date_value": "2024-10-30",
+            "line": 9
+        },
+        {
+            "text": "October 30, 2024",
+            "date_value": "2024-10-30",
+            "line": 9
+        }
+    ]
+}

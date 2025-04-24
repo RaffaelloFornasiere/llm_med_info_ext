@@ -27,10 +27,12 @@ class Eval:
         raise NotImplementedError  # This will be implemented in subclasses
 
     def get_precision(self):
-        return self.true_positives / (self.true_positives + self.false_positives) if self.true_positives + self.false_positives > 0 else 0
+        return self.true_positives / (
+                self.true_positives + self.false_positives) if self.true_positives + self.false_positives > 0 else 0
 
     def get_recall(self):
-        return self.true_positives / (self.true_positives + self.false_negatives) if self.true_positives + self.false_negatives > 0 else 0
+        return self.true_positives / (
+                self.true_positives + self.false_negatives) if self.true_positives + self.false_negatives > 0 else 0
 
     def get_f1_score(self):
         precision = self.get_precision()
@@ -47,6 +49,9 @@ class Eval:
             'f1_score': self.get_f1_score(),
         }
         return metrics
+
+
+
 
 
 class ExactMatchEval(Eval):
@@ -110,6 +115,43 @@ class FullRowExactMatch(Eval):
         for ext in exts:
             if ext not in anns:
                 self.false_positives += 1
+
+
+class ExactMatchWLine(Eval):
+    def __init__(self, annotations, extracted, original_text, clean_ann_fn=None, clean_ext_fn=None, join_ann=None,
+                 name=None):
+        super().__init__(annotations, extracted, original_text, clean_ann_fn, clean_ext_fn, name)
+        self.join_ann = join_ann
+
+    def join(self, array):
+        if self.join_ann:
+            return self.join_ann(array)
+        else:
+            return ' '.join([v for k, v in ann.items()])
+
+    def evaluate(self):
+        anns = [self.join(ann) for ann in self.annotations]
+        exts = [self.join(ext) for ext in self.extracted]
+        anns_value = [ann['value'] for ann in anns]
+        anns_line = [ann['line'] if ann['line'] != '' and ann['line'] is not None else -1 for ann in anns ]
+        exts_value = [ext['value'] for ext in exts]
+        exts_line = [ext['line'] if ext['line'] != '' and ext['line'] is not None else -1 for ext in exts]
+
+        self.false_positives = 0
+        self.false_negatives = 0
+        self.true_positives = 0
+
+        def in_neighborhood(center, k, value):
+            center = int(center)
+            value = int(value)
+
+            return (center - k) <= value <= (center + k)
+
+        for i, ann_value in enumerate(anns_value):
+            for j, ext_value in enumerate(exts_value):
+                if ann_value == ext_value and in_neighborhood(anns_line[i], 0, exts_line[j]):
+                    self.true_positives += 1
+                    break
 
 
 class LevenshteinDistance(Eval):

@@ -24,9 +24,9 @@
       "stepClass": "MapStep",
       "args": {
         "name": "add examples",
-        "utils.py": [
+        "utilities.utilities.py": [
           {
-            "function_name": "add_examples_json",
+            "function_name": "add_examples_json_chunks",
             "arg_name": "map_input"
           }
         ],
@@ -46,9 +46,9 @@
         "prompt.txt": "prompt_JSON.txt",
         "params.json": "params.json",
         "model": "MIS",
-        "utils.py": [
+        "utilities.utilities.py": [
           {
-            "function_name": "map_input",
+            "function_name": "map_input_few_shot",
             "arg_name": "map_input"
           },
           {

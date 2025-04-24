@@ -1,0 +1,14 @@
+{history}
+<|im_start|>user
+Put all the extracted entities into a json array with the keys medication_name, dosage, mode and frequency.
+Follow a json format like this:
+{{
+    "medication_name": string,
+    "dosage": string,
+    "mode": string,
+    "frequency": string
+}}
+<|im_end|>
+<|im_start|>assistant
+```medications.json
+[

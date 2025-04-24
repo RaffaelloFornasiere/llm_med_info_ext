@@ -1,0 +1,2251 @@
+{
+  "experiment_name": "Medication Extraction Zero Shot",
+  "dataset_dir": "../../../datasets/Policlinico_San_Donato_txt/",
+  "inputs": [
+    "PSD003.json",
+    "PSD002.json",
+    "PSD004.json",
+    "PSD001.json"
+  ],
+  "outputs": [
+    {
+      "file": "PSD003.json",
+      "out": [
+        {
+          "line": "001",
+          "medication_name": "linea",
+          "dosage": "text",
+          "mode": "",
+          "frequency": ""
+        }
+      ]
+    },
+    {
+      "file": "PSD002.json",
+      "out": [
+        {
+          "line": "1",
+          "medication_name": "Lasix",
+          "dosage": "25 mg",
+          "mode": "2cpx2/die",
+          "frequency": ""
+        },
+        {
+          "line": "2",
+          "medication_name": "Saba e Prostaplant",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "3",
+          "medication_name": "Zyloric",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "4",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "5",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "6",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "7",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "8",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "9",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "10",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "11",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "12",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "13",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "14",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "15",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "16",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "17",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "18",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "19",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "20",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "21",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "22",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "23",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "24",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "25",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "26",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "27",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "28",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "29",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "30",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "31",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "32",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "33",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "34",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "35",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "36",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "37",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "38",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "39",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "40",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "41",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "42",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "43",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "44",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "45",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "46",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "47",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "48",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "49",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "50",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "51",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "52",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "53",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "54",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "55",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "56",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "57",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "58",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "59",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "60",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "61",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "62",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "63",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "64",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "65",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "66",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "67",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "68",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "69",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "70",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "71",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "72",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "73",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "74",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "75",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "76",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "77",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "78",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "79",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "80",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "81",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "82",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "83",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "84",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "85",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "86",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "87",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "88",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "89",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "90",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "91",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "92",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "93",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "94",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "95",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "96",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "97",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "98",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "99",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "100",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "101",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "102",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "103",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "104",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "105",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "106",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "107",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "108",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "109",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "110",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "111",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "112",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "113",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "114",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "115",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "116",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "117",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "118",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "119",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "120",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "121",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "122",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "123",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "124",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "125",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "126",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "127",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "128",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "129",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "130",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "131",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "132",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "133",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "134",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "135",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "136",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "137",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "138",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "139",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "140",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "141",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "142",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "143",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "144",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "145",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "146",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "147",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "148",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "149",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "150",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "151",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "152",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "153",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "154",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "155",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "156",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "157",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "158",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "159",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "160",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "161",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "162",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "163",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        }
+      ]
+    },
+    {
+      "file": "PSD004.json",
+      "out": [
+        {
+          "line": "1",
+          "medication_name": "Aspirina",
+          "dosage": "100 mg",
+          "mode": "una volta al giorno",
+          "frequency": "a ciascun pasto"
+        },
+        {
+          "line": "2",
+          "medication_name": "Clopidogrel",
+          "dosage": "75 mg",
+          "mode": "una volta al giorno",
+          "frequency": "a cucina fredda"
+        },
+        {
+          "line": "3",
+          "medication_name": "Ticagrelor",
+          "dosage": "90 mg",
+          "mode": "due volte al giorno",
+          "frequency": "una mattina e una sera"
+        },
+        {
+          "line": "4",
+          "medication_name": "Bisoprololo",
+          "dosage": "1.25 mg",
+          "mode": "due volte al giorno",
+          "frequency": "una mattina e una sera"
+        },
+        {
+          "line": "5",
+          "medication_name": "Furosemide",
+          "dosage": "25 mg",
+          "mode": "due volte al giorno",
+          "frequency": "una mattina e una sera"
+        },
+        {
+          "line": "6",
+          "medication_name": "Potassio cloruro",
+          "dosage": "100 mg",
+          "mode": "mezzo comparto",
+          "frequency": "una volta al giorno"
+        },
+        {
+          "line": "7",
+          "medication_name": "Atorvastatina",
+          "dosage": "40 mg",
+          "mode": "una volta al giorno",
+          "frequency": "a cena"
+        },
+        {
+          "line": "8",
+          "medication_name": "Respimat",
+          "dosage": "2 inalazioni al mattino",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "9",
+          "medication_name": "Prednisone",
+          "dosage": "25 mg",
+          "mode": "una volta al giorno",
+          "frequency": "per 5 giorni"
+        }
+      ]
+    },
+    {
+      "file": "PSD001.json",
+      "out": [
+        {
+          "line": "001",
+          "medication_name": "linea|text",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "002",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "003",
+          "medication_name": "Lettera di dimissione",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "004",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "005",
+          "medication_name": "Sig.ra PSD001 (nata il )",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "006",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "007",
+          "medication_name": "San Donato Milanese, Milano, 28.07.2021",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "008",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "009",
+          "medication_name": "Alla cortese attenzione x",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "010",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "011",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "012",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "013",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "014",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "015",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "016",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "017",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "018",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "019",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "020",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "021",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "022",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "023",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "024",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "025",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "026",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "027",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "028",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "029",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "030",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "031",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "032",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "033",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "034",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "035",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "036",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "037",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "038",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "039",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "040",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "041",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "042",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "043",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "044",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "045",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "046",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "047",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "048",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "049",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "050",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "051",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "052",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "053",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "054",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "055",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "056",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "057",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "058",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "059",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "060",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "061",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "062",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "063",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "064",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "065",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "066",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "067",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "068",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "069",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "070",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "071",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "072",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "073",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "074",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "075",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "076",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "077",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "078",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "079",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "080",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "081",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "082",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "083",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "084",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "085",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "086",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "087",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "088",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "089",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "090",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "091",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "092",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "093",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "094",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "095",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "096",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "097",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "098",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "099",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "100",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "101",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "102",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "103",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "104",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "105",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "106",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "107",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "108",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "109",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "110",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "111",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "112",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "113",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "114",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "115",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "116",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "117",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "118",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "119",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "120",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "121",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "122",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "123",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "124",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "125",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "126",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "127",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "128",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "129",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "130",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "131",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "132",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "133",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "134",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "135",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "136",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "137",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "138",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "139",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "140",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "141",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "142",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "143",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        },
+        {
+          "line": "144",
+          "medication_name": "",
+          "dosage": "",
+          "mode": "",
+          "frequency": ""
+        }
+      ]
+    }
+  ]
+}

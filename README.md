@@ -33,6 +33,10 @@ Experiments follow the pattern: `{Approach}_{Model}_{Dataset}`
 
 The `src/explainability/` directory contains parallel experiments that include line-number referencing for provenance tracking.
 
+### Demo Application
+
+A web application implementing these pipelines is available at [llmed.rf-98.com](http://llmed.rf-98.com) and has been tested in Italian hospital settings.
+
 ## Table of Contents
 
 - [Overview](#overview)

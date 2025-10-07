@@ -3,6 +3,36 @@
 
 A configurable pipeline architecture for running and evaluating large language model (LLM) experiments.
 
+## Publication
+
+This codebase implements the methodology described in:
+
+**"Medical Information Extraction with Large Language Models"**
+Raffaello Fornasiere, Nicolò Brunello, Vincenzo Scotti, Mark James Carman
+*ICNLSP 2024*
+📄 [Paper](https://aclanthology.org/2024.icnlsp-1.47.pdf)
+
+### Experiment Naming Convention
+
+Experiments follow the pattern: `{Approach}_{Model}_{Dataset}`
+
+**Approaches:**
+- **ZS/SZS**: Zero-Shot learning
+- **FS**: Few-Shot learning (FSC = chunked, FSF = full documents)
+- **P**: Sequential Prompting (multi-step)
+
+**Models:**
+- **MIS**: Mistral 7B
+
+**Datasets:**
+- **N2C2**: N2C2 2010 medication extraction challenge
+- **I2B2**: I2B2 temporal relations dataset
+- **SYNTH**: Synthetic clinical documents
+
+**Example:** `FSC_MIS_I2B2` = Few-Shot Chunked, Mistral 7B, I2B2 dataset
+
+The `src/explainability/` directory contains parallel experiments that include line-number referencing for provenance tracking.
+
 ## Table of Contents
 
 - [Overview](#overview)
